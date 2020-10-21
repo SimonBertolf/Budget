@@ -8,6 +8,7 @@ export default new Vuex.Store({
     grossYield: {
       value: null,
       date: null,
+      loading: true,
     },
   },
   mutations: {
@@ -20,8 +21,11 @@ export default new Vuex.Store({
       const grossYield = {
         value: 0.047,
         date: new Date(),
+        loading: false,
       };
-      commit('setGrossYield', grossYield);
+      setTimeout(() => {
+        commit('setGrossYield', grossYield);
+      }, 1500);
     },
   },
   modules: {
