@@ -32,6 +32,14 @@ export default {
       type: String,
       required: true,
     },
+    handleLegendHit: {
+      type: Function,
+      required: true,
+    },
+    handleChartHit: {
+      type: Function,
+      required: true,
+    },
   },
   mounted() {
     let chart = am4core.create(this.$refs.chartdiv, am4charts.PieChart);
@@ -48,12 +56,20 @@ export default {
     labelValue.horizontalCenter = 'middle';
     labelValue.verticalCenter = 'bottom';
     labelValue.fontSize = '75%';
-
     label.text = this.labelText;
     label.horizontalCenter = 'middle';
     label.verticalCenter = 'top';
     label.fontSize = '50%';
     this.chart = chart;
+
+    chart.legend.itemContainers.template.togglable = false;
+    chart.legend.itemContainers.template.events.on('hit', (event) => {
+      this.handleLegendHit(event);
+    });
+    pieSeries.slices.template.events.on('hit',(event) => {
+      this.handleChartHit(event);
+    });
+
   },
   beforeDestroy() {
     if(this.chart) this.chart.dispose();

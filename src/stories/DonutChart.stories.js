@@ -8,7 +8,7 @@ export default {
 const Template = (args, { argTypes }) => ({
   props: Object.keys(argTypes),
   components: { DonutChart },
-  template: '<DonutChart :data="data" :value="value" :category="category" :label-value="labelValue" :label-text="labelText"/>',
+  template: '<DonutChart :data="data" :value="value" :category="category" :label-value="labelValue" :label-text="labelText" :handle-chart-hit="handleChartHit" :handle-legend-hit="handleLegendHit"/>',
 });
 
 export const Example = Template.bind({});
@@ -27,4 +27,6 @@ Example.args = {
   ],
   labelValue: '12100000',
   labelText: 'Gesamtertrag',
+  handleLegendHit: (event) => {console.log({lHit:'Legendhit', event})},
+  handleChartHit: (event) => {console.log({cHit:'Charthit', event})},
 };
