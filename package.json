@@ -10,6 +10,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@amcharts/amcharts4": "^4.10.8",
     "core-js": "^3.6.5",
     "tailwindcss": "^1.9.5",
     "vue": "^2.6.11",
