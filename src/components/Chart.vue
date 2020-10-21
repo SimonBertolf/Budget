@@ -1,5 +1,5 @@
 <template>
- <Div></Div>
+ <div class="pieContainer" ref="chartdiv"></div>
 </template>
 
 <script>
@@ -13,23 +13,27 @@ am4core.useTheme(am4themes_animated);
 export default {
   name: 'Chart',
   mounted() {
-    var chart = am4core.create('chartdiv', am4charts.PieChart);
+    console.log('Hallo');
+    let chart = am4core.create(this.$refs.chatdiv, am4charts.PieChart);
 
-    Chart.data = [{
+    chart.data = [{
       'country': 'Belgium',
       'litres': 60,
     }, {
       'country': 'The Netherlands',
       'litres': 50,
     }];
-  },
 
-  var pieSeries = chart.series.push(new am4charts.PieSeries());
+  let pieSeries = chart.series.push(new am4charts.PieSeries());
   pieSeries.dataFields.value = 'litres';
   pieSeries.dataFields.category = 'country';
+  },
 }
 </script>
 
 <style scoped>
-
+.pieContainer{
+  width: 100%;
+  height: 100px;
+}
 </style>
