@@ -53,12 +53,25 @@ export default {
     chart.responsive.enabled = true;
     chart.innerRadius = am4core.percent(60);
     chart.legend = new am4charts.Legend();
-    chart.legend.position = 'right';
     labelValue.text = this.labelValue;
     chart.legend.itemContainers.template.togglable = false;
     chart.legend.itemContainers.template.events.on('hit', (event) => {
       this.handleLegendHit(event);
     });
+    chart.responsive.rules.push({
+      relevant(target) {
+        if (target.pixelWidth <= 500) return true;
+        return false;
+      },
+      state(target, stateId) {
+        const state = target.states.create(stateId);
+        if (target instanceof am4charts.Legend) {
+          state.properties.position = 'bottom';
+        }
+        return state;
+      },
+    });
+    chart.legend.position = 'right';
     labelValue.horizontalCenter = 'middle';
     labelValue.verticalCenter = 'bottom';
     labelValue.fontSize = 30;
