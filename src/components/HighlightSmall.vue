@@ -1,5 +1,5 @@
 <template>
-  <span class="text-lg text-black">{{ text }}</span>
+  <span class="text-base text-black">{{ text }}</span>
 </template>
 
 <script>

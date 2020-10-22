@@ -51,27 +51,32 @@ export default {
     pieSeries.dataFields.category = this.category;
     chart.data = this.data;
     chart.responsive.enabled = true;
+    chart.responsive.useDefault = false;
     chart.innerRadius = am4core.percent(60);
     chart.legend = new am4charts.Legend();
-    labelValue.text = this.labelValue;
     chart.legend.itemContainers.template.togglable = false;
-    chart.legend.itemContainers.template.events.on('hit', (event) => {
-      this.handleLegendHit(event);
-    });
+    pieSeries.labels.template.disabled = true;
     chart.responsive.rules.push({
       relevant(target) {
-        if (target.pixelWidth <= 500) return true;
+        if (target.pixelWidth <= 640) return true;
         return false;
       },
       state(target, stateId) {
-        const state = target.states.create(stateId);
         if (target instanceof am4charts.Legend) {
+          const state = target.states.create(stateId);
           state.properties.position = 'bottom';
+          return state;
         }
-        return state;
+        if (target instanceof am4core.Label) {
+          const state = target.states.create(stateId);
+          state.properties.fontSize -= 10;
+          return state;
+        }
+        return null;
       },
     });
     chart.legend.position = 'right';
+    labelValue.text = this.labelValue;
     labelValue.horizontalCenter = 'middle';
     labelValue.verticalCenter = 'bottom';
     labelValue.fontSize = 30;
@@ -81,6 +86,9 @@ export default {
     label.fontSize = 20;
     pieSeries.slices.template.events.on('hit', (event) => {
       this.handleChartHit(event);
+    });
+    chart.legend.itemContainers.template.events.on('hit', (event) => {
+      this.handleLegendHit(event);
     });
   },
   beforeDestroy() {

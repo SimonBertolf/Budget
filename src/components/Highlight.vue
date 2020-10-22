@@ -1,5 +1,5 @@
 <template>
-  <span class="text-3xl text-orange-600">{{ text }}</span>
+  <span class="text-2xl text-orange-600">{{ text }}</span>
 </template>
 
 <script>

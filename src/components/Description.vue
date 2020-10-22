@@ -1,5 +1,5 @@
 <template>
-  <span class="text-lg text-gray-500"><slot></slot></span>
+  <span class="text-base text-gray-500"><slot></slot></span>
 </template>
 
 <script>
