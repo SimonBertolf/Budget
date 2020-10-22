@@ -15,5 +15,5 @@ export const Example = Template.bind({});
 Example.args = {
   text: 0.0467,
   date: new Date(),
-  desc: 'Bruttorendite Test ',
+  desc: 'Bruttorendite Soll ',
 };
