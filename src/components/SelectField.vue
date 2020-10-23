@@ -1,11 +1,9 @@
 <template>
-  <div>
     <Select :id="id" class="appearance-none border border-black text-black w-full pl-1 text-sm font-hairline">
       <option class="text-sm font-hairline" v-for="option in options" :key="option">
         {{ option }}
       </option>
     </Select>
-  </div>
 </template>
 
 <script>
