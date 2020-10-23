@@ -55,27 +55,9 @@ export default {
     chart.innerRadius = am4core.percent(60);
     chart.legend = new am4charts.Legend();
     chart.legend.itemContainers.template.togglable = false;
-    pieSeries.labels.template.disabled = true;
-    chart.responsive.rules.push({
-      relevant(target) {
-        if (target.pixelWidth <= 640) return true;
-        return false;
-      },
-      state(target, stateId) {
-        if (target instanceof am4charts.Legend) {
-          const state = target.states.create(stateId);
-          state.properties.position = 'bottom';
-          return state;
-        }
-        if (target instanceof am4core.Label) {
-          const state = target.states.create(stateId);
-          state.properties.fontSize -= 10;
-          return state;
-        }
-        return null;
-      },
-    });
     chart.legend.position = 'right';
+    chart.legend.fontSize = 20;
+    pieSeries.labels.template.disabled = true;
     labelValue.text = this.labelValue;
     labelValue.horizontalCenter = 'middle';
     labelValue.verticalCenter = 'bottom';
@@ -90,6 +72,48 @@ export default {
     chart.legend.itemContainers.template.events.on('hit', (event) => {
       this.handleLegendHit(event);
     });
+    // chart.responsive.rules.push({
+    //   relevant(target) {
+    //     if (target.pixelWidth <= 640) return true;
+    //     return false;
+    //   },
+    //   state(target, stateId) {
+    //     if (target instanceof am4charts.Legend) {
+    //       const state = target.states.create(stateId);
+    //       state.properties.position = 'bottom';
+    //       return state;
+    //     }
+    //     if (target instanceof am4core.Label) {
+    //       const state = target.states.create(stateId);
+    //       state.properties.fontSize -= 10;
+    //       return state;
+    //     }
+    //     return null;
+    //   },
+    // });
+    const addEvent = function (object, type, callback) {
+      if (object == null || typeof (object) === 'undefined') return;
+      if (object.addEventListener) {
+        object.addEventListener(type, callback, false);
+      } else if (object.attachEvent) {
+        object.attachEvent(`on${type}`, callback);
+      } else {
+        object[`on${type}`] = callback;
+      }
+    };
+    window.addEventListener('resize', () => {
+      if (window.innerWidth <= 640) {
+        chart.legend.position = 'bottom';
+        chart.legend.fontSize = 15;
+        labelValue.fontSize = 20;
+        label.fontSize = 10;
+      } else {
+        chart.legend.position = 'right';
+        chart.legend.fontSize = 20;
+        labelValue.fontSize = 30;
+        label.fontSize = 20;
+      }
+    }, true);
   },
   beforeDestroy() {
     if (this.chart) this.chart.dispose();
