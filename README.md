@@ -1,4 +1,4 @@
-# novavest_dashboard
+# Budget
 
 ## Project setup
 ```
