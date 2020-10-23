@@ -1,10 +1,10 @@
 <template>
-  <span class="text-base text-gray-500"><slot></slot></span>
+  <span class="text-2xl text-black"><slot></slot></span>
 </template>
 
 <script>
 export default {
-  name: 'Description',
+  name: 'TextLarge',
 };
 </script>
 
