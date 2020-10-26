@@ -1,5 +1,5 @@
 <template>
-	<ButtonNav id="ButtonBudget"> Budget</ButtonNav>
+	<ButtonNav id="ButtonBudget"> Budget </ButtonNav>
 </template>
 
 <script>

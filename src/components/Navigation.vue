@@ -1,5 +1,6 @@
 <template>
 	<NavBackground>
+		<ProgramName/>
 		<ButtonHome></ButtonHome>
 		<ButtonBudget></ButtonBudget>
 		<TextSmall>dhfhfjfs</TextSmall>
@@ -13,10 +14,11 @@
 	import ButtonBudget from "./ButtonBudget";
 	import TextLarge from "./TextLarge";
 	import TextSmall from "./TextSmall";
+	import ProgramName from "./ProgramName";
 
 	export default {
 		name: "Navigation",
-		components: {TextSmall, TextLarge, ButtonBudget, ButtonHome, NavBackground},
+		components: {ProgramName, TextSmall, TextLarge, ButtonBudget, ButtonHome, NavBackground},
 		props: {
 		},
 	}
