@@ -1,15 +1,15 @@
 <template>
-	<ButtonNav id="ButtonHome"> Home </ButtonNav>
+	<ButtonNav id="ButtonHome"> Home</ButtonNav>
 </template>
 
 <script>
 
 	import ButtonNav from './ButtonNav';
+
 	export default {
 		name: 'ButtonHome',
 		components: {ButtonNav},
-		props: {
-		},
+		props: {},
 	};
 </script>
 
