@@ -3,8 +3,8 @@
 		<ProgramName/>
 		<ButtonHome></ButtonHome>
 		<ButtonBudget></ButtonBudget>
-		<TextSmall>dhfhfjfs</TextSmall>
-		<TextLarge>Teetsgsbvdlk</TextLarge>
+		<TextSmall>das leben ist Schöön</TextSmall>
+		<TextLarge>Ich hasse Menschen</TextLarge>
 	</NavBackground>
 </template>
 
