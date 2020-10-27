@@ -1,9 +1,12 @@
 <template>
-    <Select :id="id" class="appearance-none border border-black text-black w-full pl-1 text-sm font-hairline">
-      <option class="text-sm font-hairline" v-for="option in options" :key="option">
-        {{ option }}
-      </option>
-    </Select>
+  <v-select
+    :inputId="id"
+    :options="options"
+    :value="selectedValue"
+    @input="setSelected"
+    :clearable="false"
+  >
+  </v-select>
 </template>
 
 <script>
@@ -14,9 +17,17 @@ export default {
       type: String,
       required: true,
     },
+    selectedValue: {
+      required: true,
+    },
     options: {
       type: Array,
       required: true,
+    },
+  },
+  methods: {
+    setSelected(value) {
+      this.$emit('update-value', value);
     },
   },
 };
