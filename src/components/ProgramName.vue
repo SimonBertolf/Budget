@@ -1,6 +1,6 @@
 <template>
   <div class="bg-green-200 w-full h-20 justify-items-center">
-    <slot></slot>
+		<slot>Calculatot<br>3000</slot>
   </div>
 </template>
 
