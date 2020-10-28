@@ -7,7 +7,7 @@ export default {
 
 const Template = () => ({
   components: { Background },
-  template: '<Background><div>Links</div><div>Rechts</div></Background>',
+  template: '<Background><div>Content</div></Background>',
 });
 
 export const Example = Template.bind({});

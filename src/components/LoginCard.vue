@@ -1,12 +1,12 @@
 <template>
-  <div class="flex bg-white justify-center w-full h-full">
+  <div class="bg-blue-100 flex flex-col justify-around items-center">
     <slot></slot>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Background',
+  name: 'LoginCard',
 };
 </script>
 

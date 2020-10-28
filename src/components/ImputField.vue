@@ -1,5 +1,5 @@
 <template>
-  <input :id="id" type="text" :placeholder="desc" class="border border-black pl-1">
+  <input :id="id" :type="type" :placeholder="desc" class="bg-blue-100 p-1 rounded">
 </template>
 
 <script>
@@ -11,6 +11,10 @@ export default {
       required: true,
     },
     desc: {
+      type: String,
+      required: false,
+    },
+    type: {
       type: String,
       required: true,
     },
