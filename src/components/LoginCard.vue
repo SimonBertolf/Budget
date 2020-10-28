@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-blue-100 flex flex-col justify-around items-center">
+  <div class="bg-blue-500 flex flex-col justify-evenly items-center w-1/5 h-56 rounded">
     <slot></slot>
   </div>
 </template>

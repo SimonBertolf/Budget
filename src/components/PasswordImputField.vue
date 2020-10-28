@@ -1,5 +1,5 @@
 <template>
-  <LabledImputField id="LoginPassword" type="text" text="Password"/>
+  <LabledImputField id="LoginPassword" type="password" text="Password"/>
 </template>
 
 <script>
