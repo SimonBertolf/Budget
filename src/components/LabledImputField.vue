@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col">
+  <div class="flex flex-col w-full">
     <TextMedium> {{ text }} </TextMedium>
     <ImputField :id="id" :type="type"/>
   </div>

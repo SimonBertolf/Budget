@@ -1,8 +1,12 @@
 <template>
   <LoginCard>
     <HighlightMedium text="Log-In"/>
-    <NameImputField/>
-    <PasswordImputField/>
+    <div class="justify-around">
+      <NameImputField/>
+      <PasswordImputField/>
+      <br>
+      <ButtonLogin/>
+    </div>
   </LoginCard>
 </template>
 
@@ -11,11 +15,12 @@ import LoginCard from './LoginCard.vue';
 import NameImputField from './NameImputField.vue';
 import PasswordImputField from './PasswordImputField.vue';
 import HighlightMedium from './HighlightMedium.vue';
+import ButtonLogin from './ButtonLogin.vue';
 
 export default {
   name: 'LoginCardContent',
   components: {
-    LoginCard, NameImputField, PasswordImputField, HighlightMedium,
+    LoginCard, NameImputField, PasswordImputField, HighlightMedium, ButtonLogin,
   },
 };
 </script>
