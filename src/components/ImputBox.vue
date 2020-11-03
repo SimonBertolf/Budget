@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row justify-start w-full">
+  <div class="flex flex-row justify-between w-full">
     <slot></slot>
   </div>
 </template>
