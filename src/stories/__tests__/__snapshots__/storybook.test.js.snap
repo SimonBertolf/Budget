@@ -1,0 +1,6416 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots App Example 1`] = `
+<div
+  class="min-h-screen w-full bg-gray-100 p-1"
+>
+  <div
+    class="mx-auto flex flex-col h-full container"
+  >
+    <div
+      class="w-full p-1"
+    >
+      <div
+        class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+      >
+        <div
+          class="w-full flex"
+        >
+          <img
+            alt="logo"
+            height="50"
+            src=""
+            width="50"
+          />
+           
+          <div
+            class="flex-grow text-center"
+          >
+            <h1
+              class="text-lg text-blue-600"
+            >
+              Monatlicher Vertragsreport
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <section
+      class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-2 p-1"
+    >
+      <div
+        class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+      >
+        <div
+          class="w-full"
+        >
+          <label
+            class="text-xs text-blue-600 leading-tight"
+            for=""
+          >
+            Wähle Stichdatum aus
+          </label>
+           
+          <div
+            class="vdp-datepicker w-full"
+          >
+            <div
+              class=""
+            >
+              <!---->
+               
+              <input
+                autocomplete="off"
+                class="w-full border border-solid border-gray-500 rounded pl-1 focus:outline-none"
+                id=""
+                readonly="readonly"
+                type="text"
+              />
+               
+              <!---->
+               
+            </div>
+             
+            <div
+              class="min-w-full max-w-full vdp-datepicker__calendar"
+              style="display: none;"
+            >
+               
+              <header>
+                <span
+                  class="prev"
+                >
+                  &lt;
+                </span>
+                 
+                <span
+                  class="day__month_btn up"
+                >
+                  Okt 2020
+                </span>
+                 
+                <span
+                  class="next"
+                >
+                  &gt;
+                </span>
+              </header>
+               
+              <div
+                class=""
+              >
+                <span
+                  class="cell day-header"
+                >
+                  So.
+                </span>
+                <span
+                  class="cell day-header"
+                >
+                  Mo.
+                </span>
+                <span
+                  class="cell day-header"
+                >
+                  Di.
+                </span>
+                <span
+                  class="cell day-header"
+                >
+                  Mi.
+                </span>
+                <span
+                  class="cell day-header"
+                >
+                  Do.
+                </span>
+                <span
+                  class="cell day-header"
+                >
+                  Fr.
+                </span>
+                <span
+                  class="cell day-header"
+                >
+                  Sa.
+                </span>
+                 
+                <span
+                  class="cell day blank"
+                />
+                <span
+                  class="cell day blank"
+                />
+                <span
+                  class="cell day blank"
+                />
+                <span
+                  class="cell day blank"
+                />
+                <span
+                  class="cell day"
+                >
+                  1
+                </span>
+                <span
+                  class="cell day"
+                >
+                  2
+                </span>
+                <span
+                  class="cell day weekend sat"
+                >
+                  3
+                </span>
+                <span
+                  class="cell day weekend sun"
+                >
+                  4
+                </span>
+                <span
+                  class="cell day"
+                >
+                  5
+                </span>
+                <span
+                  class="cell day"
+                >
+                  6
+                </span>
+                <span
+                  class="cell day"
+                >
+                  7
+                </span>
+                <span
+                  class="cell day"
+                >
+                  8
+                </span>
+                <span
+                  class="cell day"
+                >
+                  9
+                </span>
+                <span
+                  class="cell day weekend sat"
+                >
+                  10
+                </span>
+                <span
+                  class="cell day weekend sun"
+                >
+                  11
+                </span>
+                <span
+                  class="cell day"
+                >
+                  12
+                </span>
+                <span
+                  class="cell day"
+                >
+                  13
+                </span>
+                <span
+                  class="cell day"
+                >
+                  14
+                </span>
+                <span
+                  class="cell day"
+                >
+                  15
+                </span>
+                <span
+                  class="cell day"
+                >
+                  16
+                </span>
+                <span
+                  class="cell day weekend sat"
+                >
+                  17
+                </span>
+                <span
+                  class="cell day weekend sun"
+                >
+                  18
+                </span>
+                <span
+                  class="cell day"
+                >
+                  19
+                </span>
+                <span
+                  class="cell day"
+                >
+                  20
+                </span>
+                <span
+                  class="cell day"
+                >
+                  21
+                </span>
+                <span
+                  class="cell day"
+                >
+                  22
+                </span>
+                <span
+                  class="cell day"
+                >
+                  23
+                </span>
+                <span
+                  class="cell day weekend sat"
+                >
+                  24
+                </span>
+                <span
+                  class="cell day weekend sun"
+                >
+                  25
+                </span>
+                <span
+                  class="cell day"
+                >
+                  26
+                </span>
+                <span
+                  class="cell day"
+                >
+                  27
+                </span>
+                <span
+                  class="cell day today"
+                >
+                  28
+                </span>
+                <span
+                  class="cell day"
+                >
+                  29
+                </span>
+                <span
+                  class="cell day"
+                >
+                  30
+                </span>
+                <span
+                  class="cell day weekend sat"
+                >
+                  31
+                </span>
+              </div>
+            </div>
+             
+            <div
+              class="min-w-full max-w-full vdp-datepicker__calendar"
+              style="display: none;"
+            >
+               
+              <header>
+                <span
+                  class="prev"
+                >
+                  &lt;
+                </span>
+                 
+                <span
+                  class="month__year_btn up"
+                >
+                  2020
+                </span>
+                 
+                <span
+                  class="next"
+                >
+                  &gt;
+                </span>
+              </header>
+               
+              <span
+                class="cell month"
+              >
+                Januar
+              </span>
+              <span
+                class="cell month"
+              >
+                Februar
+              </span>
+              <span
+                class="cell month"
+              >
+                März
+              </span>
+              <span
+                class="cell month"
+              >
+                April
+              </span>
+              <span
+                class="cell month"
+              >
+                Mai
+              </span>
+              <span
+                class="cell month"
+              >
+                Juni
+              </span>
+              <span
+                class="cell month"
+              >
+                Juli
+              </span>
+              <span
+                class="cell month"
+              >
+                August
+              </span>
+              <span
+                class="cell month"
+              >
+                September
+              </span>
+              <span
+                class="cell month"
+              >
+                Oktober
+              </span>
+              <span
+                class="cell month"
+              >
+                November
+              </span>
+              <span
+                class="cell month"
+              >
+                Dezember
+              </span>
+            </div>
+             
+            <div
+              class="min-w-full max-w-full vdp-datepicker__calendar"
+              style="display: none;"
+            >
+               
+              <header>
+                <span
+                  class="prev"
+                >
+                  &lt;
+                </span>
+                 
+                <span>
+                  2020 - 2029
+                </span>
+                 
+                <span
+                  class="next"
+                >
+                  &gt;
+                </span>
+              </header>
+               
+              <span
+                class="cell year"
+              >
+                2020
+              </span>
+              <span
+                class="cell year"
+              >
+                2021
+              </span>
+              <span
+                class="cell year"
+              >
+                2022
+              </span>
+              <span
+                class="cell year"
+              >
+                2023
+              </span>
+              <span
+                class="cell year"
+              >
+                2024
+              </span>
+              <span
+                class="cell year"
+              >
+                2025
+              </span>
+              <span
+                class="cell year"
+              >
+                2026
+              </span>
+              <span
+                class="cell year"
+              >
+                2027
+              </span>
+              <span
+                class="cell year"
+              >
+                2028
+              </span>
+              <span
+                class="cell year"
+              >
+                2029
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+      <div
+        class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+      >
+        <div
+          class="w-full"
+        >
+          <label
+            class="text-xs text-blue-600 leading-tight"
+            for=""
+          >
+            Mandant
+          </label>
+           
+          <div
+            class="v-select vs--single vs--unsearchable"
+            dir="auto"
+          >
+             
+            <div
+              aria-expanded="false"
+              aria-label="Search for option"
+              aria-owns="vs5__listbox"
+              class="vs__dropdown-toggle"
+              id="vs5__combobox"
+              role="combobox"
+            >
+              <div
+                class="vs__selected-options"
+              >
+                <span
+                  class="vs__selected"
+                >
+                  
+            Alle
+           
+                  <!---->
+                </span>
+                 
+                <input
+                  aria-autocomplete="list"
+                  aria-controls="vs5__listbox"
+                  aria-labelledby="vs5__combobox"
+                  autocomplete="off"
+                  class="vs__search"
+                  id=""
+                  readonly="readonly"
+                  type="search"
+                />
+              </div>
+               
+              <div
+                class="vs__actions"
+              >
+                <button
+                  aria-label="Clear Selected"
+                  class="vs__clear"
+                  style="display: none;"
+                  title="Clear Selected"
+                  type="button"
+                >
+                  <svg
+                    height="10"
+                    width="10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.895455 5l2.842897-2.842898c.348864-.348863.348864-.914488 0-1.263636L9.106534.261648c-.348864-.348864-.914489-.348864-1.263636 0L5 3.104545 2.157102.261648c-.348863-.348864-.914488-.348864-1.263636 0L.261648.893466c-.348864.348864-.348864.914489 0 1.263636L3.104545 5 .261648 7.842898c-.348864.348863-.348864.914488 0 1.263636l.631818.631818c.348864.348864.914773.348864 1.263636 0L5 6.895455l2.842898 2.842897c.348863.348864.914772.348864 1.263636 0l.631818-.631818c.348864-.348864.348864-.914489 0-1.263636L6.895455 5z"
+                    />
+                  </svg>
+                </button>
+                 
+                <svg
+                  class="vs__open-indicator"
+                  height="10"
+                  role="presentation"
+                  width="14"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z"
+                  />
+                </svg>
+                 
+                <div
+                  class="vs__spinner"
+                  style="display: none;"
+                >
+                  Loading...
+                </div>
+              </div>
+            </div>
+             
+            <ul
+              id="vs5__listbox"
+              role="listbox"
+              style="display: none; visibility: hidden;"
+            />
+             
+          </div>
+        </div>
+      </div>
+       
+      <div
+        class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+      >
+        <div
+          class="w-full"
+        >
+          <label
+            class="text-xs text-blue-600 leading-tight"
+            for=""
+          >
+            Nutzungsgruppe
+          </label>
+           
+          <div
+            class="v-select vs--single vs--unsearchable"
+            dir="auto"
+          >
+             
+            <div
+              aria-expanded="false"
+              aria-label="Search for option"
+              aria-owns="vs6__listbox"
+              class="vs__dropdown-toggle"
+              id="vs6__combobox"
+              role="combobox"
+            >
+              <div
+                class="vs__selected-options"
+              >
+                <span
+                  class="vs__selected"
+                >
+                  
+            Alle
+           
+                  <!---->
+                </span>
+                 
+                <input
+                  aria-autocomplete="list"
+                  aria-controls="vs6__listbox"
+                  aria-labelledby="vs6__combobox"
+                  autocomplete="off"
+                  class="vs__search"
+                  id=""
+                  readonly="readonly"
+                  type="search"
+                />
+              </div>
+               
+              <div
+                class="vs__actions"
+              >
+                <button
+                  aria-label="Clear Selected"
+                  class="vs__clear"
+                  style="display: none;"
+                  title="Clear Selected"
+                  type="button"
+                >
+                  <svg
+                    height="10"
+                    width="10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.895455 5l2.842897-2.842898c.348864-.348863.348864-.914488 0-1.263636L9.106534.261648c-.348864-.348864-.914489-.348864-1.263636 0L5 3.104545 2.157102.261648c-.348863-.348864-.914488-.348864-1.263636 0L.261648.893466c-.348864.348864-.348864.914489 0 1.263636L3.104545 5 .261648 7.842898c-.348864.348863-.348864.914488 0 1.263636l.631818.631818c.348864.348864.914773.348864 1.263636 0L5 6.895455l2.842898 2.842897c.348863.348864.914772.348864 1.263636 0l.631818-.631818c.348864-.348864.348864-.914489 0-1.263636L6.895455 5z"
+                    />
+                  </svg>
+                </button>
+                 
+                <svg
+                  class="vs__open-indicator"
+                  height="10"
+                  role="presentation"
+                  width="14"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z"
+                  />
+                </svg>
+                 
+                <div
+                  class="vs__spinner"
+                  style="display: none;"
+                >
+                  Loading...
+                </div>
+              </div>
+            </div>
+             
+            <ul
+              id="vs6__listbox"
+              role="listbox"
+              style="display: none; visibility: hidden;"
+            />
+             
+          </div>
+        </div>
+      </div>
+       
+      <div
+        class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+      >
+        <div
+          class="w-full"
+        >
+          <label
+            class="text-xs text-blue-600 leading-tight"
+            for=""
+          >
+            Nutzungsart
+          </label>
+           
+          <div
+            class="v-select vs--single vs--unsearchable"
+            dir="auto"
+          >
+             
+            <div
+              aria-expanded="false"
+              aria-label="Search for option"
+              aria-owns="vs7__listbox"
+              class="vs__dropdown-toggle"
+              id="vs7__combobox"
+              role="combobox"
+            >
+              <div
+                class="vs__selected-options"
+              >
+                <span
+                  class="vs__selected"
+                >
+                  
+            Alle
+           
+                  <!---->
+                </span>
+                 
+                <input
+                  aria-autocomplete="list"
+                  aria-controls="vs7__listbox"
+                  aria-labelledby="vs7__combobox"
+                  autocomplete="off"
+                  class="vs__search"
+                  id=""
+                  readonly="readonly"
+                  type="search"
+                />
+              </div>
+               
+              <div
+                class="vs__actions"
+              >
+                <button
+                  aria-label="Clear Selected"
+                  class="vs__clear"
+                  style="display: none;"
+                  title="Clear Selected"
+                  type="button"
+                >
+                  <svg
+                    height="10"
+                    width="10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.895455 5l2.842897-2.842898c.348864-.348863.348864-.914488 0-1.263636L9.106534.261648c-.348864-.348864-.914489-.348864-1.263636 0L5 3.104545 2.157102.261648c-.348863-.348864-.914488-.348864-1.263636 0L.261648.893466c-.348864.348864-.348864.914489 0 1.263636L3.104545 5 .261648 7.842898c-.348864.348863-.348864.914488 0 1.263636l.631818.631818c.348864.348864.914773.348864 1.263636 0L5 6.895455l2.842898 2.842897c.348863.348864.914772.348864 1.263636 0l.631818-.631818c.348864-.348864.348864-.914489 0-1.263636L6.895455 5z"
+                    />
+                  </svg>
+                </button>
+                 
+                <svg
+                  class="vs__open-indicator"
+                  height="10"
+                  role="presentation"
+                  width="14"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z"
+                  />
+                </svg>
+                 
+                <div
+                  class="vs__spinner"
+                  style="display: none;"
+                >
+                  Loading...
+                </div>
+              </div>
+            </div>
+             
+            <ul
+              id="vs7__listbox"
+              role="listbox"
+              style="display: none; visibility: hidden;"
+            />
+             
+          </div>
+        </div>
+      </div>
+       
+      <span
+        class="sm:col-span-2 lg:col-span-1"
+      >
+        <div
+          class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+        >
+          <div
+            class="w-full"
+          >
+            <label
+              class="text-xs text-blue-600 leading-tight"
+              for=""
+            >
+              Asset
+            </label>
+             
+            <div
+              class="v-select vs--single vs--unsearchable"
+              dir="auto"
+            >
+               
+              <div
+                aria-expanded="false"
+                aria-label="Search for option"
+                aria-owns="vs8__listbox"
+                class="vs__dropdown-toggle"
+                id="vs8__combobox"
+                role="combobox"
+              >
+                <div
+                  class="vs__selected-options"
+                >
+                  <span
+                    class="vs__selected"
+                  >
+                    
+            Alle
+           
+                    <!---->
+                  </span>
+                   
+                  <input
+                    aria-autocomplete="list"
+                    aria-controls="vs8__listbox"
+                    aria-labelledby="vs8__combobox"
+                    autocomplete="off"
+                    class="vs__search"
+                    id=""
+                    readonly="readonly"
+                    type="search"
+                  />
+                </div>
+                 
+                <div
+                  class="vs__actions"
+                >
+                  <button
+                    aria-label="Clear Selected"
+                    class="vs__clear"
+                    style="display: none;"
+                    title="Clear Selected"
+                    type="button"
+                  >
+                    <svg
+                      height="10"
+                      width="10"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6.895455 5l2.842897-2.842898c.348864-.348863.348864-.914488 0-1.263636L9.106534.261648c-.348864-.348864-.914489-.348864-1.263636 0L5 3.104545 2.157102.261648c-.348863-.348864-.914488-.348864-1.263636 0L.261648.893466c-.348864.348864-.348864.914489 0 1.263636L3.104545 5 .261648 7.842898c-.348864.348863-.348864.914488 0 1.263636l.631818.631818c.348864.348864.914773.348864 1.263636 0L5 6.895455l2.842898 2.842897c.348863.348864.914772.348864 1.263636 0l.631818-.631818c.348864-.348864.348864-.914489 0-1.263636L6.895455 5z"
+                      />
+                    </svg>
+                  </button>
+                   
+                  <svg
+                    class="vs__open-indicator"
+                    height="10"
+                    role="presentation"
+                    width="14"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z"
+                    />
+                  </svg>
+                   
+                  <div
+                    class="vs__spinner"
+                    style="display: none;"
+                  >
+                    Loading...
+                  </div>
+                </div>
+              </div>
+               
+              <ul
+                id="vs8__listbox"
+                role="listbox"
+                style="display: none; visibility: hidden;"
+              />
+               
+            </div>
+          </div>
+        </div>
+      </span>
+    </section>
+     
+    <section
+      class="flex flex-wrap"
+    >
+      <span
+        class="flex-grow p-1"
+      >
+        <div
+          class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+        >
+          <span>
+            Loading...
+          </span>
+        </div>
+      </span>
+       
+      <span
+        class="flex-grow p-1"
+      >
+        <div
+          class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+        >
+          <span>
+            Loading...
+          </span>
+        </div>
+      </span>
+       
+      <span
+        class="flex-grow p-1"
+      >
+        <div
+          class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+        >
+          <span>
+            Loading...
+          </span>
+        </div>
+      </span>
+       
+      <span
+        class="flex-grow p-1"
+      >
+        <div
+          class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+        >
+          <span>
+            Loading...
+          </span>
+        </div>
+      </span>
+       
+      <span
+        class="flex-grow p-1"
+      >
+        <div
+          class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+        >
+          <span>
+            Loading...
+          </span>
+        </div>
+      </span>
+    </section>
+     
+    <chartstemplate />
+  </div>
+</div>
+`;
+
+exports[`Storyshots AppLayout Example 1`] = `
+<div
+  class="min-h-screen w-full bg-gray-100 p-1"
+>
+  <div
+    class="mx-auto flex flex-col h-full container"
+  >
+    <div
+      class="w-full bg-green-200"
+    >
+      content
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots AssetCard Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <div
+    class="w-full"
+  >
+    <label
+      class="text-xs text-blue-600 leading-tight"
+      for=""
+    >
+      Asset
+    </label>
+     
+    <div
+      class="v-select vs--single vs--unsearchable"
+      dir="auto"
+    >
+       
+      <div
+        aria-expanded="false"
+        aria-label="Search for option"
+        aria-owns="vs1__listbox"
+        class="vs__dropdown-toggle"
+        id="vs1__combobox"
+        role="combobox"
+      >
+        <div
+          class="vs__selected-options"
+        >
+          <span
+            class="vs__selected"
+          >
+            
+            Alle
+           
+            <!---->
+          </span>
+           
+          <input
+            aria-autocomplete="list"
+            aria-controls="vs1__listbox"
+            aria-labelledby="vs1__combobox"
+            autocomplete="off"
+            class="vs__search"
+            id=""
+            readonly="readonly"
+            type="search"
+          />
+        </div>
+         
+        <div
+          class="vs__actions"
+        >
+          <button
+            aria-label="Clear Selected"
+            class="vs__clear"
+            style="display: none;"
+            title="Clear Selected"
+            type="button"
+          >
+            <svg
+              height="10"
+              width="10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.895455 5l2.842897-2.842898c.348864-.348863.348864-.914488 0-1.263636L9.106534.261648c-.348864-.348864-.914489-.348864-1.263636 0L5 3.104545 2.157102.261648c-.348863-.348864-.914488-.348864-1.263636 0L.261648.893466c-.348864.348864-.348864.914489 0 1.263636L3.104545 5 .261648 7.842898c-.348864.348863-.348864.914488 0 1.263636l.631818.631818c.348864.348864.914773.348864 1.263636 0L5 6.895455l2.842898 2.842897c.348863.348864.914772.348864 1.263636 0l.631818-.631818c.348864-.348864.348864-.914489 0-1.263636L6.895455 5z"
+              />
+            </svg>
+          </button>
+           
+          <svg
+            class="vs__open-indicator"
+            height="10"
+            role="presentation"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z"
+            />
+          </svg>
+           
+          <div
+            class="vs__spinner"
+            style="display: none;"
+          >
+            Loading...
+          </div>
+        </div>
+      </div>
+       
+      <ul
+        id="vs1__listbox"
+        role="listbox"
+        style="display: none; visibility: hidden;"
+      />
+       
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots AssetCardComponent Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <div
+    class="w-full"
+  >
+    <label
+      class="text-xs text-blue-600 leading-tight"
+      for=""
+    >
+      Asset
+    </label>
+     
+    <div
+      class="v-select vs--single vs--unsearchable"
+      dir="auto"
+    >
+       
+      <div
+        aria-expanded="false"
+        aria-label="Search for option"
+        aria-owns="vs2__listbox"
+        class="vs__dropdown-toggle"
+        id="vs2__combobox"
+        role="combobox"
+      >
+        <div
+          class="vs__selected-options"
+        >
+          <span
+            class="vs__selected"
+          >
+            
+            Alle
+           
+            <!---->
+          </span>
+           
+          <input
+            aria-autocomplete="list"
+            aria-controls="vs2__listbox"
+            aria-labelledby="vs2__combobox"
+            autocomplete="off"
+            class="vs__search"
+            id=""
+            readonly="readonly"
+            type="search"
+          />
+        </div>
+         
+        <div
+          class="vs__actions"
+        >
+          <button
+            aria-label="Clear Selected"
+            class="vs__clear"
+            style="display: none;"
+            title="Clear Selected"
+            type="button"
+          >
+            <svg
+              height="10"
+              width="10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.895455 5l2.842897-2.842898c.348864-.348863.348864-.914488 0-1.263636L9.106534.261648c-.348864-.348864-.914489-.348864-1.263636 0L5 3.104545 2.157102.261648c-.348863-.348864-.914488-.348864-1.263636 0L.261648.893466c-.348864.348864-.348864.914489 0 1.263636L3.104545 5 .261648 7.842898c-.348864.348863-.348864.914488 0 1.263636l.631818.631818c.348864.348864.914773.348864 1.263636 0L5 6.895455l2.842898 2.842897c.348863.348864.914772.348864 1.263636 0l.631818-.631818c.348864-.348864.348864-.914489 0-1.263636L6.895455 5z"
+              />
+            </svg>
+          </button>
+           
+          <svg
+            class="vs__open-indicator"
+            height="10"
+            role="presentation"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z"
+            />
+          </svg>
+           
+          <div
+            class="vs__spinner"
+            style="display: none;"
+          >
+            Loading...
+          </div>
+        </div>
+      </div>
+       
+      <ul
+        id="vs2__listbox"
+        role="listbox"
+        style="display: none; visibility: hidden;"
+      />
+       
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Card Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <span>
+    4.67%
+  </span>
+  <span>
+    Bruttorendite am 31.Okt
+  </span>
+</div>
+`;
+
+exports[`Storyshots ChartHeader Example 1`] = `
+<div
+  class="flex flex-wrap bg-gray-200 p-2 w-full"
+>
+  <div>
+    <div>
+      Wie siet die Verteilung nach ...
+    </div>
+    <div>
+      Klicke auf die nutzungsgruppe um ...
+    </div>
+  </div>
+  <div>
+    Auswal
+  </div>
+</div>
+`;
+
+exports[`Storyshots ChartHeaderGrid Example 1`] = `
+<div
+  class="w-full grid grid-cols-1 lg:grid-cols-7 gap-1"
+>
+  <div
+    class="sm:col-span-2 md:col-span-3"
+  >
+    <span>
+      Wie siet die Verteilung nach ...
+    </span>
+    <span>
+      Klicke auf die nutzungsgruppe um ...
+    </span>
+  </div>
+  <div>
+    <div>
+      Auswahl
+    </div>
+    <div>
+      Auswahl 2
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots ChartHeaderGridItemLeft Example 1`] = `
+<div
+  class="lg:col-span-4"
+>
+  <span>
+    Wie siet die Verteilung nach ...
+  </span>
+  <span>
+    Klicke auf die nutzungsgruppe um ...
+  </span>
+</div>
+`;
+
+exports[`Storyshots ChartHeaderGridItemRight Example 1`] = `
+<div
+  class="grid grid-cols-1 lg:col-span-3 gap-2"
+>
+  <div>
+    <div>
+      Auswahl
+    </div>
+    <div>
+      Auswahl 2
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots ChartTitle Example 1`] = `
+<h4
+  class="text-lg text-gray-600"
+>
+  Wie Sieht das Ding aus 
+</h4>
+`;
+
+exports[`Storyshots ClientCard Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <div
+    class="w-full"
+  >
+    <label
+      class="text-xs text-blue-600 leading-tight"
+      for=""
+    >
+      Mandant
+    </label>
+     
+    <div
+      class="v-select vs--single vs--unsearchable"
+      dir="auto"
+    >
+       
+      <div
+        aria-expanded="false"
+        aria-label="Search for option"
+        aria-owns="vs3__listbox"
+        class="vs__dropdown-toggle"
+        id="vs3__combobox"
+        role="combobox"
+      >
+        <div
+          class="vs__selected-options"
+        >
+          <span
+            class="vs__selected"
+          >
+            
+            Alle
+           
+            <!---->
+          </span>
+           
+          <input
+            aria-autocomplete="list"
+            aria-controls="vs3__listbox"
+            aria-labelledby="vs3__combobox"
+            autocomplete="off"
+            class="vs__search"
+            id=""
+            readonly="readonly"
+            type="search"
+          />
+        </div>
+         
+        <div
+          class="vs__actions"
+        >
+          <button
+            aria-label="Clear Selected"
+            class="vs__clear"
+            style="display: none;"
+            title="Clear Selected"
+            type="button"
+          >
+            <svg
+              height="10"
+              width="10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.895455 5l2.842897-2.842898c.348864-.348863.348864-.914488 0-1.263636L9.106534.261648c-.348864-.348864-.914489-.348864-1.263636 0L5 3.104545 2.157102.261648c-.348863-.348864-.914488-.348864-1.263636 0L.261648.893466c-.348864.348864-.348864.914489 0 1.263636L3.104545 5 .261648 7.842898c-.348864.348863-.348864.914488 0 1.263636l.631818.631818c.348864.348864.914773.348864 1.263636 0L5 6.895455l2.842898 2.842897c.348863.348864.914772.348864 1.263636 0l.631818-.631818c.348864-.348864.348864-.914489 0-1.263636L6.895455 5z"
+              />
+            </svg>
+          </button>
+           
+          <svg
+            class="vs__open-indicator"
+            height="10"
+            role="presentation"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z"
+            />
+          </svg>
+           
+          <div
+            class="vs__spinner"
+            style="display: none;"
+          >
+            Loading...
+          </div>
+        </div>
+      </div>
+       
+      <ul
+        id="vs3__listbox"
+        role="listbox"
+        style="display: none; visibility: hidden;"
+      />
+       
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots ClientCardComponent Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <div
+    class="w-full"
+  >
+    <label
+      class="text-xs text-blue-600 leading-tight"
+      for=""
+    >
+      Mandant
+    </label>
+     
+    <div
+      class="v-select vs--single vs--unsearchable"
+      dir="auto"
+    >
+       
+      <div
+        aria-expanded="false"
+        aria-label="Search for option"
+        aria-owns="vs4__listbox"
+        class="vs__dropdown-toggle"
+        id="vs4__combobox"
+        role="combobox"
+      >
+        <div
+          class="vs__selected-options"
+        >
+          <span
+            class="vs__selected"
+          >
+            
+            Alle
+           
+            <!---->
+          </span>
+           
+          <input
+            aria-autocomplete="list"
+            aria-controls="vs4__listbox"
+            aria-labelledby="vs4__combobox"
+            autocomplete="off"
+            class="vs__search"
+            id=""
+            readonly="readonly"
+            type="search"
+          />
+        </div>
+         
+        <div
+          class="vs__actions"
+        >
+          <button
+            aria-label="Clear Selected"
+            class="vs__clear"
+            style="display: none;"
+            title="Clear Selected"
+            type="button"
+          >
+            <svg
+              height="10"
+              width="10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.895455 5l2.842897-2.842898c.348864-.348863.348864-.914488 0-1.263636L9.106534.261648c-.348864-.348864-.914489-.348864-1.263636 0L5 3.104545 2.157102.261648c-.348863-.348864-.914488-.348864-1.263636 0L.261648.893466c-.348864.348864-.348864.914489 0 1.263636L3.104545 5 .261648 7.842898c-.348864.348863-.348864.914488 0 1.263636l.631818.631818c.348864.348864.914773.348864 1.263636 0L5 6.895455l2.842898 2.842897c.348863.348864.914772.348864 1.263636 0l.631818-.631818c.348864-.348864.348864-.914489 0-1.263636L6.895455 5z"
+              />
+            </svg>
+          </button>
+           
+          <svg
+            class="vs__open-indicator"
+            height="10"
+            role="presentation"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z"
+            />
+          </svg>
+           
+          <div
+            class="vs__spinner"
+            style="display: none;"
+          >
+            Loading...
+          </div>
+        </div>
+      </div>
+       
+      <ul
+        id="vs4__listbox"
+        role="listbox"
+        style="display: none; visibility: hidden;"
+      />
+       
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots DatepickerCard Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <div
+    class="w-full"
+  >
+    <label
+      class="text-xs text-blue-600 leading-tight"
+      for=""
+    >
+      Wähle Stichdatum aus
+    </label>
+     
+    <div
+      class="vdp-datepicker w-full"
+    >
+      <div
+        class=""
+      >
+        <!---->
+         
+        <input
+          autocomplete="off"
+          class="w-full border border-solid border-gray-500 rounded pl-1 focus:outline-none"
+          id=""
+          readonly="readonly"
+          type="text"
+        />
+         
+        <!---->
+         
+      </div>
+       
+      <div
+        class="min-w-full max-w-full vdp-datepicker__calendar"
+        style="display: none;"
+      >
+         
+        <header>
+          <span
+            class="prev"
+          >
+            &lt;
+          </span>
+           
+          <span
+            class="day__month_btn up"
+          >
+            Okt 2020
+          </span>
+           
+          <span
+            class="next"
+          >
+            &gt;
+          </span>
+        </header>
+         
+        <div
+          class=""
+        >
+          <span
+            class="cell day-header"
+          >
+            So.
+          </span>
+          <span
+            class="cell day-header"
+          >
+            Mo.
+          </span>
+          <span
+            class="cell day-header"
+          >
+            Di.
+          </span>
+          <span
+            class="cell day-header"
+          >
+            Mi.
+          </span>
+          <span
+            class="cell day-header"
+          >
+            Do.
+          </span>
+          <span
+            class="cell day-header"
+          >
+            Fr.
+          </span>
+          <span
+            class="cell day-header"
+          >
+            Sa.
+          </span>
+           
+          <span
+            class="cell day blank"
+          />
+          <span
+            class="cell day blank"
+          />
+          <span
+            class="cell day blank"
+          />
+          <span
+            class="cell day blank"
+          />
+          <span
+            class="cell day"
+          >
+            1
+          </span>
+          <span
+            class="cell day"
+          >
+            2
+          </span>
+          <span
+            class="cell day weekend sat"
+          >
+            3
+          </span>
+          <span
+            class="cell day weekend sun"
+          >
+            4
+          </span>
+          <span
+            class="cell day"
+          >
+            5
+          </span>
+          <span
+            class="cell day"
+          >
+            6
+          </span>
+          <span
+            class="cell day"
+          >
+            7
+          </span>
+          <span
+            class="cell day"
+          >
+            8
+          </span>
+          <span
+            class="cell day"
+          >
+            9
+          </span>
+          <span
+            class="cell day weekend sat"
+          >
+            10
+          </span>
+          <span
+            class="cell day weekend sun"
+          >
+            11
+          </span>
+          <span
+            class="cell day"
+          >
+            12
+          </span>
+          <span
+            class="cell day"
+          >
+            13
+          </span>
+          <span
+            class="cell day"
+          >
+            14
+          </span>
+          <span
+            class="cell day"
+          >
+            15
+          </span>
+          <span
+            class="cell day"
+          >
+            16
+          </span>
+          <span
+            class="cell day weekend sat"
+          >
+            17
+          </span>
+          <span
+            class="cell day weekend sun"
+          >
+            18
+          </span>
+          <span
+            class="cell day"
+          >
+            19
+          </span>
+          <span
+            class="cell day"
+          >
+            20
+          </span>
+          <span
+            class="cell day"
+          >
+            21
+          </span>
+          <span
+            class="cell day"
+          >
+            22
+          </span>
+          <span
+            class="cell day"
+          >
+            23
+          </span>
+          <span
+            class="cell day weekend sat"
+          >
+            24
+          </span>
+          <span
+            class="cell day weekend sun"
+          >
+            25
+          </span>
+          <span
+            class="cell day"
+          >
+            26
+          </span>
+          <span
+            class="cell day"
+          >
+            27
+          </span>
+          <span
+            class="cell day today"
+          >
+            28
+          </span>
+          <span
+            class="cell day"
+          >
+            29
+          </span>
+          <span
+            class="cell day"
+          >
+            30
+          </span>
+          <span
+            class="cell day weekend sat"
+          >
+            31
+          </span>
+        </div>
+      </div>
+       
+      <div
+        class="min-w-full max-w-full vdp-datepicker__calendar"
+        style="display: none;"
+      >
+         
+        <header>
+          <span
+            class="prev"
+          >
+            &lt;
+          </span>
+           
+          <span
+            class="month__year_btn up"
+          >
+            2020
+          </span>
+           
+          <span
+            class="next"
+          >
+            &gt;
+          </span>
+        </header>
+         
+        <span
+          class="cell month"
+        >
+          Januar
+        </span>
+        <span
+          class="cell month"
+        >
+          Februar
+        </span>
+        <span
+          class="cell month"
+        >
+          März
+        </span>
+        <span
+          class="cell month"
+        >
+          April
+        </span>
+        <span
+          class="cell month"
+        >
+          Mai
+        </span>
+        <span
+          class="cell month"
+        >
+          Juni
+        </span>
+        <span
+          class="cell month"
+        >
+          Juli
+        </span>
+        <span
+          class="cell month"
+        >
+          August
+        </span>
+        <span
+          class="cell month"
+        >
+          September
+        </span>
+        <span
+          class="cell month"
+        >
+          Oktober
+        </span>
+        <span
+          class="cell month"
+        >
+          November
+        </span>
+        <span
+          class="cell month"
+        >
+          Dezember
+        </span>
+      </div>
+       
+      <div
+        class="min-w-full max-w-full vdp-datepicker__calendar"
+        style="display: none;"
+      >
+         
+        <header>
+          <span
+            class="prev"
+          >
+            &lt;
+          </span>
+           
+          <span>
+            2020 - 2029
+          </span>
+           
+          <span
+            class="next"
+          >
+            &gt;
+          </span>
+        </header>
+         
+        <span
+          class="cell year"
+        >
+          2020
+        </span>
+        <span
+          class="cell year"
+        >
+          2021
+        </span>
+        <span
+          class="cell year"
+        >
+          2022
+        </span>
+        <span
+          class="cell year"
+        >
+          2023
+        </span>
+        <span
+          class="cell year"
+        >
+          2024
+        </span>
+        <span
+          class="cell year"
+        >
+          2025
+        </span>
+        <span
+          class="cell year"
+        >
+          2026
+        </span>
+        <span
+          class="cell year"
+        >
+          2027
+        </span>
+        <span
+          class="cell year"
+        >
+          2028
+        </span>
+        <span
+          class="cell year"
+        >
+          2029
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots DatepickerCardComponent Example 1`] = `
+<div>
+  <div
+    class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+  >
+    <div
+      class="w-full"
+    >
+      <label
+        class="text-xs text-blue-600 leading-tight"
+        for=""
+      >
+        Wähle Stichdatum aus
+      </label>
+       
+      <div
+        class="vdp-datepicker w-full"
+      >
+        <div
+          class=""
+        >
+          <!---->
+           
+          <input
+            autocomplete="off"
+            class="w-full border border-solid border-gray-500 rounded pl-1 focus:outline-none"
+            id=""
+            readonly="readonly"
+            type="text"
+          />
+           
+          <!---->
+           
+        </div>
+         
+        <div
+          class="min-w-full max-w-full vdp-datepicker__calendar"
+          style="display: none;"
+        >
+           
+          <header>
+            <span
+              class="prev"
+            >
+              &lt;
+            </span>
+             
+            <span
+              class="day__month_btn up"
+            >
+              Okt 2020
+            </span>
+             
+            <span
+              class="next"
+            >
+              &gt;
+            </span>
+          </header>
+           
+          <div
+            class=""
+          >
+            <span
+              class="cell day-header"
+            >
+              So.
+            </span>
+            <span
+              class="cell day-header"
+            >
+              Mo.
+            </span>
+            <span
+              class="cell day-header"
+            >
+              Di.
+            </span>
+            <span
+              class="cell day-header"
+            >
+              Mi.
+            </span>
+            <span
+              class="cell day-header"
+            >
+              Do.
+            </span>
+            <span
+              class="cell day-header"
+            >
+              Fr.
+            </span>
+            <span
+              class="cell day-header"
+            >
+              Sa.
+            </span>
+             
+            <span
+              class="cell day blank"
+            />
+            <span
+              class="cell day blank"
+            />
+            <span
+              class="cell day blank"
+            />
+            <span
+              class="cell day blank"
+            />
+            <span
+              class="cell day"
+            >
+              1
+            </span>
+            <span
+              class="cell day"
+            >
+              2
+            </span>
+            <span
+              class="cell day weekend sat"
+            >
+              3
+            </span>
+            <span
+              class="cell day weekend sun"
+            >
+              4
+            </span>
+            <span
+              class="cell day"
+            >
+              5
+            </span>
+            <span
+              class="cell day"
+            >
+              6
+            </span>
+            <span
+              class="cell day"
+            >
+              7
+            </span>
+            <span
+              class="cell day"
+            >
+              8
+            </span>
+            <span
+              class="cell day"
+            >
+              9
+            </span>
+            <span
+              class="cell day weekend sat"
+            >
+              10
+            </span>
+            <span
+              class="cell day weekend sun"
+            >
+              11
+            </span>
+            <span
+              class="cell day"
+            >
+              12
+            </span>
+            <span
+              class="cell day"
+            >
+              13
+            </span>
+            <span
+              class="cell day"
+            >
+              14
+            </span>
+            <span
+              class="cell day"
+            >
+              15
+            </span>
+            <span
+              class="cell day"
+            >
+              16
+            </span>
+            <span
+              class="cell day weekend sat"
+            >
+              17
+            </span>
+            <span
+              class="cell day weekend sun"
+            >
+              18
+            </span>
+            <span
+              class="cell day"
+            >
+              19
+            </span>
+            <span
+              class="cell day"
+            >
+              20
+            </span>
+            <span
+              class="cell day"
+            >
+              21
+            </span>
+            <span
+              class="cell day"
+            >
+              22
+            </span>
+            <span
+              class="cell day"
+            >
+              23
+            </span>
+            <span
+              class="cell day weekend sat"
+            >
+              24
+            </span>
+            <span
+              class="cell day weekend sun"
+            >
+              25
+            </span>
+            <span
+              class="cell day"
+            >
+              26
+            </span>
+            <span
+              class="cell day"
+            >
+              27
+            </span>
+            <span
+              class="cell day today"
+            >
+              28
+            </span>
+            <span
+              class="cell day"
+            >
+              29
+            </span>
+            <span
+              class="cell day"
+            >
+              30
+            </span>
+            <span
+              class="cell day weekend sat"
+            >
+              31
+            </span>
+          </div>
+        </div>
+         
+        <div
+          class="min-w-full max-w-full vdp-datepicker__calendar"
+          style="display: none;"
+        >
+           
+          <header>
+            <span
+              class="prev"
+            >
+              &lt;
+            </span>
+             
+            <span
+              class="month__year_btn up"
+            >
+              2020
+            </span>
+             
+            <span
+              class="next"
+            >
+              &gt;
+            </span>
+          </header>
+           
+          <span
+            class="cell month"
+          >
+            Januar
+          </span>
+          <span
+            class="cell month"
+          >
+            Februar
+          </span>
+          <span
+            class="cell month"
+          >
+            März
+          </span>
+          <span
+            class="cell month"
+          >
+            April
+          </span>
+          <span
+            class="cell month"
+          >
+            Mai
+          </span>
+          <span
+            class="cell month"
+          >
+            Juni
+          </span>
+          <span
+            class="cell month"
+          >
+            Juli
+          </span>
+          <span
+            class="cell month"
+          >
+            August
+          </span>
+          <span
+            class="cell month"
+          >
+            September
+          </span>
+          <span
+            class="cell month"
+          >
+            Oktober
+          </span>
+          <span
+            class="cell month"
+          >
+            November
+          </span>
+          <span
+            class="cell month"
+          >
+            Dezember
+          </span>
+        </div>
+         
+        <div
+          class="min-w-full max-w-full vdp-datepicker__calendar"
+          style="display: none;"
+        >
+           
+          <header>
+            <span
+              class="prev"
+            >
+              &lt;
+            </span>
+             
+            <span>
+              2020 - 2029
+            </span>
+             
+            <span
+              class="next"
+            >
+              &gt;
+            </span>
+          </header>
+           
+          <span
+            class="cell year"
+          >
+            2020
+          </span>
+          <span
+            class="cell year"
+          >
+            2021
+          </span>
+          <span
+            class="cell year"
+          >
+            2022
+          </span>
+          <span
+            class="cell year"
+          >
+            2023
+          </span>
+          <span
+            class="cell year"
+          >
+            2024
+          </span>
+          <span
+            class="cell year"
+          >
+            2025
+          </span>
+          <span
+            class="cell year"
+          >
+            2026
+          </span>
+          <span
+            class="cell year"
+          >
+            2027
+          </span>
+          <span
+            class="cell year"
+          >
+            2028
+          </span>
+          <span
+            class="cell year"
+          >
+            2029
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    Wed Oct 28 2020 01:00:00 GMT+0100 (GMT+01:00)
+  </div>
+</div>
+`;
+
+exports[`Storyshots DatepickerLabeled Example 1`] = `
+<div>
+  <div
+    class="w-full"
+  >
+    <label
+      class="text-xs text-blue-600 leading-tight"
+      for=""
+    >
+      Wähle Stichdatum aus
+    </label>
+     
+    <div
+      class="vdp-datepicker w-full"
+    >
+      <div
+        class=""
+      >
+        <!---->
+         
+        <input
+          autocomplete="off"
+          class="w-full border border-solid border-gray-500 rounded pl-1 focus:outline-none"
+          id=""
+          readonly="readonly"
+          type="text"
+        />
+         
+        <!---->
+         
+      </div>
+       
+      <div
+        class="min-w-full max-w-full vdp-datepicker__calendar"
+        style="display: none;"
+      >
+         
+        <header>
+          <span
+            class="prev"
+          >
+            &lt;
+          </span>
+           
+          <span
+            class="day__month_btn up"
+          >
+            Okt 2020
+          </span>
+           
+          <span
+            class="next"
+          >
+            &gt;
+          </span>
+        </header>
+         
+        <div
+          class=""
+        >
+          <span
+            class="cell day-header"
+          >
+            So.
+          </span>
+          <span
+            class="cell day-header"
+          >
+            Mo.
+          </span>
+          <span
+            class="cell day-header"
+          >
+            Di.
+          </span>
+          <span
+            class="cell day-header"
+          >
+            Mi.
+          </span>
+          <span
+            class="cell day-header"
+          >
+            Do.
+          </span>
+          <span
+            class="cell day-header"
+          >
+            Fr.
+          </span>
+          <span
+            class="cell day-header"
+          >
+            Sa.
+          </span>
+           
+          <span
+            class="cell day blank"
+          />
+          <span
+            class="cell day blank"
+          />
+          <span
+            class="cell day blank"
+          />
+          <span
+            class="cell day blank"
+          />
+          <span
+            class="cell day"
+          >
+            1
+          </span>
+          <span
+            class="cell day"
+          >
+            2
+          </span>
+          <span
+            class="cell day weekend sat"
+          >
+            3
+          </span>
+          <span
+            class="cell day weekend sun"
+          >
+            4
+          </span>
+          <span
+            class="cell day"
+          >
+            5
+          </span>
+          <span
+            class="cell day"
+          >
+            6
+          </span>
+          <span
+            class="cell day"
+          >
+            7
+          </span>
+          <span
+            class="cell day"
+          >
+            8
+          </span>
+          <span
+            class="cell day"
+          >
+            9
+          </span>
+          <span
+            class="cell day weekend sat"
+          >
+            10
+          </span>
+          <span
+            class="cell day weekend sun"
+          >
+            11
+          </span>
+          <span
+            class="cell day"
+          >
+            12
+          </span>
+          <span
+            class="cell day"
+          >
+            13
+          </span>
+          <span
+            class="cell day"
+          >
+            14
+          </span>
+          <span
+            class="cell day"
+          >
+            15
+          </span>
+          <span
+            class="cell day"
+          >
+            16
+          </span>
+          <span
+            class="cell day weekend sat"
+          >
+            17
+          </span>
+          <span
+            class="cell day weekend sun"
+          >
+            18
+          </span>
+          <span
+            class="cell day"
+          >
+            19
+          </span>
+          <span
+            class="cell day"
+          >
+            20
+          </span>
+          <span
+            class="cell day"
+          >
+            21
+          </span>
+          <span
+            class="cell day"
+          >
+            22
+          </span>
+          <span
+            class="cell day"
+          >
+            23
+          </span>
+          <span
+            class="cell day weekend sat"
+          >
+            24
+          </span>
+          <span
+            class="cell day weekend sun"
+          >
+            25
+          </span>
+          <span
+            class="cell day"
+          >
+            26
+          </span>
+          <span
+            class="cell day"
+          >
+            27
+          </span>
+          <span
+            class="cell day today"
+          >
+            28
+          </span>
+          <span
+            class="cell day"
+          >
+            29
+          </span>
+          <span
+            class="cell day"
+          >
+            30
+          </span>
+          <span
+            class="cell day weekend sat"
+          >
+            31
+          </span>
+        </div>
+      </div>
+       
+      <div
+        class="min-w-full max-w-full vdp-datepicker__calendar"
+        style="display: none;"
+      >
+         
+        <header>
+          <span
+            class="prev"
+          >
+            &lt;
+          </span>
+           
+          <span
+            class="month__year_btn up"
+          >
+            2020
+          </span>
+           
+          <span
+            class="next"
+          >
+            &gt;
+          </span>
+        </header>
+         
+        <span
+          class="cell month"
+        >
+          Januar
+        </span>
+        <span
+          class="cell month"
+        >
+          Februar
+        </span>
+        <span
+          class="cell month"
+        >
+          März
+        </span>
+        <span
+          class="cell month"
+        >
+          April
+        </span>
+        <span
+          class="cell month"
+        >
+          Mai
+        </span>
+        <span
+          class="cell month"
+        >
+          Juni
+        </span>
+        <span
+          class="cell month"
+        >
+          Juli
+        </span>
+        <span
+          class="cell month"
+        >
+          August
+        </span>
+        <span
+          class="cell month"
+        >
+          September
+        </span>
+        <span
+          class="cell month"
+        >
+          Oktober
+        </span>
+        <span
+          class="cell month"
+        >
+          November
+        </span>
+        <span
+          class="cell month"
+        >
+          Dezember
+        </span>
+      </div>
+       
+      <div
+        class="min-w-full max-w-full vdp-datepicker__calendar"
+        style="display: none;"
+      >
+         
+        <header>
+          <span
+            class="prev"
+          >
+            &lt;
+          </span>
+           
+          <span>
+            2020 - 2029
+          </span>
+           
+          <span
+            class="next"
+          >
+            &gt;
+          </span>
+        </header>
+         
+        <span
+          class="cell year"
+        >
+          2020
+        </span>
+        <span
+          class="cell year"
+        >
+          2021
+        </span>
+        <span
+          class="cell year"
+        >
+          2022
+        </span>
+        <span
+          class="cell year"
+        >
+          2023
+        </span>
+        <span
+          class="cell year"
+        >
+          2024
+        </span>
+        <span
+          class="cell year"
+        >
+          2025
+        </span>
+        <span
+          class="cell year"
+        >
+          2026
+        </span>
+        <span
+          class="cell year"
+        >
+          2027
+        </span>
+        <span
+          class="cell year"
+        >
+          2028
+        </span>
+        <span
+          class="cell year"
+        >
+          2029
+        </span>
+      </div>
+    </div>
+  </div>
+  <div>
+    Wed Oct 28 2020 01:00:00 GMT+0100 (GMT+01:00)
+  </div>
+</div>
+`;
+
+exports[`Storyshots Description Example 1`] = `
+<span
+  class="text-base text-gray-500"
+>
+  Bruttorendite soll am 31. Okt
+</span>
+`;
+
+exports[`Storyshots GrossYieldActualCard Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <span>
+    Loading...
+  </span>
+</div>
+`;
+
+exports[`Storyshots GrossYieldActualCardComponent Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <span
+    class="text-2xl text-orange-600"
+  >
+    5.67%
+  </span>
+   
+  <span
+    class="text-base text-gray-500"
+  >
+    Bruttorendite (Ist) am 
+    <span
+      class="text-base text-black"
+    >
+      28. Okt
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Storyshots GrossYieldCard Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <span>
+    Loading...
+  </span>
+</div>
+`;
+
+exports[`Storyshots GrossYieldCardComponent Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <span
+    class="text-2xl text-orange-600"
+  >
+    4.67%
+  </span>
+   
+  <span
+    class="text-base text-gray-500"
+  >
+    Bruttorendite (Soll) am 
+    <span
+      class="text-base text-black"
+    >
+      28. Okt
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Storyshots GrossYieldLineChart Example 1`] = `<grossyieldlinechart />`;
+
+exports[`Storyshots GrossYieldLineChartComponent Example 1`] = `
+<grossyieldlinechartcomponent
+  dateprop="date"
+  grossyielddata="[object Object],[object Object]"
+  handlebullethit="event => {
+    console.log(event);
+  }"
+  handlelegendhit="event => {
+    console.log(event);
+  }"
+  valueprop="value"
+/>
+`;
+
+exports[`Storyshots HeaderTemplate Example 1`] = `
+<div
+  class="w-full p-1"
+>
+  <div
+    class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+  >
+    <div
+      class="w-full flex"
+    >
+      <img
+        alt="logo"
+        height="50"
+        src=""
+        width="50"
+      />
+       
+      <div
+        class="flex-grow text-center"
+      >
+        <h1
+          class="text-lg text-blue-600"
+        >
+          Monatlicher Vertragsreport
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Highlight Example 1`] = `
+<span
+  class="text-2xl text-orange-600"
+>
+  4.67%
+</span>
+`;
+
+exports[`Storyshots HighlightMedium Example 1`] = `
+<span
+  class="text-lg text-orange-600"
+>
+  TestHighlightMedium
+</span>
+`;
+
+exports[`Storyshots HighlightMedium Example Color 1`] = `
+<span
+  class="text-lg text-black"
+>
+  TestHighlightMedium Color
+</span>
+`;
+
+exports[`Storyshots HighlightSmall Example 1`] = `
+<span
+  class="text-base text-black"
+>
+  31. Okt
+</span>
+`;
+
+exports[`Storyshots KeyfigureCard Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <span
+    class="text-2xl text-orange-600"
+  >
+    0.0467
+  </span>
+   
+  <span
+    class="text-base text-gray-500"
+  >
+    Bruttorendite Test 
+    <span
+      class="text-base text-black"
+    >
+      28. Okt
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Storyshots KeyfigureCurrencyCard Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <span
+    class="text-2xl text-orange-600"
+  >
+    CHF 539,053.79
+  </span>
+   
+  <span
+    class="text-base text-gray-500"
+  >
+    Marktwert am 
+    <span
+      class="text-base text-black"
+    >
+      28. Okt
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Storyshots KeyfigureNumberCard Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <span
+    class="text-2xl text-orange-600"
+  >
+    53.79
+  </span>
+   
+  <span
+    class="text-base text-gray-500"
+  >
+    WAULT am 
+    <span
+      class="text-base text-black"
+    >
+      28. Okt
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Storyshots KeyfigurePercentCard Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <span
+    class="text-2xl text-orange-600"
+  >
+    4.67%
+  </span>
+   
+  <span
+    class="text-base text-gray-500"
+  >
+    Bruttorendite Soll 
+    <span
+      class="text-base text-black"
+    >
+      28. Okt
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Storyshots KeyfiguresTemplate Example 1`] = `
+<section
+  class="flex flex-wrap"
+>
+  <span
+    class="flex-grow p-1"
+  >
+    <div
+      class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+    >
+      <span>
+        Loading...
+      </span>
+    </div>
+  </span>
+   
+  <span
+    class="flex-grow p-1"
+  >
+    <div
+      class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+    >
+      <span>
+        Loading...
+      </span>
+    </div>
+  </span>
+   
+  <span
+    class="flex-grow p-1"
+  >
+    <div
+      class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+    >
+      <span>
+        Loading...
+      </span>
+    </div>
+  </span>
+   
+  <span
+    class="flex-grow p-1"
+  >
+    <div
+      class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+    >
+      <span>
+        Loading...
+      </span>
+    </div>
+  </span>
+   
+  <span
+    class="flex-grow p-1"
+  >
+    <div
+      class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+    >
+      <span>
+        Loading...
+      </span>
+    </div>
+  </span>
+</section>
+`;
+
+exports[`Storyshots Label Example 1`] = `
+<label
+  class="text-xs text-blue-600 leading-tight"
+  for=""
+>
+  Mandant
+</label>
+`;
+
+exports[`Storyshots LineChart Example 1`] = `
+<div
+  style="height: 500px;"
+>
+  <linechart
+    data="[object Object],[object Object]"
+    dateprop="date"
+    format="percent"
+    handlebullethit="event => {
+    console.log(event);
+  }"
+    handlelegendhit="event => {
+    console.log(event);
+  }"
+    valueprop="value"
+  />
+</div>
+`;
+
+exports[`Storyshots Logo Example 1`] = `
+<img
+  alt="logo"
+  height="50"
+  src=""
+  width="50"
+/>
+`;
+
+exports[`Storyshots MarketValueCard Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <span>
+    Loading...
+  </span>
+</div>
+`;
+
+exports[`Storyshots MarketValueCardComponent Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <span
+    class="text-2xl text-orange-600"
+  >
+    CHF 694,802,933.49
+  </span>
+   
+  <span
+    class="text-base text-gray-500"
+  >
+    Marktwert am 
+    <span
+      class="text-base text-black"
+    >
+      28. Okt
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Storyshots ReamisDatepicker Example 1`] = `
+<div>
+  <div
+    class="vdp-datepicker w-full"
+  >
+    <div
+      class=""
+    >
+      <!---->
+       
+      <input
+        autocomplete="off"
+        class="w-full border border-solid border-gray-500 rounded pl-1 focus:outline-none"
+        id=""
+        readonly="readonly"
+        type="text"
+      />
+       
+      <!---->
+       
+    </div>
+     
+    <div
+      class="min-w-full max-w-full vdp-datepicker__calendar"
+      style="display: none;"
+    >
+       
+      <header>
+        <span
+          class="prev"
+        >
+          &lt;
+        </span>
+         
+        <span
+          class="day__month_btn up"
+        >
+          Okt 2020
+        </span>
+         
+        <span
+          class="next"
+        >
+          &gt;
+        </span>
+      </header>
+       
+      <div
+        class=""
+      >
+        <span
+          class="cell day-header"
+        >
+          So.
+        </span>
+        <span
+          class="cell day-header"
+        >
+          Mo.
+        </span>
+        <span
+          class="cell day-header"
+        >
+          Di.
+        </span>
+        <span
+          class="cell day-header"
+        >
+          Mi.
+        </span>
+        <span
+          class="cell day-header"
+        >
+          Do.
+        </span>
+        <span
+          class="cell day-header"
+        >
+          Fr.
+        </span>
+        <span
+          class="cell day-header"
+        >
+          Sa.
+        </span>
+         
+        <span
+          class="cell day blank"
+        />
+        <span
+          class="cell day blank"
+        />
+        <span
+          class="cell day blank"
+        />
+        <span
+          class="cell day blank"
+        />
+        <span
+          class="cell day"
+        >
+          1
+        </span>
+        <span
+          class="cell day"
+        >
+          2
+        </span>
+        <span
+          class="cell day weekend sat"
+        >
+          3
+        </span>
+        <span
+          class="cell day weekend sun"
+        >
+          4
+        </span>
+        <span
+          class="cell day"
+        >
+          5
+        </span>
+        <span
+          class="cell day"
+        >
+          6
+        </span>
+        <span
+          class="cell day"
+        >
+          7
+        </span>
+        <span
+          class="cell day"
+        >
+          8
+        </span>
+        <span
+          class="cell day"
+        >
+          9
+        </span>
+        <span
+          class="cell day weekend sat"
+        >
+          10
+        </span>
+        <span
+          class="cell day weekend sun"
+        >
+          11
+        </span>
+        <span
+          class="cell day"
+        >
+          12
+        </span>
+        <span
+          class="cell day"
+        >
+          13
+        </span>
+        <span
+          class="cell day"
+        >
+          14
+        </span>
+        <span
+          class="cell day"
+        >
+          15
+        </span>
+        <span
+          class="cell day"
+        >
+          16
+        </span>
+        <span
+          class="cell day weekend sat"
+        >
+          17
+        </span>
+        <span
+          class="cell day weekend sun"
+        >
+          18
+        </span>
+        <span
+          class="cell day"
+        >
+          19
+        </span>
+        <span
+          class="cell day"
+        >
+          20
+        </span>
+        <span
+          class="cell day"
+        >
+          21
+        </span>
+        <span
+          class="cell day"
+        >
+          22
+        </span>
+        <span
+          class="cell day"
+        >
+          23
+        </span>
+        <span
+          class="cell day weekend sat"
+        >
+          24
+        </span>
+        <span
+          class="cell day weekend sun"
+        >
+          25
+        </span>
+        <span
+          class="cell day"
+        >
+          26
+        </span>
+        <span
+          class="cell day"
+        >
+          27
+        </span>
+        <span
+          class="cell day today"
+        >
+          28
+        </span>
+        <span
+          class="cell day"
+        >
+          29
+        </span>
+        <span
+          class="cell day"
+        >
+          30
+        </span>
+        <span
+          class="cell day weekend sat"
+        >
+          31
+        </span>
+      </div>
+    </div>
+     
+    <div
+      class="min-w-full max-w-full vdp-datepicker__calendar"
+      style="display: none;"
+    >
+       
+      <header>
+        <span
+          class="prev"
+        >
+          &lt;
+        </span>
+         
+        <span
+          class="month__year_btn up"
+        >
+          2020
+        </span>
+         
+        <span
+          class="next"
+        >
+          &gt;
+        </span>
+      </header>
+       
+      <span
+        class="cell month"
+      >
+        Januar
+      </span>
+      <span
+        class="cell month"
+      >
+        Februar
+      </span>
+      <span
+        class="cell month"
+      >
+        März
+      </span>
+      <span
+        class="cell month"
+      >
+        April
+      </span>
+      <span
+        class="cell month"
+      >
+        Mai
+      </span>
+      <span
+        class="cell month"
+      >
+        Juni
+      </span>
+      <span
+        class="cell month"
+      >
+        Juli
+      </span>
+      <span
+        class="cell month"
+      >
+        August
+      </span>
+      <span
+        class="cell month"
+      >
+        September
+      </span>
+      <span
+        class="cell month"
+      >
+        Oktober
+      </span>
+      <span
+        class="cell month"
+      >
+        November
+      </span>
+      <span
+        class="cell month"
+      >
+        Dezember
+      </span>
+    </div>
+     
+    <div
+      class="min-w-full max-w-full vdp-datepicker__calendar"
+      style="display: none;"
+    >
+       
+      <header>
+        <span
+          class="prev"
+        >
+          &lt;
+        </span>
+         
+        <span>
+          2020 - 2029
+        </span>
+         
+        <span
+          class="next"
+        >
+          &gt;
+        </span>
+      </header>
+       
+      <span
+        class="cell year"
+      >
+        2020
+      </span>
+      <span
+        class="cell year"
+      >
+        2021
+      </span>
+      <span
+        class="cell year"
+      >
+        2022
+      </span>
+      <span
+        class="cell year"
+      >
+        2023
+      </span>
+      <span
+        class="cell year"
+      >
+        2024
+      </span>
+      <span
+        class="cell year"
+      >
+        2025
+      </span>
+      <span
+        class="cell year"
+      >
+        2026
+      </span>
+      <span
+        class="cell year"
+      >
+        2027
+      </span>
+      <span
+        class="cell year"
+      >
+        2028
+      </span>
+      <span
+        class="cell year"
+      >
+        2029
+      </span>
+    </div>
+  </div>
+  <div>
+    Wed Oct 28 2020 01:00:00 GMT+0100 (GMT+01:00)
+  </div>
+</div>
+`;
+
+exports[`Storyshots Select Example 1`] = `
+<div>
+  <div
+    class="v-select vs--single vs--unsearchable"
+    dir="auto"
+  >
+     
+    <div
+      aria-expanded="false"
+      aria-label="Search for option"
+      aria-owns="vs9__listbox"
+      class="vs__dropdown-toggle"
+      id="vs9__combobox"
+      role="combobox"
+    >
+      <div
+        class="vs__selected-options"
+      >
+        <span
+          class="vs__selected"
+        >
+          
+            value one
+           
+          <!---->
+        </span>
+         
+        <input
+          aria-autocomplete="list"
+          aria-controls="vs9__listbox"
+          aria-labelledby="vs9__combobox"
+          autocomplete="off"
+          class="vs__search"
+          id=""
+          readonly="readonly"
+          type="search"
+        />
+      </div>
+       
+      <div
+        class="vs__actions"
+      >
+        <button
+          aria-label="Clear Selected"
+          class="vs__clear"
+          style="display: none;"
+          title="Clear Selected"
+          type="button"
+        >
+          <svg
+            height="10"
+            width="10"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6.895455 5l2.842897-2.842898c.348864-.348863.348864-.914488 0-1.263636L9.106534.261648c-.348864-.348864-.914489-.348864-1.263636 0L5 3.104545 2.157102.261648c-.348863-.348864-.914488-.348864-1.263636 0L.261648.893466c-.348864.348864-.348864.914489 0 1.263636L3.104545 5 .261648 7.842898c-.348864.348863-.348864.914488 0 1.263636l.631818.631818c.348864.348864.914773.348864 1.263636 0L5 6.895455l2.842898 2.842897c.348863.348864.914772.348864 1.263636 0l.631818-.631818c.348864-.348864.348864-.914489 0-1.263636L6.895455 5z"
+            />
+          </svg>
+        </button>
+         
+        <svg
+          class="vs__open-indicator"
+          height="10"
+          role="presentation"
+          width="14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z"
+          />
+        </svg>
+         
+        <div
+          class="vs__spinner"
+          style="display: none;"
+        >
+          Loading...
+        </div>
+      </div>
+    </div>
+     
+    <ul
+      id="vs9__listbox"
+      role="listbox"
+      style="display: none; visibility: hidden;"
+    />
+     
+  </div>
+  <div>
+    0
+  </div>
+</div>
+`;
+
+exports[`Storyshots Select Example Many Options 1`] = `
+<div>
+  <div
+    class="v-select vs--single vs--unsearchable"
+    dir="auto"
+  >
+     
+    <div
+      aria-expanded="false"
+      aria-label="Search for option"
+      aria-owns="vs10__listbox"
+      class="vs__dropdown-toggle"
+      id="vs10__combobox"
+      role="combobox"
+    >
+      <div
+        class="vs__selected-options"
+      >
+        <span
+          class="vs__selected"
+        >
+          
+            value one
+           
+          <!---->
+        </span>
+         
+        <input
+          aria-autocomplete="list"
+          aria-controls="vs10__listbox"
+          aria-labelledby="vs10__combobox"
+          autocomplete="off"
+          class="vs__search"
+          id=""
+          readonly="readonly"
+          type="search"
+        />
+      </div>
+       
+      <div
+        class="vs__actions"
+      >
+        <button
+          aria-label="Clear Selected"
+          class="vs__clear"
+          style="display: none;"
+          title="Clear Selected"
+          type="button"
+        >
+          <svg
+            height="10"
+            width="10"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6.895455 5l2.842897-2.842898c.348864-.348863.348864-.914488 0-1.263636L9.106534.261648c-.348864-.348864-.914489-.348864-1.263636 0L5 3.104545 2.157102.261648c-.348863-.348864-.914488-.348864-1.263636 0L.261648.893466c-.348864.348864-.348864.914489 0 1.263636L3.104545 5 .261648 7.842898c-.348864.348863-.348864.914488 0 1.263636l.631818.631818c.348864.348864.914773.348864 1.263636 0L5 6.895455l2.842898 2.842897c.348863.348864.914772.348864 1.263636 0l.631818-.631818c.348864-.348864.348864-.914489 0-1.263636L6.895455 5z"
+            />
+          </svg>
+        </button>
+         
+        <svg
+          class="vs__open-indicator"
+          height="10"
+          role="presentation"
+          width="14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z"
+          />
+        </svg>
+         
+        <div
+          class="vs__spinner"
+          style="display: none;"
+        >
+          Loading...
+        </div>
+      </div>
+    </div>
+     
+    <ul
+      id="vs10__listbox"
+      role="listbox"
+      style="display: none; visibility: hidden;"
+    />
+     
+  </div>
+  <div>
+    0
+  </div>
+</div>
+`;
+
+exports[`Storyshots SelectBreakdown Example 1`] = `
+<div
+  class="v-select vs--single vs--unsearchable"
+  dir="auto"
+>
+   
+  <div
+    aria-expanded="false"
+    aria-label="Search for option"
+    aria-owns="vs11__listbox"
+    class="vs__dropdown-toggle"
+    id="vs11__combobox"
+    role="combobox"
+  >
+    <div
+      class="vs__selected-options"
+    >
+      <span
+        class="vs__selected"
+      >
+        
+            Mandant
+           
+        <!---->
+      </span>
+       
+      <input
+        aria-autocomplete="list"
+        aria-controls="vs11__listbox"
+        aria-labelledby="vs11__combobox"
+        autocomplete="off"
+        class="vs__search"
+        readonly="readonly"
+        type="search"
+      />
+    </div>
+     
+    <div
+      class="vs__actions"
+    >
+      <button
+        aria-label="Clear Selected"
+        class="vs__clear"
+        style="display: none;"
+        title="Clear Selected"
+        type="button"
+      >
+        <svg
+          height="10"
+          width="10"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M6.895455 5l2.842897-2.842898c.348864-.348863.348864-.914488 0-1.263636L9.106534.261648c-.348864-.348864-.914489-.348864-1.263636 0L5 3.104545 2.157102.261648c-.348863-.348864-.914488-.348864-1.263636 0L.261648.893466c-.348864.348864-.348864.914489 0 1.263636L3.104545 5 .261648 7.842898c-.348864.348863-.348864.914488 0 1.263636l.631818.631818c.348864.348864.914773.348864 1.263636 0L5 6.895455l2.842898 2.842897c.348863.348864.914772.348864 1.263636 0l.631818-.631818c.348864-.348864.348864-.914489 0-1.263636L6.895455 5z"
+          />
+        </svg>
+      </button>
+       
+      <svg
+        class="vs__open-indicator"
+        height="10"
+        role="presentation"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z"
+        />
+      </svg>
+       
+      <div
+        class="vs__spinner"
+        style="display: none;"
+      >
+        Loading...
+      </div>
+    </div>
+  </div>
+   
+  <ul
+    id="vs11__listbox"
+    role="listbox"
+    style="display: none; visibility: hidden;"
+  />
+   
+</div>
+`;
+
+exports[`Storyshots SelectCard Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <div
+    class="w-full"
+  >
+    <label
+      class="text-xs text-blue-600 leading-tight"
+      for=""
+    >
+      select value
+    </label>
+     
+    <div
+      class="v-select vs--single vs--unsearchable"
+      dir="auto"
+    >
+       
+      <div
+        aria-expanded="false"
+        aria-label="Search for option"
+        aria-owns="vs12__listbox"
+        class="vs__dropdown-toggle"
+        id="vs12__combobox"
+        role="combobox"
+      >
+        <div
+          class="vs__selected-options"
+        >
+          <span
+            class="vs__selected"
+          >
+            
+            value one
+           
+            <!---->
+          </span>
+           
+          <input
+            aria-autocomplete="list"
+            aria-controls="vs12__listbox"
+            aria-labelledby="vs12__combobox"
+            autocomplete="off"
+            class="vs__search"
+            id=""
+            readonly="readonly"
+            type="search"
+          />
+        </div>
+         
+        <div
+          class="vs__actions"
+        >
+          <button
+            aria-label="Clear Selected"
+            class="vs__clear"
+            style="display: none;"
+            title="Clear Selected"
+            type="button"
+          >
+            <svg
+              height="10"
+              width="10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.895455 5l2.842897-2.842898c.348864-.348863.348864-.914488 0-1.263636L9.106534.261648c-.348864-.348864-.914489-.348864-1.263636 0L5 3.104545 2.157102.261648c-.348863-.348864-.914488-.348864-1.263636 0L.261648.893466c-.348864.348864-.348864.914489 0 1.263636L3.104545 5 .261648 7.842898c-.348864.348863-.348864.914488 0 1.263636l.631818.631818c.348864.348864.914773.348864 1.263636 0L5 6.895455l2.842898 2.842897c.348863.348864.914772.348864 1.263636 0l.631818-.631818c.348864-.348864.348864-.914489 0-1.263636L6.895455 5z"
+              />
+            </svg>
+          </button>
+           
+          <svg
+            class="vs__open-indicator"
+            height="10"
+            role="presentation"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z"
+            />
+          </svg>
+           
+          <div
+            class="vs__spinner"
+            style="display: none;"
+          >
+            Loading...
+          </div>
+        </div>
+      </div>
+       
+      <ul
+        id="vs12__listbox"
+        role="listbox"
+        style="display: none; visibility: hidden;"
+      />
+       
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots SelectLabeled Example 1`] = `
+<div>
+  <div
+    class="w-full"
+  >
+    <label
+      class="text-xs text-blue-600 leading-tight"
+      for=""
+    >
+      select value
+    </label>
+     
+    <div
+      class="v-select vs--single vs--unsearchable"
+      dir="auto"
+    >
+       
+      <div
+        aria-expanded="false"
+        aria-label="Search for option"
+        aria-owns="vs13__listbox"
+        class="vs__dropdown-toggle"
+        id="vs13__combobox"
+        role="combobox"
+      >
+        <div
+          class="vs__selected-options"
+        >
+          <span
+            class="vs__selected"
+          >
+            
+            value one
+           
+            <!---->
+          </span>
+           
+          <input
+            aria-autocomplete="list"
+            aria-controls="vs13__listbox"
+            aria-labelledby="vs13__combobox"
+            autocomplete="off"
+            class="vs__search"
+            id=""
+            readonly="readonly"
+            type="search"
+          />
+        </div>
+         
+        <div
+          class="vs__actions"
+        >
+          <button
+            aria-label="Clear Selected"
+            class="vs__clear"
+            style="display: none;"
+            title="Clear Selected"
+            type="button"
+          >
+            <svg
+              height="10"
+              width="10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.895455 5l2.842897-2.842898c.348864-.348863.348864-.914488 0-1.263636L9.106534.261648c-.348864-.348864-.914489-.348864-1.263636 0L5 3.104545 2.157102.261648c-.348863-.348864-.914488-.348864-1.263636 0L.261648.893466c-.348864.348864-.348864.914489 0 1.263636L3.104545 5 .261648 7.842898c-.348864.348863-.348864.914488 0 1.263636l.631818.631818c.348864.348864.914773.348864 1.263636 0L5 6.895455l2.842898 2.842897c.348863.348864.914772.348864 1.263636 0l.631818-.631818c.348864-.348864.348864-.914489 0-1.263636L6.895455 5z"
+              />
+            </svg>
+          </button>
+           
+          <svg
+            class="vs__open-indicator"
+            height="10"
+            role="presentation"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z"
+            />
+          </svg>
+           
+          <div
+            class="vs__spinner"
+            style="display: none;"
+          >
+            Loading...
+          </div>
+        </div>
+      </div>
+       
+      <ul
+        id="vs13__listbox"
+        role="listbox"
+        style="display: none; visibility: hidden;"
+      />
+       
+    </div>
+  </div>
+  <div>
+    0
+  </div>
+</div>
+`;
+
+exports[`Storyshots SelectTypeOfUnit Example 1`] = `
+<div
+  class="v-select vs--single vs--unsearchable"
+  dir="auto"
+>
+   
+  <div
+    aria-expanded="false"
+    aria-label="Search for option"
+    aria-owns="vs18__listbox"
+    class="vs__dropdown-toggle"
+    id="vs18__combobox"
+    role="combobox"
+  >
+    <div
+      class="vs__selected-options"
+    >
+      <span
+        class="vs__selected"
+      >
+        
+            Ertrag
+           
+        <!---->
+      </span>
+       
+      <input
+        aria-autocomplete="list"
+        aria-controls="vs18__listbox"
+        aria-labelledby="vs18__combobox"
+        autocomplete="off"
+        class="vs__search"
+        readonly="readonly"
+        type="search"
+      />
+    </div>
+     
+    <div
+      class="vs__actions"
+    >
+      <button
+        aria-label="Clear Selected"
+        class="vs__clear"
+        style="display: none;"
+        title="Clear Selected"
+        type="button"
+      >
+        <svg
+          height="10"
+          width="10"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M6.895455 5l2.842897-2.842898c.348864-.348863.348864-.914488 0-1.263636L9.106534.261648c-.348864-.348864-.914489-.348864-1.263636 0L5 3.104545 2.157102.261648c-.348863-.348864-.914488-.348864-1.263636 0L.261648.893466c-.348864.348864-.348864.914489 0 1.263636L3.104545 5 .261648 7.842898c-.348864.348863-.348864.914488 0 1.263636l.631818.631818c.348864.348864.914773.348864 1.263636 0L5 6.895455l2.842898 2.842897c.348863.348864.914772.348864 1.263636 0l.631818-.631818c.348864-.348864.348864-.914489 0-1.263636L6.895455 5z"
+          />
+        </svg>
+      </button>
+       
+      <svg
+        class="vs__open-indicator"
+        height="10"
+        role="presentation"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z"
+        />
+      </svg>
+       
+      <div
+        class="vs__spinner"
+        style="display: none;"
+      >
+        Loading...
+      </div>
+    </div>
+  </div>
+   
+  <ul
+    id="vs18__listbox"
+    role="listbox"
+    style="display: none; visibility: hidden;"
+  />
+   
+</div>
+`;
+
+exports[`Storyshots SelectUsage Example 1`] = `
+<div
+  class="v-select vs--single vs--unsearchable"
+  dir="auto"
+>
+   
+  <div
+    aria-expanded="false"
+    aria-label="Search for option"
+    aria-owns="vs19__listbox"
+    class="vs__dropdown-toggle"
+    id="vs19__combobox"
+    role="combobox"
+  >
+    <div
+      class="vs__selected-options"
+    >
+      <span
+        class="vs__selected"
+      >
+        
+            Nutzungsgruppe
+           
+        <!---->
+      </span>
+       
+      <input
+        aria-autocomplete="list"
+        aria-controls="vs19__listbox"
+        aria-labelledby="vs19__combobox"
+        autocomplete="off"
+        class="vs__search"
+        readonly="readonly"
+        type="search"
+      />
+    </div>
+     
+    <div
+      class="vs__actions"
+    >
+      <button
+        aria-label="Clear Selected"
+        class="vs__clear"
+        style="display: none;"
+        title="Clear Selected"
+        type="button"
+      >
+        <svg
+          height="10"
+          width="10"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M6.895455 5l2.842897-2.842898c.348864-.348863.348864-.914488 0-1.263636L9.106534.261648c-.348864-.348864-.914489-.348864-1.263636 0L5 3.104545 2.157102.261648c-.348863-.348864-.914488-.348864-1.263636 0L.261648.893466c-.348864.348864-.348864.914489 0 1.263636L3.104545 5 .261648 7.842898c-.348864.348863-.348864.914488 0 1.263636l.631818.631818c.348864.348864.914773.348864 1.263636 0L5 6.895455l2.842898 2.842897c.348863.348864.914772.348864 1.263636 0l.631818-.631818c.348864-.348864.348864-.914489 0-1.263636L6.895455 5z"
+          />
+        </svg>
+      </button>
+       
+      <svg
+        class="vs__open-indicator"
+        height="10"
+        role="presentation"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z"
+        />
+      </svg>
+       
+      <div
+        class="vs__spinner"
+        style="display: none;"
+      >
+        Loading...
+      </div>
+    </div>
+  </div>
+   
+  <ul
+    id="vs19__listbox"
+    role="listbox"
+    style="display: none; visibility: hidden;"
+  />
+   
+</div>
+`;
+
+exports[`Storyshots SelectorsTemplate Example 1`] = `
+<section
+  class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-2 p-1"
+>
+  <div
+    class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+  >
+    <div
+      class="w-full"
+    >
+      <label
+        class="text-xs text-blue-600 leading-tight"
+        for=""
+      >
+        Wähle Stichdatum aus
+      </label>
+       
+      <div
+        class="vdp-datepicker w-full"
+      >
+        <div
+          class=""
+        >
+          <!---->
+           
+          <input
+            autocomplete="off"
+            class="w-full border border-solid border-gray-500 rounded pl-1 focus:outline-none"
+            id=""
+            readonly="readonly"
+            type="text"
+          />
+           
+          <!---->
+           
+        </div>
+         
+        <div
+          class="min-w-full max-w-full vdp-datepicker__calendar"
+          style="display: none;"
+        >
+           
+          <header>
+            <span
+              class="prev"
+            >
+              &lt;
+            </span>
+             
+            <span
+              class="day__month_btn up"
+            >
+              Okt 2020
+            </span>
+             
+            <span
+              class="next"
+            >
+              &gt;
+            </span>
+          </header>
+           
+          <div
+            class=""
+          >
+            <span
+              class="cell day-header"
+            >
+              So.
+            </span>
+            <span
+              class="cell day-header"
+            >
+              Mo.
+            </span>
+            <span
+              class="cell day-header"
+            >
+              Di.
+            </span>
+            <span
+              class="cell day-header"
+            >
+              Mi.
+            </span>
+            <span
+              class="cell day-header"
+            >
+              Do.
+            </span>
+            <span
+              class="cell day-header"
+            >
+              Fr.
+            </span>
+            <span
+              class="cell day-header"
+            >
+              Sa.
+            </span>
+             
+            <span
+              class="cell day blank"
+            />
+            <span
+              class="cell day blank"
+            />
+            <span
+              class="cell day blank"
+            />
+            <span
+              class="cell day blank"
+            />
+            <span
+              class="cell day"
+            >
+              1
+            </span>
+            <span
+              class="cell day"
+            >
+              2
+            </span>
+            <span
+              class="cell day weekend sat"
+            >
+              3
+            </span>
+            <span
+              class="cell day weekend sun"
+            >
+              4
+            </span>
+            <span
+              class="cell day"
+            >
+              5
+            </span>
+            <span
+              class="cell day"
+            >
+              6
+            </span>
+            <span
+              class="cell day"
+            >
+              7
+            </span>
+            <span
+              class="cell day"
+            >
+              8
+            </span>
+            <span
+              class="cell day"
+            >
+              9
+            </span>
+            <span
+              class="cell day weekend sat"
+            >
+              10
+            </span>
+            <span
+              class="cell day weekend sun"
+            >
+              11
+            </span>
+            <span
+              class="cell day"
+            >
+              12
+            </span>
+            <span
+              class="cell day"
+            >
+              13
+            </span>
+            <span
+              class="cell day"
+            >
+              14
+            </span>
+            <span
+              class="cell day"
+            >
+              15
+            </span>
+            <span
+              class="cell day"
+            >
+              16
+            </span>
+            <span
+              class="cell day weekend sat"
+            >
+              17
+            </span>
+            <span
+              class="cell day weekend sun"
+            >
+              18
+            </span>
+            <span
+              class="cell day"
+            >
+              19
+            </span>
+            <span
+              class="cell day"
+            >
+              20
+            </span>
+            <span
+              class="cell day"
+            >
+              21
+            </span>
+            <span
+              class="cell day"
+            >
+              22
+            </span>
+            <span
+              class="cell day"
+            >
+              23
+            </span>
+            <span
+              class="cell day weekend sat"
+            >
+              24
+            </span>
+            <span
+              class="cell day weekend sun"
+            >
+              25
+            </span>
+            <span
+              class="cell day"
+            >
+              26
+            </span>
+            <span
+              class="cell day"
+            >
+              27
+            </span>
+            <span
+              class="cell day today"
+            >
+              28
+            </span>
+            <span
+              class="cell day"
+            >
+              29
+            </span>
+            <span
+              class="cell day"
+            >
+              30
+            </span>
+            <span
+              class="cell day weekend sat"
+            >
+              31
+            </span>
+          </div>
+        </div>
+         
+        <div
+          class="min-w-full max-w-full vdp-datepicker__calendar"
+          style="display: none;"
+        >
+           
+          <header>
+            <span
+              class="prev"
+            >
+              &lt;
+            </span>
+             
+            <span
+              class="month__year_btn up"
+            >
+              2020
+            </span>
+             
+            <span
+              class="next"
+            >
+              &gt;
+            </span>
+          </header>
+           
+          <span
+            class="cell month"
+          >
+            Januar
+          </span>
+          <span
+            class="cell month"
+          >
+            Februar
+          </span>
+          <span
+            class="cell month"
+          >
+            März
+          </span>
+          <span
+            class="cell month"
+          >
+            April
+          </span>
+          <span
+            class="cell month"
+          >
+            Mai
+          </span>
+          <span
+            class="cell month"
+          >
+            Juni
+          </span>
+          <span
+            class="cell month"
+          >
+            Juli
+          </span>
+          <span
+            class="cell month"
+          >
+            August
+          </span>
+          <span
+            class="cell month"
+          >
+            September
+          </span>
+          <span
+            class="cell month"
+          >
+            Oktober
+          </span>
+          <span
+            class="cell month"
+          >
+            November
+          </span>
+          <span
+            class="cell month"
+          >
+            Dezember
+          </span>
+        </div>
+         
+        <div
+          class="min-w-full max-w-full vdp-datepicker__calendar"
+          style="display: none;"
+        >
+           
+          <header>
+            <span
+              class="prev"
+            >
+              &lt;
+            </span>
+             
+            <span>
+              2020 - 2029
+            </span>
+             
+            <span
+              class="next"
+            >
+              &gt;
+            </span>
+          </header>
+           
+          <span
+            class="cell year"
+          >
+            2020
+          </span>
+          <span
+            class="cell year"
+          >
+            2021
+          </span>
+          <span
+            class="cell year"
+          >
+            2022
+          </span>
+          <span
+            class="cell year"
+          >
+            2023
+          </span>
+          <span
+            class="cell year"
+          >
+            2024
+          </span>
+          <span
+            class="cell year"
+          >
+            2025
+          </span>
+          <span
+            class="cell year"
+          >
+            2026
+          </span>
+          <span
+            class="cell year"
+          >
+            2027
+          </span>
+          <span
+            class="cell year"
+          >
+            2028
+          </span>
+          <span
+            class="cell year"
+          >
+            2029
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+  >
+    <div
+      class="w-full"
+    >
+      <label
+        class="text-xs text-blue-600 leading-tight"
+        for=""
+      >
+        Mandant
+      </label>
+       
+      <div
+        class="v-select vs--single vs--unsearchable"
+        dir="auto"
+      >
+         
+        <div
+          aria-expanded="false"
+          aria-label="Search for option"
+          aria-owns="vs14__listbox"
+          class="vs__dropdown-toggle"
+          id="vs14__combobox"
+          role="combobox"
+        >
+          <div
+            class="vs__selected-options"
+          >
+            <span
+              class="vs__selected"
+            >
+              
+            Alle
+           
+              <!---->
+            </span>
+             
+            <input
+              aria-autocomplete="list"
+              aria-controls="vs14__listbox"
+              aria-labelledby="vs14__combobox"
+              autocomplete="off"
+              class="vs__search"
+              id=""
+              readonly="readonly"
+              type="search"
+            />
+          </div>
+           
+          <div
+            class="vs__actions"
+          >
+            <button
+              aria-label="Clear Selected"
+              class="vs__clear"
+              style="display: none;"
+              title="Clear Selected"
+              type="button"
+            >
+              <svg
+                height="10"
+                width="10"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.895455 5l2.842897-2.842898c.348864-.348863.348864-.914488 0-1.263636L9.106534.261648c-.348864-.348864-.914489-.348864-1.263636 0L5 3.104545 2.157102.261648c-.348863-.348864-.914488-.348864-1.263636 0L.261648.893466c-.348864.348864-.348864.914489 0 1.263636L3.104545 5 .261648 7.842898c-.348864.348863-.348864.914488 0 1.263636l.631818.631818c.348864.348864.914773.348864 1.263636 0L5 6.895455l2.842898 2.842897c.348863.348864.914772.348864 1.263636 0l.631818-.631818c.348864-.348864.348864-.914489 0-1.263636L6.895455 5z"
+                />
+              </svg>
+            </button>
+             
+            <svg
+              class="vs__open-indicator"
+              height="10"
+              role="presentation"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z"
+              />
+            </svg>
+             
+            <div
+              class="vs__spinner"
+              style="display: none;"
+            >
+              Loading...
+            </div>
+          </div>
+        </div>
+         
+        <ul
+          id="vs14__listbox"
+          role="listbox"
+          style="display: none; visibility: hidden;"
+        />
+         
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+  >
+    <div
+      class="w-full"
+    >
+      <label
+        class="text-xs text-blue-600 leading-tight"
+        for=""
+      >
+        Nutzungsgruppe
+      </label>
+       
+      <div
+        class="v-select vs--single vs--unsearchable"
+        dir="auto"
+      >
+         
+        <div
+          aria-expanded="false"
+          aria-label="Search for option"
+          aria-owns="vs15__listbox"
+          class="vs__dropdown-toggle"
+          id="vs15__combobox"
+          role="combobox"
+        >
+          <div
+            class="vs__selected-options"
+          >
+            <span
+              class="vs__selected"
+            >
+              
+            Alle
+           
+              <!---->
+            </span>
+             
+            <input
+              aria-autocomplete="list"
+              aria-controls="vs15__listbox"
+              aria-labelledby="vs15__combobox"
+              autocomplete="off"
+              class="vs__search"
+              id=""
+              readonly="readonly"
+              type="search"
+            />
+          </div>
+           
+          <div
+            class="vs__actions"
+          >
+            <button
+              aria-label="Clear Selected"
+              class="vs__clear"
+              style="display: none;"
+              title="Clear Selected"
+              type="button"
+            >
+              <svg
+                height="10"
+                width="10"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.895455 5l2.842897-2.842898c.348864-.348863.348864-.914488 0-1.263636L9.106534.261648c-.348864-.348864-.914489-.348864-1.263636 0L5 3.104545 2.157102.261648c-.348863-.348864-.914488-.348864-1.263636 0L.261648.893466c-.348864.348864-.348864.914489 0 1.263636L3.104545 5 .261648 7.842898c-.348864.348863-.348864.914488 0 1.263636l.631818.631818c.348864.348864.914773.348864 1.263636 0L5 6.895455l2.842898 2.842897c.348863.348864.914772.348864 1.263636 0l.631818-.631818c.348864-.348864.348864-.914489 0-1.263636L6.895455 5z"
+                />
+              </svg>
+            </button>
+             
+            <svg
+              class="vs__open-indicator"
+              height="10"
+              role="presentation"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z"
+              />
+            </svg>
+             
+            <div
+              class="vs__spinner"
+              style="display: none;"
+            >
+              Loading...
+            </div>
+          </div>
+        </div>
+         
+        <ul
+          id="vs15__listbox"
+          role="listbox"
+          style="display: none; visibility: hidden;"
+        />
+         
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+  >
+    <div
+      class="w-full"
+    >
+      <label
+        class="text-xs text-blue-600 leading-tight"
+        for=""
+      >
+        Nutzungsart
+      </label>
+       
+      <div
+        class="v-select vs--single vs--unsearchable"
+        dir="auto"
+      >
+         
+        <div
+          aria-expanded="false"
+          aria-label="Search for option"
+          aria-owns="vs16__listbox"
+          class="vs__dropdown-toggle"
+          id="vs16__combobox"
+          role="combobox"
+        >
+          <div
+            class="vs__selected-options"
+          >
+            <span
+              class="vs__selected"
+            >
+              
+            Alle
+           
+              <!---->
+            </span>
+             
+            <input
+              aria-autocomplete="list"
+              aria-controls="vs16__listbox"
+              aria-labelledby="vs16__combobox"
+              autocomplete="off"
+              class="vs__search"
+              id=""
+              readonly="readonly"
+              type="search"
+            />
+          </div>
+           
+          <div
+            class="vs__actions"
+          >
+            <button
+              aria-label="Clear Selected"
+              class="vs__clear"
+              style="display: none;"
+              title="Clear Selected"
+              type="button"
+            >
+              <svg
+                height="10"
+                width="10"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.895455 5l2.842897-2.842898c.348864-.348863.348864-.914488 0-1.263636L9.106534.261648c-.348864-.348864-.914489-.348864-1.263636 0L5 3.104545 2.157102.261648c-.348863-.348864-.914488-.348864-1.263636 0L.261648.893466c-.348864.348864-.348864.914489 0 1.263636L3.104545 5 .261648 7.842898c-.348864.348863-.348864.914488 0 1.263636l.631818.631818c.348864.348864.914773.348864 1.263636 0L5 6.895455l2.842898 2.842897c.348863.348864.914772.348864 1.263636 0l.631818-.631818c.348864-.348864.348864-.914489 0-1.263636L6.895455 5z"
+                />
+              </svg>
+            </button>
+             
+            <svg
+              class="vs__open-indicator"
+              height="10"
+              role="presentation"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z"
+              />
+            </svg>
+             
+            <div
+              class="vs__spinner"
+              style="display: none;"
+            >
+              Loading...
+            </div>
+          </div>
+        </div>
+         
+        <ul
+          id="vs16__listbox"
+          role="listbox"
+          style="display: none; visibility: hidden;"
+        />
+         
+      </div>
+    </div>
+  </div>
+   
+  <span
+    class="sm:col-span-2 lg:col-span-1"
+  >
+    <div
+      class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+    >
+      <div
+        class="w-full"
+      >
+        <label
+          class="text-xs text-blue-600 leading-tight"
+          for=""
+        >
+          Asset
+        </label>
+         
+        <div
+          class="v-select vs--single vs--unsearchable"
+          dir="auto"
+        >
+           
+          <div
+            aria-expanded="false"
+            aria-label="Search for option"
+            aria-owns="vs17__listbox"
+            class="vs__dropdown-toggle"
+            id="vs17__combobox"
+            role="combobox"
+          >
+            <div
+              class="vs__selected-options"
+            >
+              <span
+                class="vs__selected"
+              >
+                
+            Alle
+           
+                <!---->
+              </span>
+               
+              <input
+                aria-autocomplete="list"
+                aria-controls="vs17__listbox"
+                aria-labelledby="vs17__combobox"
+                autocomplete="off"
+                class="vs__search"
+                id=""
+                readonly="readonly"
+                type="search"
+              />
+            </div>
+             
+            <div
+              class="vs__actions"
+            >
+              <button
+                aria-label="Clear Selected"
+                class="vs__clear"
+                style="display: none;"
+                title="Clear Selected"
+                type="button"
+              >
+                <svg
+                  height="10"
+                  width="10"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.895455 5l2.842897-2.842898c.348864-.348863.348864-.914488 0-1.263636L9.106534.261648c-.348864-.348864-.914489-.348864-1.263636 0L5 3.104545 2.157102.261648c-.348863-.348864-.914488-.348864-1.263636 0L.261648.893466c-.348864.348864-.348864.914489 0 1.263636L3.104545 5 .261648 7.842898c-.348864.348863-.348864.914488 0 1.263636l.631818.631818c.348864.348864.914773.348864 1.263636 0L5 6.895455l2.842898 2.842897c.348863.348864.914772.348864 1.263636 0l.631818-.631818c.348864-.348864.348864-.914489 0-1.263636L6.895455 5z"
+                  />
+                </svg>
+              </button>
+               
+              <svg
+                class="vs__open-indicator"
+                height="10"
+                role="presentation"
+                width="14"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z"
+                />
+              </svg>
+               
+              <div
+                class="vs__spinner"
+                style="display: none;"
+              >
+                Loading...
+              </div>
+            </div>
+          </div>
+           
+          <ul
+            id="vs17__listbox"
+            role="listbox"
+            style="display: none; visibility: hidden;"
+          />
+           
+        </div>
+      </div>
+    </div>
+  </span>
+</section>
+`;
+
+exports[`Storyshots Title Example 1`] = `
+<h1
+  class="text-lg text-blue-600"
+>
+  Monatlicher Vertragsreport
+</h1>
+`;
+
+exports[`Storyshots TopTenantsBarChart Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <div
+    class="flex flex-wrap bg-gray-200 p-2 w-full"
+  >
+    <h4
+      class="text-lg text-gray-600"
+    >
+      
+      Welches sind meine 
+      <span
+        class="text-lg text-orange-600"
+      >
+        top 10 Mieter
+      </span>
+      ?
+    
+    </h4>
+  </div>
+   
+  <barchart
+    category="label"
+    data=""
+    handlecharthit="function () { [native code] }"
+    handleplothit="function () { [native code] }"
+    valueprop="value"
+  />
+</div>
+`;
+
+exports[`Storyshots TopTenantsBarChartComponent Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <div
+    class="flex flex-wrap bg-gray-200 p-2 w-full"
+  >
+    <h4
+      class="text-lg text-gray-600"
+    >
+      
+      Welches sind meine 
+      <span
+        class="text-lg text-orange-600"
+      >
+        top 10 Mieter
+      </span>
+      ?
+    
+    </h4>
+  </div>
+   
+  <barchart
+    category="label"
+    data="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+    handlecharthit="event => {
+    console.log(event);
+  }"
+    handleplothit="event => {
+    console.log(event);
+  }"
+    valueprop="value"
+  />
+</div>
+`;
+
+exports[`Storyshots UsageDonutChart Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <div
+    class="flex flex-wrap bg-gray-200 p-2 w-full"
+  >
+    <div
+      class="w-full grid grid-cols-1 lg:grid-cols-7 gap-1"
+    >
+      <div
+        class="lg:col-span-4"
+      >
+        <h4
+          class="text-lg text-gray-600"
+        >
+          
+          Wie sieht die Verteilung nach 
+          <span
+            class="text-lg text-black"
+          >
+            Nutzungsgruppe
+          </span>
+           für 
+          <span
+            class="text-lg text-orange-600"
+          >
+            Ertrag
+          </span>
+           aus?
+        
+        </h4>
+         
+        <span
+          class="text-base text-gray-500"
+        >
+          
+          Klicke auf eine Nutzungsgruppe um die top 10 Mieter zu filtern.
+        
+        </span>
+      </div>
+       
+      <div
+        class="grid grid-cols-1 lg:col-span-3 gap-2"
+      >
+        <div
+          class="v-select vs--single vs--unsearchable"
+          dir="auto"
+        >
+           
+          <div
+            aria-expanded="false"
+            aria-label="Search for option"
+            aria-owns="vs20__listbox"
+            class="vs__dropdown-toggle"
+            id="vs20__combobox"
+            role="combobox"
+          >
+            <div
+              class="vs__selected-options"
+            >
+              <span
+                class="vs__selected"
+              >
+                
+            Nutzungsgruppe
+           
+                <!---->
+              </span>
+               
+              <input
+                aria-autocomplete="list"
+                aria-controls="vs20__listbox"
+                aria-labelledby="vs20__combobox"
+                autocomplete="off"
+                class="vs__search"
+                readonly="readonly"
+                type="search"
+              />
+            </div>
+             
+            <div
+              class="vs__actions"
+            >
+              <button
+                aria-label="Clear Selected"
+                class="vs__clear"
+                style="display: none;"
+                title="Clear Selected"
+                type="button"
+              >
+                <svg
+                  height="10"
+                  width="10"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.895455 5l2.842897-2.842898c.348864-.348863.348864-.914488 0-1.263636L9.106534.261648c-.348864-.348864-.914489-.348864-1.263636 0L5 3.104545 2.157102.261648c-.348863-.348864-.914488-.348864-1.263636 0L.261648.893466c-.348864.348864-.348864.914489 0 1.263636L3.104545 5 .261648 7.842898c-.348864.348863-.348864.914488 0 1.263636l.631818.631818c.348864.348864.914773.348864 1.263636 0L5 6.895455l2.842898 2.842897c.348863.348864.914772.348864 1.263636 0l.631818-.631818c.348864-.348864.348864-.914489 0-1.263636L6.895455 5z"
+                  />
+                </svg>
+              </button>
+               
+              <svg
+                class="vs__open-indicator"
+                height="10"
+                role="presentation"
+                width="14"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z"
+                />
+              </svg>
+               
+              <div
+                class="vs__spinner"
+                style="display: none;"
+              >
+                Loading...
+              </div>
+            </div>
+          </div>
+           
+          <ul
+            id="vs20__listbox"
+            role="listbox"
+            style="display: none; visibility: hidden;"
+          />
+           
+        </div>
+         
+        <div
+          class="v-select vs--single vs--unsearchable"
+          dir="auto"
+        >
+           
+          <div
+            aria-expanded="false"
+            aria-label="Search for option"
+            aria-owns="vs21__listbox"
+            class="vs__dropdown-toggle"
+            id="vs21__combobox"
+            role="combobox"
+          >
+            <div
+              class="vs__selected-options"
+            >
+              <span
+                class="vs__selected"
+              >
+                
+            Ertrag
+           
+                <!---->
+              </span>
+               
+              <input
+                aria-autocomplete="list"
+                aria-controls="vs21__listbox"
+                aria-labelledby="vs21__combobox"
+                autocomplete="off"
+                class="vs__search"
+                readonly="readonly"
+                type="search"
+              />
+            </div>
+             
+            <div
+              class="vs__actions"
+            >
+              <button
+                aria-label="Clear Selected"
+                class="vs__clear"
+                style="display: none;"
+                title="Clear Selected"
+                type="button"
+              >
+                <svg
+                  height="10"
+                  width="10"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.895455 5l2.842897-2.842898c.348864-.348863.348864-.914488 0-1.263636L9.106534.261648c-.348864-.348864-.914489-.348864-1.263636 0L5 3.104545 2.157102.261648c-.348863-.348864-.914488-.348864-1.263636 0L.261648.893466c-.348864.348864-.348864.914489 0 1.263636L3.104545 5 .261648 7.842898c-.348864.348863-.348864.914488 0 1.263636l.631818.631818c.348864.348864.914773.348864 1.263636 0L5 6.895455l2.842898 2.842897c.348863.348864.914772.348864 1.263636 0l.631818-.631818c.348864-.348864.348864-.914489 0-1.263636L6.895455 5z"
+                  />
+                </svg>
+              </button>
+               
+              <svg
+                class="vs__open-indicator"
+                height="10"
+                role="presentation"
+                width="14"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z"
+                />
+              </svg>
+               
+              <div
+                class="vs__spinner"
+                style="display: none;"
+              >
+                Loading...
+              </div>
+            </div>
+          </div>
+           
+          <ul
+            id="vs21__listbox"
+            role="listbox"
+            style="display: none; visibility: hidden;"
+          />
+           
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <donutchart
+    category="usageGroup"
+    data=""
+    handle-chart-hit="function () { [native code] }"
+    handle-legend-hit="function () { [native code] }"
+    label-text="Gesamtertrag"
+    label-value="0"
+    value="amount"
+  />
+</div>
+`;
+
+exports[`Storyshots UsageDonutChartComponent Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <div
+    class="flex flex-wrap bg-gray-200 p-2 w-full"
+  >
+    <div
+      class="w-full grid grid-cols-1 lg:grid-cols-7 gap-1"
+    >
+      <div
+        class="lg:col-span-4"
+      >
+        <h4
+          class="text-lg text-gray-600"
+        >
+          
+          Wie sieht die Verteilung nach 
+          <span
+            class="text-lg text-black"
+          >
+            
+          </span>
+           für 
+          <span
+            class="text-lg text-orange-600"
+          >
+            
+          </span>
+           aus?
+        
+        </h4>
+         
+        <span
+          class="text-base text-gray-500"
+        >
+          
+          Klicke auf eine Nutzungsgruppe um die top 10 Mieter zu filtern.
+        
+        </span>
+      </div>
+       
+      <div
+        class="grid grid-cols-1 lg:col-span-3 gap-2"
+      >
+        <div
+          class="v-select vs--single vs--unsearchable"
+          dir="auto"
+        >
+           
+          <div
+            aria-expanded="false"
+            aria-label="Search for option"
+            aria-owns="vs22__listbox"
+            class="vs__dropdown-toggle"
+            id="vs22__combobox"
+            role="combobox"
+          >
+            <div
+              class="vs__selected-options"
+            >
+              <span
+                class="vs__selected"
+              >
+                
+            Nutzungsgruppe
+           
+                <!---->
+              </span>
+               
+              <input
+                aria-autocomplete="list"
+                aria-controls="vs22__listbox"
+                aria-labelledby="vs22__combobox"
+                autocomplete="off"
+                class="vs__search"
+                readonly="readonly"
+                type="search"
+              />
+            </div>
+             
+            <div
+              class="vs__actions"
+            >
+              <button
+                aria-label="Clear Selected"
+                class="vs__clear"
+                style="display: none;"
+                title="Clear Selected"
+                type="button"
+              >
+                <svg
+                  height="10"
+                  width="10"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.895455 5l2.842897-2.842898c.348864-.348863.348864-.914488 0-1.263636L9.106534.261648c-.348864-.348864-.914489-.348864-1.263636 0L5 3.104545 2.157102.261648c-.348863-.348864-.914488-.348864-1.263636 0L.261648.893466c-.348864.348864-.348864.914489 0 1.263636L3.104545 5 .261648 7.842898c-.348864.348863-.348864.914488 0 1.263636l.631818.631818c.348864.348864.914773.348864 1.263636 0L5 6.895455l2.842898 2.842897c.348863.348864.914772.348864 1.263636 0l.631818-.631818c.348864-.348864.348864-.914489 0-1.263636L6.895455 5z"
+                  />
+                </svg>
+              </button>
+               
+              <svg
+                class="vs__open-indicator"
+                height="10"
+                role="presentation"
+                width="14"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z"
+                />
+              </svg>
+               
+              <div
+                class="vs__spinner"
+                style="display: none;"
+              >
+                Loading...
+              </div>
+            </div>
+          </div>
+           
+          <ul
+            id="vs22__listbox"
+            role="listbox"
+            style="display: none; visibility: hidden;"
+          />
+           
+        </div>
+         
+        <div
+          class="v-select vs--single vs--unsearchable"
+          dir="auto"
+        >
+           
+          <div
+            aria-expanded="false"
+            aria-label="Search for option"
+            aria-owns="vs23__listbox"
+            class="vs__dropdown-toggle"
+            id="vs23__combobox"
+            role="combobox"
+          >
+            <div
+              class="vs__selected-options"
+            >
+              <span
+                class="vs__selected"
+              >
+                
+            Ertrag
+           
+                <!---->
+              </span>
+               
+              <input
+                aria-autocomplete="list"
+                aria-controls="vs23__listbox"
+                aria-labelledby="vs23__combobox"
+                autocomplete="off"
+                class="vs__search"
+                readonly="readonly"
+                type="search"
+              />
+            </div>
+             
+            <div
+              class="vs__actions"
+            >
+              <button
+                aria-label="Clear Selected"
+                class="vs__clear"
+                style="display: none;"
+                title="Clear Selected"
+                type="button"
+              >
+                <svg
+                  height="10"
+                  width="10"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.895455 5l2.842897-2.842898c.348864-.348863.348864-.914488 0-1.263636L9.106534.261648c-.348864-.348864-.914489-.348864-1.263636 0L5 3.104545 2.157102.261648c-.348863-.348864-.914488-.348864-1.263636 0L.261648.893466c-.348864.348864-.348864.914489 0 1.263636L3.104545 5 .261648 7.842898c-.348864.348863-.348864.914488 0 1.263636l.631818.631818c.348864.348864.914773.348864 1.263636 0L5 6.895455l2.842898 2.842897c.348863.348864.914772.348864 1.263636 0l.631818-.631818c.348864-.348864.348864-.914489 0-1.263636L6.895455 5z"
+                  />
+                </svg>
+              </button>
+               
+              <svg
+                class="vs__open-indicator"
+                height="10"
+                role="presentation"
+                width="14"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z"
+                />
+              </svg>
+               
+              <div
+                class="vs__spinner"
+                style="display: none;"
+              >
+                Loading...
+              </div>
+            </div>
+          </div>
+           
+          <ul
+            id="vs23__listbox"
+            role="listbox"
+            style="display: none; visibility: hidden;"
+          />
+           
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <donutchart
+    category="usageGroup"
+    data="[object Object],[object Object]"
+    handle-chart-hit="event => {
+    console.log({
+      cHit: 'Charthit',
+      event
+    });
+  }"
+    handle-legend-hit="event => {
+    console.log({
+      lHit: 'Legendhit',
+      event
+    });
+  }"
+    label-text="Gesamtertrag"
+    label-value="3598845.04"
+    value="amount"
+  />
+</div>
+`;
+
+exports[`Storyshots UsageGroupCard Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <div
+    class="w-full"
+  >
+    <label
+      class="text-xs text-blue-600 leading-tight"
+      for=""
+    >
+      Nutzungsgruppe
+    </label>
+     
+    <div
+      class="v-select vs--single vs--unsearchable"
+      dir="auto"
+    >
+       
+      <div
+        aria-expanded="false"
+        aria-label="Search for option"
+        aria-owns="vs24__listbox"
+        class="vs__dropdown-toggle"
+        id="vs24__combobox"
+        role="combobox"
+      >
+        <div
+          class="vs__selected-options"
+        >
+          <span
+            class="vs__selected"
+          >
+            
+            Alle
+           
+            <!---->
+          </span>
+           
+          <input
+            aria-autocomplete="list"
+            aria-controls="vs24__listbox"
+            aria-labelledby="vs24__combobox"
+            autocomplete="off"
+            class="vs__search"
+            id=""
+            readonly="readonly"
+            type="search"
+          />
+        </div>
+         
+        <div
+          class="vs__actions"
+        >
+          <button
+            aria-label="Clear Selected"
+            class="vs__clear"
+            style="display: none;"
+            title="Clear Selected"
+            type="button"
+          >
+            <svg
+              height="10"
+              width="10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.895455 5l2.842897-2.842898c.348864-.348863.348864-.914488 0-1.263636L9.106534.261648c-.348864-.348864-.914489-.348864-1.263636 0L5 3.104545 2.157102.261648c-.348863-.348864-.914488-.348864-1.263636 0L.261648.893466c-.348864.348864-.348864.914489 0 1.263636L3.104545 5 .261648 7.842898c-.348864.348863-.348864.914488 0 1.263636l.631818.631818c.348864.348864.914773.348864 1.263636 0L5 6.895455l2.842898 2.842897c.348863.348864.914772.348864 1.263636 0l.631818-.631818c.348864-.348864.348864-.914489 0-1.263636L6.895455 5z"
+              />
+            </svg>
+          </button>
+           
+          <svg
+            class="vs__open-indicator"
+            height="10"
+            role="presentation"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z"
+            />
+          </svg>
+           
+          <div
+            class="vs__spinner"
+            style="display: none;"
+          >
+            Loading...
+          </div>
+        </div>
+      </div>
+       
+      <ul
+        id="vs24__listbox"
+        role="listbox"
+        style="display: none; visibility: hidden;"
+      />
+       
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots UsageGroupCardComponent Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <div
+    class="w-full"
+  >
+    <label
+      class="text-xs text-blue-600 leading-tight"
+      for=""
+    >
+      Nutzungsgruppe
+    </label>
+     
+    <div
+      class="v-select vs--single vs--unsearchable"
+      dir="auto"
+    >
+       
+      <div
+        aria-expanded="false"
+        aria-label="Search for option"
+        aria-owns="vs25__listbox"
+        class="vs__dropdown-toggle"
+        id="vs25__combobox"
+        role="combobox"
+      >
+        <div
+          class="vs__selected-options"
+        >
+          <span
+            class="vs__selected"
+          >
+            
+            Alle
+           
+            <!---->
+          </span>
+           
+          <input
+            aria-autocomplete="list"
+            aria-controls="vs25__listbox"
+            aria-labelledby="vs25__combobox"
+            autocomplete="off"
+            class="vs__search"
+            id=""
+            readonly="readonly"
+            type="search"
+          />
+        </div>
+         
+        <div
+          class="vs__actions"
+        >
+          <button
+            aria-label="Clear Selected"
+            class="vs__clear"
+            style="display: none;"
+            title="Clear Selected"
+            type="button"
+          >
+            <svg
+              height="10"
+              width="10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.895455 5l2.842897-2.842898c.348864-.348863.348864-.914488 0-1.263636L9.106534.261648c-.348864-.348864-.914489-.348864-1.263636 0L5 3.104545 2.157102.261648c-.348863-.348864-.914488-.348864-1.263636 0L.261648.893466c-.348864.348864-.348864.914489 0 1.263636L3.104545 5 .261648 7.842898c-.348864.348863-.348864.914488 0 1.263636l.631818.631818c.348864.348864.914773.348864 1.263636 0L5 6.895455l2.842898 2.842897c.348863.348864.914772.348864 1.263636 0l.631818-.631818c.348864-.348864.348864-.914489 0-1.263636L6.895455 5z"
+              />
+            </svg>
+          </button>
+           
+          <svg
+            class="vs__open-indicator"
+            height="10"
+            role="presentation"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z"
+            />
+          </svg>
+           
+          <div
+            class="vs__spinner"
+            style="display: none;"
+          >
+            Loading...
+          </div>
+        </div>
+      </div>
+       
+      <ul
+        id="vs25__listbox"
+        role="listbox"
+        style="display: none; visibility: hidden;"
+      />
+       
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots UsageTypeCard Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <div
+    class="w-full"
+  >
+    <label
+      class="text-xs text-blue-600 leading-tight"
+      for=""
+    >
+      Nutzungsart
+    </label>
+     
+    <div
+      class="v-select vs--single vs--unsearchable"
+      dir="auto"
+    >
+       
+      <div
+        aria-expanded="false"
+        aria-label="Search for option"
+        aria-owns="vs26__listbox"
+        class="vs__dropdown-toggle"
+        id="vs26__combobox"
+        role="combobox"
+      >
+        <div
+          class="vs__selected-options"
+        >
+          <span
+            class="vs__selected"
+          >
+            
+            Alle
+           
+            <!---->
+          </span>
+           
+          <input
+            aria-autocomplete="list"
+            aria-controls="vs26__listbox"
+            aria-labelledby="vs26__combobox"
+            autocomplete="off"
+            class="vs__search"
+            id=""
+            readonly="readonly"
+            type="search"
+          />
+        </div>
+         
+        <div
+          class="vs__actions"
+        >
+          <button
+            aria-label="Clear Selected"
+            class="vs__clear"
+            style="display: none;"
+            title="Clear Selected"
+            type="button"
+          >
+            <svg
+              height="10"
+              width="10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.895455 5l2.842897-2.842898c.348864-.348863.348864-.914488 0-1.263636L9.106534.261648c-.348864-.348864-.914489-.348864-1.263636 0L5 3.104545 2.157102.261648c-.348863-.348864-.914488-.348864-1.263636 0L.261648.893466c-.348864.348864-.348864.914489 0 1.263636L3.104545 5 .261648 7.842898c-.348864.348863-.348864.914488 0 1.263636l.631818.631818c.348864.348864.914773.348864 1.263636 0L5 6.895455l2.842898 2.842897c.348863.348864.914772.348864 1.263636 0l.631818-.631818c.348864-.348864.348864-.914489 0-1.263636L6.895455 5z"
+              />
+            </svg>
+          </button>
+           
+          <svg
+            class="vs__open-indicator"
+            height="10"
+            role="presentation"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z"
+            />
+          </svg>
+           
+          <div
+            class="vs__spinner"
+            style="display: none;"
+          >
+            Loading...
+          </div>
+        </div>
+      </div>
+       
+      <ul
+        id="vs26__listbox"
+        role="listbox"
+        style="display: none; visibility: hidden;"
+      />
+       
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots UsageTypeCardComponent Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <div
+    class="w-full"
+  >
+    <label
+      class="text-xs text-blue-600 leading-tight"
+      for=""
+    >
+      Nutzungsart
+    </label>
+     
+    <div
+      class="v-select vs--single vs--unsearchable"
+      dir="auto"
+    >
+       
+      <div
+        aria-expanded="false"
+        aria-label="Search for option"
+        aria-owns="vs27__listbox"
+        class="vs__dropdown-toggle"
+        id="vs27__combobox"
+        role="combobox"
+      >
+        <div
+          class="vs__selected-options"
+        >
+          <span
+            class="vs__selected"
+          >
+            
+            Alle
+           
+            <!---->
+          </span>
+           
+          <input
+            aria-autocomplete="list"
+            aria-controls="vs27__listbox"
+            aria-labelledby="vs27__combobox"
+            autocomplete="off"
+            class="vs__search"
+            id=""
+            readonly="readonly"
+            type="search"
+          />
+        </div>
+         
+        <div
+          class="vs__actions"
+        >
+          <button
+            aria-label="Clear Selected"
+            class="vs__clear"
+            style="display: none;"
+            title="Clear Selected"
+            type="button"
+          >
+            <svg
+              height="10"
+              width="10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.895455 5l2.842897-2.842898c.348864-.348863.348864-.914488 0-1.263636L9.106534.261648c-.348864-.348864-.914489-.348864-1.263636 0L5 3.104545 2.157102.261648c-.348863-.348864-.914488-.348864-1.263636 0L.261648.893466c-.348864.348864-.348864.914489 0 1.263636L3.104545 5 .261648 7.842898c-.348864.348863-.348864.914488 0 1.263636l.631818.631818c.348864.348864.914773.348864 1.263636 0L5 6.895455l2.842898 2.842897c.348863.348864.914772.348864 1.263636 0l.631818-.631818c.348864-.348864.348864-.914489 0-1.263636L6.895455 5z"
+              />
+            </svg>
+          </button>
+           
+          <svg
+            class="vs__open-indicator"
+            height="10"
+            role="presentation"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z"
+            />
+          </svg>
+           
+          <div
+            class="vs__spinner"
+            style="display: none;"
+          >
+            Loading...
+          </div>
+        </div>
+      </div>
+       
+      <ul
+        id="vs27__listbox"
+        role="listbox"
+        style="display: none; visibility: hidden;"
+      />
+       
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots VacancyCard Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <span>
+    Loading...
+  </span>
+</div>
+`;
+
+exports[`Storyshots VacancyCardComponent Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <span
+    class="text-2xl text-orange-600"
+  >
+    15.67%
+  </span>
+   
+  <span
+    class="text-base text-gray-500"
+  >
+    Leerstandsquote am 
+    <span
+      class="text-base text-black"
+    >
+      28. Okt
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Storyshots VacancyLineChart Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <div
+    class="flex flex-wrap bg-gray-200 p-2 w-full"
+  >
+    <div
+      class="w-full grid grid-cols-1 lg:grid-cols-7 gap-1"
+    >
+      <div
+        class="lg:col-span-4"
+      >
+        <h4
+          class="text-lg text-gray-600"
+        >
+          
+          Wie entwickelt sich der 
+          <span
+            class="text-lg text-orange-600"
+          >
+            Leerstand
+          </span>
+          ?
+        
+        </h4>
+         
+        <span
+          class="text-base text-gray-500"
+        >
+          
+          Klicke auf eine Position um die anderen Grafiken zu filtern.
+        
+        </span>
+      </div>
+       
+      <div
+        class="grid grid-cols-1 lg:col-span-3 gap-2"
+      >
+        <div
+          class="v-select vs--single vs--unsearchable"
+          dir="auto"
+        >
+           
+          <div
+            aria-expanded="false"
+            aria-label="Search for option"
+            aria-owns="vs28__listbox"
+            class="vs__dropdown-toggle"
+            id="vs28__combobox"
+            role="combobox"
+          >
+            <div
+              class="vs__selected-options"
+            >
+              <span
+                class="vs__selected"
+              >
+                
+            Mandant
+           
+                <!---->
+              </span>
+               
+              <input
+                aria-autocomplete="list"
+                aria-controls="vs28__listbox"
+                aria-labelledby="vs28__combobox"
+                autocomplete="off"
+                class="vs__search"
+                readonly="readonly"
+                type="search"
+              />
+            </div>
+             
+            <div
+              class="vs__actions"
+            >
+              <button
+                aria-label="Clear Selected"
+                class="vs__clear"
+                style="display: none;"
+                title="Clear Selected"
+                type="button"
+              >
+                <svg
+                  height="10"
+                  width="10"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.895455 5l2.842897-2.842898c.348864-.348863.348864-.914488 0-1.263636L9.106534.261648c-.348864-.348864-.914489-.348864-1.263636 0L5 3.104545 2.157102.261648c-.348863-.348864-.914488-.348864-1.263636 0L.261648.893466c-.348864.348864-.348864.914489 0 1.263636L3.104545 5 .261648 7.842898c-.348864.348863-.348864.914488 0 1.263636l.631818.631818c.348864.348864.914773.348864 1.263636 0L5 6.895455l2.842898 2.842897c.348863.348864.914772.348864 1.263636 0l.631818-.631818c.348864-.348864.348864-.914489 0-1.263636L6.895455 5z"
+                  />
+                </svg>
+              </button>
+               
+              <svg
+                class="vs__open-indicator"
+                height="10"
+                role="presentation"
+                width="14"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z"
+                />
+              </svg>
+               
+              <div
+                class="vs__spinner"
+                style="display: none;"
+              >
+                Loading...
+              </div>
+            </div>
+          </div>
+           
+          <ul
+            id="vs28__listbox"
+            role="listbox"
+            style="display: none; visibility: hidden;"
+          />
+           
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <linechart
+    data=""
+    dateprop="date"
+    format="percent"
+    handle-bullet-hit="function () { [native code] }"
+    handle-legend-hit="function () { [native code] }"
+    valueprop="value"
+  />
+</div>
+`;
+
+exports[`Storyshots VacancyLineChartComponent Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <div
+    class="flex flex-wrap bg-gray-200 p-2 w-full"
+  >
+    <div
+      class="w-full grid grid-cols-1 lg:grid-cols-7 gap-1"
+    >
+      <div
+        class="lg:col-span-4"
+      >
+        <h4
+          class="text-lg text-gray-600"
+        >
+          
+          Wie entwickelt sich der 
+          <span
+            class="text-lg text-orange-600"
+          >
+            Leerstand
+          </span>
+          ?
+        
+        </h4>
+         
+        <span
+          class="text-base text-gray-500"
+        >
+          
+          Klicke auf eine Position um die anderen Grafiken zu filtern.
+        
+        </span>
+      </div>
+       
+      <div
+        class="grid grid-cols-1 lg:col-span-3 gap-2"
+      >
+        <div
+          class="v-select vs--single vs--unsearchable"
+          dir="auto"
+        >
+           
+          <div
+            aria-expanded="false"
+            aria-label="Search for option"
+            aria-owns="vs29__listbox"
+            class="vs__dropdown-toggle"
+            id="vs29__combobox"
+            role="combobox"
+          >
+            <div
+              class="vs__selected-options"
+            >
+              <span
+                class="vs__selected"
+              >
+                
+            Mandant
+           
+                <!---->
+              </span>
+               
+              <input
+                aria-autocomplete="list"
+                aria-controls="vs29__listbox"
+                aria-labelledby="vs29__combobox"
+                autocomplete="off"
+                class="vs__search"
+                readonly="readonly"
+                type="search"
+              />
+            </div>
+             
+            <div
+              class="vs__actions"
+            >
+              <button
+                aria-label="Clear Selected"
+                class="vs__clear"
+                style="display: none;"
+                title="Clear Selected"
+                type="button"
+              >
+                <svg
+                  height="10"
+                  width="10"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.895455 5l2.842897-2.842898c.348864-.348863.348864-.914488 0-1.263636L9.106534.261648c-.348864-.348864-.914489-.348864-1.263636 0L5 3.104545 2.157102.261648c-.348863-.348864-.914488-.348864-1.263636 0L.261648.893466c-.348864.348864-.348864.914489 0 1.263636L3.104545 5 .261648 7.842898c-.348864.348863-.348864.914488 0 1.263636l.631818.631818c.348864.348864.914773.348864 1.263636 0L5 6.895455l2.842898 2.842897c.348863.348864.914772.348864 1.263636 0l.631818-.631818c.348864-.348864.348864-.914489 0-1.263636L6.895455 5z"
+                  />
+                </svg>
+              </button>
+               
+              <svg
+                class="vs__open-indicator"
+                height="10"
+                role="presentation"
+                width="14"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.211364 7.59931l4.48338-4.867229c.407008-.441854.407008-1.158247 0-1.60046l-.73712-.80023c-.407008-.441854-1.066904-.441854-1.474243 0L7 5.198617 2.51662.33139c-.407008-.441853-1.066904-.441853-1.474243 0l-.737121.80023c-.407008.441854-.407008 1.158248 0 1.600461l4.48338 4.867228L7 10l2.211364-2.40069z"
+                />
+              </svg>
+               
+              <div
+                class="vs__spinner"
+                style="display: none;"
+              >
+                Loading...
+              </div>
+            </div>
+          </div>
+           
+          <ul
+            id="vs29__listbox"
+            role="listbox"
+            style="display: none; visibility: hidden;"
+          />
+           
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <linechart
+    data="[object Object],[object Object]"
+    dateprop="date"
+    format="percent"
+    handle-bullet-hit="event => {
+    console.log(event);
+  }"
+    handle-legend-hit="event => {
+    console.log(event);
+  }"
+    valueprop="value"
+  />
+</div>
+`;
+
+exports[`Storyshots WAULTCard Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <span>
+    Loading...
+  </span>
+</div>
+`;
+
+exports[`Storyshots WAULTCardComponent Example 1`] = `
+<div
+  class="flex flex-col w-full h-full justify-center items-center border-t border-r border-b border-l border-gray-400 bg-white rounded-b p-4 leading-normal"
+>
+  <span
+    class="text-2xl text-orange-600"
+  >
+    69.49
+  </span>
+   
+  <span
+    class="text-base text-gray-500"
+  >
+    WAULT am 
+    <span
+      class="text-base text-black"
+    >
+      28. Okt
+    </span>
+  </span>
+</div>
+`;
