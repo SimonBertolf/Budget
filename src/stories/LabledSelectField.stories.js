@@ -20,7 +20,7 @@ const Template = (args, { argTypes }) => ({
       this.value = value;
     },
   },
-  template: '<LabledSelectField :text="text" :id="id" :options="options" :selectedValue="value" @update-value="updateSelect"/>',
+  template: '<div><LabledSelectField :text="text" :id="id" :options="options" :selectedValue="value" @update-value="updateSelect"/><div>{{ value.label }}</div></div>',
 });
 
 export const Example = Template.bind({});

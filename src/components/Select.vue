@@ -1,13 +1,13 @@
 <template>
-  <v-select
-    :inputId="id"
-    :options="options"
-    :value="selectedValue"
-    @input="setSelected"
-    :clearable="false"
-    :searchable="false"
-  >
-  </v-select>
+    <v-select
+      :inputId="id"
+      :options="options"
+      :value="selectedValue"
+      @input="setSelected"
+      :clearable="false"
+      :searchable="false"
+    >
+    </v-select>
 </template>
 
 <script>
