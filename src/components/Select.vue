@@ -5,17 +5,18 @@
     :value="selectedValue"
     @input="setSelected"
     :clearable="false"
+    :searchable="false"
   >
   </v-select>
 </template>
 
 <script>
 export default {
-  name: 'SelectField',
+  name: 'Select',
   props: {
     id: {
       type: String,
-      required: true,
+      default: undefined,
     },
     selectedValue: {
       required: true,
