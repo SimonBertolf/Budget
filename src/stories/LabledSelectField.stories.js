@@ -1,14 +1,14 @@
 import { uuid } from 'vue-uuid';
-import SelectField from '../components/SelectField.vue';
+import LabledSelectField from '../components/LabledSelectField.vue';
 
 export default {
-  title: 'SelectField',
-  component: SelectField,
+  title: 'LabledSelectField',
+  component: LabledSelectField,
 };
 
 const Template = (args, { argTypes }) => ({
   props: Object.keys(argTypes),
-  components: { SelectField },
+  components: { LabledSelectField },
   data: () => ({
     value: {
       id: 0,
@@ -20,12 +20,13 @@ const Template = (args, { argTypes }) => ({
       this.value = value;
     },
   },
-  template: '<div><SelectField :id="id" :options="options" :selectedValue="value" @update-value="updateSelect"/><div>{{ value.id }}</div></div>',
+  template: '<div><LabledSelectField :text="text" :id="id" :options="options" :selectedValue="value" @update-value="updateSelect"/><div>{{ value.label }}</div></div>',
 });
 
 export const Example = Template.bind({});
 Example.args = {
   id: uuid.v4(),
+  text: 'TestLabel',
   options: [
     {
       id: 0,
