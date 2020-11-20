@@ -10,7 +10,7 @@ class database_budgetCycle {
 		$db = new class_database();
 		$cycle = null;
 		$cycle = $db->mysql->query("SELECT * FROM budget_cycle WHERE ID ='" . $id . "'")
-											->fetch_all();
+											->fetch_row();
 		return $cycle;
 	}
 	

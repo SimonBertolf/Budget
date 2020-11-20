@@ -10,7 +10,7 @@ class database_months {
 		$db = new class_database();
 		$months = null;
 		$months = $db->mysql->query("SELECT * FROM months WHERE ID ='" . $id . "'")
-											->fetch_all();
+											->fetch_row();
 		return $months;
 	}
 	

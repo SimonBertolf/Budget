@@ -10,7 +10,7 @@ class database_budgetType {
 		$db = new class_database();
 		$type = null;
 		$type = $db->mysql->query("SELECT * FROM budget_type WHERE ID ='" . $id . "'")
-											->fetch_all();
+											->fetch_row();
 		return $type;
 	}
 	
