@@ -1,5 +1,5 @@
 <template>
-  <div class="flex bg-blue-100 w-full h-screen justify-center overscroll-none">
+  <div class="flex bg-blue-100 w-full h-screen justify-center overscroll-none items-center">
     <slot></slot>
   </div>
 </template>
