@@ -4,7 +4,7 @@
 
 <script>
  var tot = 0;
-	import ButtonNav from './ButtonRaw';
+	import ButtonRaw from './ButtonRaw';
 
 	export default {
 		name: 'ButtonBudget',

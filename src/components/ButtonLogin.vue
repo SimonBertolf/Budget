@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import ButtonNav from './ButtonRaw.vue';
+import ButtonRaw from './ButtonRaw.vue';
 
 export default {
   name: 'ButtonLogin',

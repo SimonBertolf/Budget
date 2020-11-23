@@ -3,7 +3,7 @@
 </template>
 
 <script>
-	import ButtonNav from './ButtonRaw';
+	import ButtonRaw from './ButtonRaw';
 
 	export default {
 		name: 'ButtonHome',
