@@ -5,9 +5,9 @@
  */
 class class_database {
 	// User Daten
-	private $host = 'localhost';
+	private $host = '192.168.1.140';
 	private $user = 'root';
-	private $pw = 'root';
+	private $pw = '';
 	private $db = 'Budgetrechner';
 	public $mysql;
 	
