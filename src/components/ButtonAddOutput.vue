@@ -1,15 +1,15 @@
 <template>
-	<ButtonNav v-on:click.native="test" id="AddOutput"> Add Output </ButtonNav>
+	<ButtonRaw v-on:click.native="test" id="AddOutput"> Add Output </ButtonRaw>
 </template>
 
 <script>
-import ButtonNav from './ButtonNav.vue';
+import ButtonNav from './ButtonRaw.vue';
 
 let tot = 0;
 
 export default {
   name: 'ButtonAddOutput',
-  components: { ButtonNav },
+  components: { ButtonRaw },
   props: {},
   methods: {
     test() {

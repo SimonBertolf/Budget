@@ -1,15 +1,15 @@
 <template>
-	<ButtonNav v-on:click.native="test" id="AddIncome"> Add Income </ButtonNav>
+	<ButtonRaw v-on:click.native="test" id="AddIncome"> Add Income </ButtonRaw>
 </template>
 
 <script>
-import ButtonNav from './ButtonNav.vue';
+import ButtonNav from './ButtonRaw.vue';
 
 let tot = 0;
 
 export default {
   name: 'ButtonAddIncome',
-  components: { ButtonNav },
+  components: { ButtonRaw },
   props: {},
   methods: {
     test() {

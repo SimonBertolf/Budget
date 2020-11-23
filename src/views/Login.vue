@@ -1,16 +1,13 @@
 <template>
-  <AppLayout v-if="!itsUser">
-    <LoginForm />
-  </AppLayout>
+  <LoginPage/>
 </template>
 
 <script>
-import AppLayout from '../components/AppLayout.vue';
-import LoginForm from '../components/LoginForm.vue';
+import LoginPage from '../components/LoginPage.vue';
 
 export default {
   name: 'Login',
-  components: { LoginForm, AppLayout },
+  components: { LoginPage },
   mounted() {
     if (this.itsUser) this.$router.push({ path: '/' });
   },

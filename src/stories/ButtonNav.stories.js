@@ -1,5 +1,5 @@
 import { uuid } from 'vue-uuid';
-import ButtonNav from '../components/ButtonNav.vue';
+import ButtonNav from '../components/ButtonRaw.vue';
 
 export default {
   title: 'ButtonNav',

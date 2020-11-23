@@ -1,10 +1,10 @@
 <template>
-	<ButtonNav v-on:click.native="test" id="ButtonBudget"> Budget </ButtonNav>
+	<ButtonRaw v-on:click.native="test" id="ButtonBudget"> Budget </ButtonRaw>
 </template>
 
 <script>
  var tot = 0;
-	import ButtonNav from './ButtonNav';
+	import ButtonNav from './ButtonRaw';
 
 	export default {
 		name: 'ButtonBudget',

@@ -1,13 +1,13 @@
 <template>
-	<ButtonNav id="ButtonHome"> Home </ButtonNav>
+	<ButtonRaw id="ButtonHome"> Home </ButtonRaw>
 </template>
 
 <script>
-	import ButtonNav from './ButtonNav';
+	import ButtonNav from './ButtonRaw';
 
 	export default {
 		name: 'ButtonHome',
-		components: {ButtonNav},
+		components: {ButtonRaw},
 		props: {},
 	};
 </script>
