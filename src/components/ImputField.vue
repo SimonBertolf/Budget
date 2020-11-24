@@ -1,5 +1,5 @@
 <template>
-  <input :id="id" :type="type" :placeholder="desc" class="bg-blue-100 p-1 rounded">
+  <input :id="id" :type="type" :placeholder="desc" :value="value" @input="updateValue" class="bg-blue-100 p-1 rounded">
 </template>
 
 <script>
@@ -17,6 +17,15 @@ export default {
     type: {
       type: String,
       required: true,
+    },
+    value: {
+      type: String,
+      required: true,
+    },
+  },
+  methods: {
+    updateValue(event) {
+      this.$emit('customImput', event.target.value);
     },
   },
 };

@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col w-full">
     <TextMedium> {{ text }} </TextMedium>
-    <ImputField :id="id" :type="type"/>
+    <ImputField @custom-imput="updateValue" :value="value" :id="id" :type="type"/>
   </div>
 </template>
 
@@ -23,6 +23,14 @@ export default {
     },
     type: {
       type: String,
+      required: true,
+    },
+    value: {
+      type: String,
+      required: true,
+    },
+    updateValue: {
+      type: Function,
       required: true,
     },
   },

@@ -1,7 +1,7 @@
 <template>
-	<Button :id="id" type="submit" class="bg-gray-300 p-1 rounded w-full ">
+	<button :id="id" type="submit" class="bg-gray-300 p-1 rounded w-full ">
 		<slot></slot>
-	</Button>
+	</button>
 </template>
 
 <script>
