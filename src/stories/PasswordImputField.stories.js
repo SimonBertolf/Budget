@@ -7,8 +7,13 @@ export default {
 
 const Template = () => ({
   components: { PasswordImputField },
-  template: '<PasswordImputField/>',
+  template: '<PasswordImputField :update-pasword="updatePasword" :pasword="pasword"/>',
 });
 
 export const Example = Template.bind({});
-Example.args = {};
+Example.args = {
+  pasword: 'test',
+  updatePasword(pasword) {
+    console.log(pasword);
+  },
+};

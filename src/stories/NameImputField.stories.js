@@ -7,8 +7,13 @@ export default {
 
 const Template = () => ({
   components: { NameImputField },
-  template: '<NameImputField/>',
+  template: '<NameImputField :update-name="updateName" :name="name"/>',
 });
 
 export const Example = Template.bind({});
-Example.args = {};
+Example.args = {
+  name: '',
+  updateName(name) {
+    console.log(name);
+  },
+};

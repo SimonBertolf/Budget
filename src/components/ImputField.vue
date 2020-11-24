@@ -26,6 +26,7 @@ export default {
   methods: {
     updateValue(event) {
       this.$emit('customImput', event.target.value);
+      console.log(event.target.value);
     },
   },
 };
