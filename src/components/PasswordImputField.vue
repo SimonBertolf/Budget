@@ -1,5 +1,10 @@
 <template>
-  <LabledImputField :update-value="updatePasword" :value="pasword" id="LoginPassword" type="password" text="Password"/>
+  <LabledImputField
+    :update-value="updatePasword"
+    :value="pasword"
+    id="LoginPassword"
+    type="password"
+    text="Password"/>
 </template>
 
 <script>

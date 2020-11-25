@@ -15,7 +15,7 @@ export default {
     if (from === 'Login' && this.$store.user) {
       next('/home');
     } else {
-      next('/login');
+      next();
     }
   },
 };

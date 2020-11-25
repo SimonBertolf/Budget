@@ -1,5 +1,10 @@
 <template>
-  <LabledImputField :update-value="updateName" :value="name" id="LoginName" type="text" text="Name"/>
+  <LabledImputField
+    :update-value="updateName"
+    :value="name"
+    id="LoginName"
+    type="text"
+    text="Name"/>
 </template>
 
 <script>
