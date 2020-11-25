@@ -3,13 +3,13 @@
 </template>
 
 <script>
-	import ButtonRaw from './ButtonRaw';
+import ButtonRaw from './ButtonRaw';
 
-	export default {
-		name: 'ButtonHome',
-		components: {ButtonRaw},
-		props: {},
-	};
+export default {
+  name: 'ButtonHome',
+  components: { ButtonRaw },
+  props: {},
+};
 </script>
 
 <style scoped>

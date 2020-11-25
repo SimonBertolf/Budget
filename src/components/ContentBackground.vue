@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "ContentBackground",
+  name: 'ContentBackground',
 };
 </script>
 

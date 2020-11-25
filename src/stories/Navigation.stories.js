@@ -1,5 +1,5 @@
+import { uuid } from 'vue-uuid';
 import Navigation from '../components/Navigation.vue';
-import {uuid} from "vue-uuid";
 
 export default {
   title: 'Navigation',
@@ -13,6 +13,6 @@ const Template = () => ({
 
 export const Example = Template.bind({});
 Example.args = {
-	id: uuid.v4(),
-	text: 'Placeholder',
+  id: uuid.v4(),
+  text: 'Placeholder',
 };

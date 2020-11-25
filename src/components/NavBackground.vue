@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "NavBackground",
+  name: 'NavBackground',
 };
 </script>
 

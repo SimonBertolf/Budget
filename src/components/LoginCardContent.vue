@@ -6,6 +6,7 @@
         <NameImputField :name="name" :update-name="updateName"/>
         <PasswordImputField :pasword="pasword" :update-pasword="updatePasword"/>
         <br>
+        <div v-if="error" class="bg-red-300">Paswor falsscgodfxgbok</div>
         <ButtonLogin/>
       </form>
     </div>
@@ -28,6 +29,7 @@ export default {
   data: () => ({
     name: '',
     pasword: '',
+    error: false,
   }),
   methods: {
     updateName(name) {
@@ -38,7 +40,14 @@ export default {
     },
     login() {
       axios.get(`http://192.168.1.140/BudgetBackend/server.php?action=login&name=${this.name}&pasword=${this.pasword}`).then((response) => {
-        console.log(response);
+        const { data } = response;
+        if (data) {
+          console.log(this);
+          this.$store.commit('setUser', data);
+          this.$router.push({ path: '/' });
+        } else {
+          this.error = true;
+        }
       });
     },
   },

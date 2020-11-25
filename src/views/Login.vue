@@ -9,8 +9,15 @@ import Background from '../components/Background.vue';
 import LoginCardContent from '../components/LoginCardContent.vue';
 
 export default {
-  name: 'LoginPage',
+  name: 'Login',
   components: { LoginCardContent, Background },
+  beforeRouteEnter(to, from, next) {
+    if (from === 'Login' && this.$store.user) {
+      next('/home');
+    } else {
+      next('/login');
+    }
+  },
 };
 </script>
 

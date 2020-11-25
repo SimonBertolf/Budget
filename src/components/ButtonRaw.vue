@@ -5,15 +5,15 @@
 </template>
 
 <script>
-	export default {
-		name: 'ButtonRaw',
-		props: {
-			id: {
-				type: String,
-				required: true,
-			},
-		},
-	};
+export default {
+  name: 'ButtonRaw',
+  props: {
+    id: {
+      type: String,
+      required: true,
+    },
+  },
+};
 </script>
 
 <style scoped>

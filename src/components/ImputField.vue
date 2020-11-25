@@ -29,7 +29,7 @@ export default {
   },
   methods: {
     updateValue(event) {
-      this.$emit('customImput', event.target.value);
+      this.$emit('custom-imput', event.target.value);
     },
   },
 };
