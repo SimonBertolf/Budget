@@ -5,7 +5,8 @@
     :placeholder="desc"
     :value="value" @input="updateValue"
     :required="required"
-    class="bg-blue-100 p-1 rounded">
+    class="bg-blue-100 p-1 rounded"
+  >
 </template>
 
 <script>
