@@ -5,7 +5,8 @@ export default {
   component: NameImputField,
 };
 
-const Template = () => ({
+const Template = (args, { argTypes }) => ({
+  props: Object.keys(argTypes),
   components: { NameImputField },
   template: '<NameImputField :update-name="updateName" :name="name"/>',
 });
@@ -14,6 +15,5 @@ export const Example = Template.bind({});
 Example.args = {
   name: '',
   updateName(name) {
-    console.log(name);
   },
 };

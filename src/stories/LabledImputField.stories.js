@@ -19,6 +19,5 @@ Example.args = {
   text: 'TestLabel',
   value: '',
   updateValue(value) {
-    console.log(value);
   },
 };

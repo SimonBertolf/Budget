@@ -4,7 +4,7 @@
     <div class="justify-around">
       <form @submit.prevent="login">
         <NameImputField :name="name" :update-name="updateName"/>
-        <PasswordImputField/>
+        <PasswordImputField :pasword="pasword" :update-pasword="updatePasword"/>
         <br>
         <ButtonLogin/>
       </form>
@@ -30,16 +30,16 @@ export default {
     pasword: '',
   }),
   methods: {
-    login() {
-      axios.get(`http://192.168.1.140/BudgetBackend/server.php?action=signin&name=${this.name}&pasword=${this.pasword}`).then((response) => {
-        console.log(response);
-      });
-    },
     updateName(name) {
       this.name = name;
     },
     updatePasword(pasword) {
       this.pasword = pasword;
+    },
+    login() {
+      axios.get(`http://192.168.1.140/BudgetBackend/server.php?action=login&name=${this.name}&pasword=${this.pasword}`).then((response) => {
+        console.log(response);
+      });
     },
   },
 };
