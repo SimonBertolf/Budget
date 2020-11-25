@@ -1,4 +1,4 @@
-import LoginPage from '../components/LoginPage.vue';
+import LoginPage from '../views/Login.vue';
 
 export default {
   title: 'LoginPage',

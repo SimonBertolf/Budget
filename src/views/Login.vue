@@ -1,21 +1,16 @@
 <template>
-  <LoginPage/>
+  <Background>
+    <loginCardContent/>
+  </Background>
 </template>
 
 <script>
-import LoginPage from '../components/LoginPage.vue';
+import Background from '../components/Background.vue';
+import LoginCardContent from '../components/LoginCardContent.vue';
 
 export default {
-  name: 'Login',
-  components: { LoginPage },
-  mounted() {
-    if (this.itsUser) this.$router.push({ path: '/' });
-  },
-  computed: {
-    itsUser() {
-      return this.$store.state.user.user;
-    },
-  },
+  name: 'LoginPage',
+  components: { LoginCardContent, Background },
 };
 </script>
 
