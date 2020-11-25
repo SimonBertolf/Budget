@@ -1,5 +1,5 @@
 <template>
-  <input :id="id" :type="type" :placeholder="desc" :value="value" @input="updateValue" class="bg-blue-100 p-1 rounded">
+  <input :id="id" :type="type" :placeholder="desc" :value="value" @input="updateValue" :required="required" class="bg-blue-100 p-1 rounded">
 </template>
 
 <script>
@@ -21,6 +21,10 @@ export default {
     value: {
       type: String,
       required: true,
+    },
+    required: {
+      type: Boolean,
+      default: true,
     },
   },
   methods: {
