@@ -1,12 +1,12 @@
 <template>
-    <ButtonRaw id="ButtonLogin"> Log-In </ButtonRaw>
+    <ButtonRaw id="ButtonSignin"> Sign-In </ButtonRaw>
 </template>
 
 <script>
 import ButtonRaw from './ButtonRaw.vue';
 
 export default {
-  name: 'ButtonLogin',
+  name: 'ButtonSignin',
   components: { ButtonRaw },
 };
 </script>

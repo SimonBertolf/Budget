@@ -1,13 +1,13 @@
 <template>
   <LoginCard>
-    <HighlightMedium text="Log-In"/>
+    <HighlightMedium text="Sign-In"/>
     <div class="justify-around">
-      <form @submit.prevent="login">
+      <form @submit.prevent="signin">
         <NameImputField :name="name" :update-name="updateName"/>
         <PasswordImputField :pasword="pasword" :update-pasword="updatePasword"/>
         <br>
-        <div v-if="error" class="bg-red-300">Pasword oder Name ist falsch</div>
-        <ButtonLogin/>
+        <div v-if="error" class="bg-red-300">User Existiert bereits</div>
+        <ButtonSignin/>
       </form>
     </div>
   </LoginCard>
@@ -19,12 +19,12 @@ import LoginCard from './LoginCard.vue';
 import NameImputField from './NameImputField.vue';
 import PasswordImputField from './PasswordImputField.vue';
 import HighlightMedium from './HighlightMedium.vue';
-import ButtonLogin from './ButtonLogin.vue';
+import ButtonSignin from './ButtonSignin.vue';
 
 export default {
   name: 'LoginCardContent',
   components: {
-    LoginCard, NameImputField, PasswordImputField, HighlightMedium, ButtonLogin,
+    ButtonSignin, LoginCard, NameImputField, PasswordImputField, HighlightMedium,
   },
   data: () => ({
     name: '',
@@ -39,10 +39,9 @@ export default {
       this.pasword = pasword;
     },
     login() {
-      axios.get(`http://192.168.1.140/BudgetBackend/server.php?action=login&name=${this.name}&pasword=${this.pasword}`).then((response) => {
+      axios.get(`http://192.168.1.140/BudgetBackend/server.php?action=signing&name=${this.name}&pasword=${this.pasword}`).then((response) => {
         const { data } = response;
         if (data) {
-          this.$store.commit('setUser', data);
           this.$router.push({ path: '/' });
         } else {
           this.error = true;
