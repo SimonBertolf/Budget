@@ -42,7 +42,6 @@ export default {
       axios.get(`http://192.168.1.140/BudgetBackend/server.php?action=login&name=${this.name}&pasword=${this.pasword}`).then((response) => {
         const { data } = response;
         if (data) {
-          console.log(this);
           this.$store.commit('setUser', data);
           this.$router.push({ path: '/' });
         } else {
