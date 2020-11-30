@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col justify-around sm:w-2/5 bg-blue-100 p-2">
+  <div class="flex flex-col justify-around sm:w-3/5 bg-blue-500 p-2 rounded">
     <slot></slot>
   </div>
 </template>
