@@ -30,18 +30,21 @@ import ButtonAdd from './ButtonAdd.vue';
 export default {
   name: 'ImputBoxTemplate',
   components: {
-    ButtonAdd, LabledImputField, Box, ImputBox, HighlightMedium },
+    ButtonAdd, LabledImputField, Box, ImputBox, HighlightMedium,
+  },
   props: {
     text: {
       type: String,
       required: true,
     },
-    value: {
-      type: String,
-      required: true,
-    },
     updateValue: {
       type: Function,
+      required: true,
+    },
+  },
+  computed: {
+    value: {
+      type: String,
       required: true,
     },
   },

@@ -11,19 +11,9 @@ import ImputBoxTemplate from './ImputBoxTemplate.vue';
 export default {
   name: 'ImputBoxOutput',
   components: { ImputBoxTemplate },
-  props: {
-    value: {
-      type: String,
-      required: true,
-    },
-    usage: {
-      type: String,
-      required: true,
-    },
-  },
   data: () => ({
     value: '',
-    usage: '',
+    usage: '1',
   }),
   methods: {
     updateValue(value) {
@@ -32,7 +22,7 @@ export default {
     updateUsage(usage) {
       this.usage = usage;
     },
-    addOutput() {
+    addIncomme() {
       axios.get(`http://192.168.1.140/BudgetBackend/server.php?action=addIncome&value=${this.value}&usage=${this.usage}`).then((response) => {
         const { data } = response;
         console.log(data);

@@ -11,19 +11,9 @@ import ImputBoxTemplate from './ImputBoxTemplate.vue';
 export default {
   name: 'ImputBoxOutput',
   components: { ImputBoxTemplate },
-  props: {
-    value: {
-      type: String,
-      required: true,
-    },
-    usage: {
-      type: String,
-      required: true,
-    },
-  },
   data: () => ({
     value: '',
-    usage: '',
+    usage: '1',
   }),
   methods: {
     updateValue(value) {
