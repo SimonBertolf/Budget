@@ -1,16 +1,13 @@
 <template>
-  <Background>
-    <loginCardContent/>
-  </Background>
+    <PageLogin/>
 </template>
 
 <script>
-import Background from '../components/Background.vue';
-import LoginCardContent from '../components/LoginCardContent.vue';
+import PageLogin from '../components/PageLogin.vue';
 
 export default {
   name: 'Login',
-  components: { LoginCardContent, Background },
+  components: { PageLogin },
   beforeRouteEnter(to, from, next) {
     if (from === 'Login' && this.$store.user) {
       next('/home');

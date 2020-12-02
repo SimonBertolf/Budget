@@ -6,7 +6,7 @@
         <LoginImputFieldName :name="name" :update-name="updateName"/>
         <LoginImputFieldPassword :pasword="pasword" :update-pasword="updatePasword"/>
         <br>
-        <div v-if="error" class="text-red-500">Pasword oder Name ist falsch</div>
+        <div v-if="error" class="text-red-500">Pasword or Name is wrong</div>
         <LoginButton id="login"/>
       </form>
     </div>

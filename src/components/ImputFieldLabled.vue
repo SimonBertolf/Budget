@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col w-full">
+  <div class="flex flex-col w-full justify-start">
     <TextMedium> {{ text }} </TextMedium>
     <ImputField @custom-imput="updateValue" :value="value" :id="id" :type="type" :color="colore"/>
   </div>
@@ -36,7 +36,7 @@ export default {
     colore: {
       type: String,
       default: 'bg-gray-100',
-    }
+    },
   },
 };
 </script>

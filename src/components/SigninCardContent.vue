@@ -1,13 +1,13 @@
 <template>
   <LoginCard>
-    <HighlightMedium text="Sign-In"/>
+    <HighlightLarge text="Budget Calculator 3000" color="text-black"/>
     <div class="justify-around">
-      <form @submit.prevent="signin">
-        <NameImputField :name="name" :update-name="updateName"/>
-        <PasswordImputField :pasword="pasword" :update-pasword="updatePasword"/>
+      <form @submit.prevent="login">
+        <LoginImputFieldName :name="name" :update-name="updateName"/>
+        <LoginImputFieldPassword :pasword="pasword" :update-pasword="updatePasword"/>
         <br>
-        <div v-if="error" class="bg-red-300">User Existiert bereits</div>
-        <ButtonSignin/>
+        <div v-if="error" class="text-red-500">Username exist</div>
+        <SigninButton id="signin"/>
       </form>
     </div>
   </LoginCard>
@@ -16,15 +16,15 @@
 <script>
 import axios from 'axios';
 import LoginCard from './LoginCard.vue';
-import NameImputField from './NameImputField.vue';
-import PasswordImputField from './PasswordImputField.vue';
-import HighlightMedium from './HighlightMedium.vue';
-import ButtonSignin from './ButtonSignin.vue';
+import LoginImputFieldName from './LoginImputFieldName.vue';
+import LoginImputFieldPassword from './LoginImputFieldPassword.vue';
+import HighlightLarge from './HighlightLarge.vue';
+import SigninButton from './SigninButton.vue';
 
 export default {
   name: 'LoginCardContent',
   components: {
-    ButtonSignin, LoginCard, NameImputField, PasswordImputField, HighlightMedium,
+    LoginCard, LoginImputFieldName, LoginImputFieldPassword, HighlightLarge, SigninButton,
   },
   data: () => ({
     name: '',
@@ -38,10 +38,11 @@ export default {
     updatePasword(pasword) {
       this.pasword = pasword;
     },
-    signin() {
+    login() {
       axios.get(`http://192.168.1.140/BudgetBackend/server.php?action=signin&name=${this.name}&pasword=${this.pasword}`).then((response) => {
         const { data } = response;
         if (data) {
+          this.$store.commit('setUser', data);
           this.$router.push({ path: '/' });
         } else {
           this.error = true;
