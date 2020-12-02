@@ -13,12 +13,12 @@ const routes = [
     component: Home,
   },
   {
-    path: '/login',
+    path: 'login',
     name: 'Login',
     component: Login,
   },
   {
-    path: '/signin',
+    path: '/',
     name: 'Signin',
     component: Signin,
   },

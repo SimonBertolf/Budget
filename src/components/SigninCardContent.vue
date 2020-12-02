@@ -38,8 +38,8 @@ export default {
     updatePasword(pasword) {
       this.pasword = pasword;
     },
-    login() {
-      axios.get(`http://192.168.1.140/BudgetBackend/server.php?action=signing&name=${this.name}&pasword=${this.pasword}`).then((response) => {
+    signin() {
+      axios.get(`http://192.168.1.140/BudgetBackend/server.php?action=signin&name=${this.name}&pasword=${this.pasword}`).then((response) => {
         const { data } = response;
         if (data) {
           this.$router.push({ path: '/' });
