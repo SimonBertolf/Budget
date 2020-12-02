@@ -8,10 +8,10 @@ export default {
 const Template = (args, { argTypes }) => ({
   props: Object.keys(argTypes),
   components: { MenueButton },
-  template: '<MenueButton> {{ text }} </MenueButton>',
+  template: '<MenueButton :value="value"/>',
 });
 
 export const Example = Template.bind({});
 Example.args = {
-  text: '...',
+  value: true,
 };

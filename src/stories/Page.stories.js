@@ -8,10 +8,11 @@ export default {
 const Template = (args, { argTypes }) => ({
   props: Object.keys(argTypes),
   components: { Page },
-  template: '<Page>{{ content }}</Page>',
+  template: '<Page :value="value"></Page>',
 });
 
 export const Example = Template.bind({});
 Example.args = {
   content: 'content',
+  value: true,
 };
