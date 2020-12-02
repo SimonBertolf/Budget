@@ -11,7 +11,7 @@ export default {
   props: {
     slide: {
       type: Boolean,
-      default: true,
+      required: true,
     },
   },
 };

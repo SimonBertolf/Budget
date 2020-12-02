@@ -20,7 +20,7 @@ export default {
     },
     slide: {
       type: Boolean,
-      default: true,
+      required: true,
     },
     id: {
       type: String,

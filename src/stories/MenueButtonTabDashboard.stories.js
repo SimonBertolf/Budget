@@ -8,7 +8,7 @@ export default {
 const Template = (args, { argTypes }) => ({
   props: Object.keys(argTypes),
   components: { MenueButtonTabDashboard },
-  template: '<MenueButtonTabDashboard :slide="slide" :text-big="textBig" :text-small="textSmall" :id="id"/>',
+  template: '<MenueButtonTabDashboard :slide="slide"/>',
 });
 
 export const Example = Template.bind({});
