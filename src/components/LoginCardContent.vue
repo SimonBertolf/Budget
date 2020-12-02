@@ -1,13 +1,13 @@
 <template>
   <LoginCard>
-    <HighlightMedium text="Log-In"/>
+    <HighlightLarge text="Budget Calculator 3000" color="text-black"/>
     <div class="justify-around">
       <form @submit.prevent="login">
-        <NameImputField :name="name" :update-name="updateName"/>
-        <PasswordImputField :pasword="pasword" :update-pasword="updatePasword"/>
+        <LoginImputFieldName :name="name" :update-name="updateName"/>
+        <LoginImputFieldPassword :pasword="pasword" :update-pasword="updatePasword"/>
         <br>
-        <div v-if="error" class="bg-red-300">Pasword oder Name ist falsch</div>
-        <ButtonLogin/>
+        <div v-if="error" class="text-red-500">Pasword oder Name ist falsch</div>
+        <LoginButton id="login"/>
       </form>
     </div>
   </LoginCard>
@@ -16,15 +16,15 @@
 <script>
 import axios from 'axios';
 import LoginCard from './LoginCard.vue';
-import NameImputField from './NameImputField.vue';
-import PasswordImputField from './PasswordImputField.vue';
-import HighlightMedium from './HighlightMedium.vue';
-import ButtonLogin from './ButtonLogin.vue';
+import LoginImputFieldName from './LoginImputFieldName.vue';
+import LoginImputFieldPassword from './LoginImputFieldPassword.vue';
+import HighlightLarge from './HighlightLarge.vue';
+import LoginButton from './LoginButton.vue';
 
 export default {
   name: 'LoginCardContent',
   components: {
-    LoginCard, NameImputField, PasswordImputField, HighlightMedium, ButtonLogin,
+    LoginCard, LoginImputFieldName, LoginImputFieldPassword, HighlightLarge, LoginButton,
   },
   data: () => ({
     name: '',

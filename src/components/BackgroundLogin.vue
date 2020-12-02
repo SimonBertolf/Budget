@@ -9,7 +9,7 @@ export default {
   name: 'Background',
   computed: {
     classes() {
-      return 'bg-gray-500 h-screen w-full justify-start content-center flex flex-coll';
+      return 'bg-gray-300 h-screen w-full flex items-center justify-center';
     },
   },
 };

@@ -5,7 +5,7 @@
     :placeholder="desc"
     :value="value" @input="updateValue"
     :required="required"
-    class="bg-blue-100 p-1 rounded"
+    :class="classes"
   >
 </template>
 
@@ -33,10 +33,19 @@ export default {
       type: Boolean,
       default: true,
     },
+    color: {
+      type: String,
+      default: 'bg-gray-100',
+    },
   },
   methods: {
     updateValue(event) {
       this.$emit('custom-imput', event.target.value);
+    },
+  },
+  computed: {
+    classes() {
+      return `p-1 rounded w-full ${this.color}`;
     },
   },
 };
