@@ -1,11 +1,6 @@
 <template>
   <Background>
-    <BackgroundMenueBig v-if="value">
-      <slot>yvsy</slot>
-    </BackgroundMenueBig>
-    <BackgroundMenueSmall v-else>
-      <slot>Text</slot>
-    </BackgroundMenueSmall>
+    <MenueContent :slide="value"/>
     <MenueButtonSlide @slide="slide" :value="value" :text="text"/>
     <BackgroundContent>
       <slot></slot>
@@ -16,14 +11,13 @@
 <script>
 import Background from './Background.vue';
 import BackgroundContent from './BackgroundContent.vue';
-import BackgroundMenueBig from './BackgroundMenueBig.vue';
-import BackgroundMenueSmall from './BackgroundMenueSmall.vue';
+import MenueContent from './MenueContent.vue';
 import MenueButtonSlide from './MenueButtonSlide.vue';
 
 export default {
   name: 'Page',
   components: {
-    Background, BackgroundContent, BackgroundMenueBig, BackgroundMenueSmall, MenueButtonSlide,
+    Background, BackgroundContent, MenueContent, MenueButtonSlide,
   },
   data: () => ({
     value: true,

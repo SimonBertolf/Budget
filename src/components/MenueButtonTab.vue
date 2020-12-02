@@ -30,9 +30,9 @@ export default {
   computed: {
     classes() {
       if (this.slide) {
-        return 'bg-gradient-to-r from-red-600 to-red-800 h-8 w-full text-gray-300 ';
+        return 'bg-gradient-to-r from-red-600 to-red-800 h-16 w-full text-gray-300 text-xl';
       }
-      return 'bg-gradient-to-r from-red-600 to-red-800 h-16 w-full text-gray-300 font-bold text-3xl';
+      return 'bg-gradient-to-r from-red-600 to-red-800 h-20 w-full text-gray-300 font-bold text-3xl';
     },
   },
 };

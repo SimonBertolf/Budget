@@ -4,7 +4,8 @@
     <text-large>3000</text-large>
   </div>
   <div v-else :class="classes1">
-    <highlight-large text="BC3000"/>
+    <highlight-large text="BC"/>
+    <highlight-large text="3000"/>
   </div>
 </template>
 
@@ -23,7 +24,7 @@ export default {
   },
   computed: {
     classes() {
-      return 'w-full h-20 justify-center text-center flex flex-col';
+      return 'w-full h-26 justify-center text-center flex flex-col';
     },
     classes1() {
       return 'w-full h-24 justify-center text-center flex flex-col';
