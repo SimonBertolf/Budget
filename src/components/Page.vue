@@ -6,7 +6,7 @@
     <BackgroundMenueSmall v-else>
       <slot>Text</slot>
     </BackgroundMenueSmall>
-    <MenueButton @slide="slide" :value="value" :text="text"/>
+    <MenueButtonSlide @slide="slide" :value="value" :text="text"/>
     <BackgroundContent>
       <slot></slot>
     </BackgroundContent>
@@ -18,12 +18,12 @@ import Background from './Background.vue';
 import BackgroundContent from './BackgroundContent.vue';
 import BackgroundMenueBig from './BackgroundMenueBig.vue';
 import BackgroundMenueSmall from './BackgroundMenueSmall.vue';
-import MenueButton from './MenueButton.vue';
+import MenueButtonSlide from './MenueButtonSlide.vue';
 
 export default {
   name: 'Page',
   components: {
-    Background, BackgroundContent, BackgroundMenueBig, BackgroundMenueSmall, MenueButton,
+    Background, BackgroundContent, BackgroundMenueBig, BackgroundMenueSmall, MenueButtonSlide,
   },
   data: () => ({
     value: true,

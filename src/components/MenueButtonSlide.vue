@@ -7,7 +7,7 @@
 <script>
 
 export default {
-  name: 'MenueBudget',
+  name: 'MenueButtonSlide',
   props: {
     text: {
       type: String,

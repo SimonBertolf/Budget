@@ -8,7 +8,7 @@ export default {
 const Template = (args, { argTypes }) => ({
   props: Object.keys(argTypes),
   components: { BackgroundMenueBig },
-  template: '<BackgroundMenueBig><div class="h-10 w-10 bg-red-300">{{ content }}</div><div class="h-10 w-10 bg-red-300">{{ content }}</div><div class="h-10 w-10 bg-red-300">{{ content }}</div><div class="h-10 w-10 bg-red-300">{{ content }}</div></BackgroundMenueBig>',
+  template: '<BackgroundMenueBig>{{ content }}</BackgroundMenueBig>',
 });
 
 export const Example = Template.bind({});
