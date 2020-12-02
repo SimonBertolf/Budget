@@ -5,9 +5,13 @@ export default {
   component: Background,
 };
 
-const Template = () => ({
+const Template = (args, { argTypes }) => ({
+  props: Object.keys(argTypes),
   components: { Background },
-  template: '<Background><div>Content</div></Background>',
+  template: '<Background><div>{{ content }}</div></Background>',
 });
 
 export const Example = Template.bind({});
+Example.args = {
+  content: 'content',
+};
