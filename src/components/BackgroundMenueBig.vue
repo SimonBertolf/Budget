@@ -6,10 +6,10 @@
 
 <script>
 export default {
-  name: 'BackgroundContent',
+  name: 'BackgroundMenueBig',
   computed: {
     classes() {
-      return 'bg-white h-5/6 w-11/12 p-52 justify-center content-center flex flex-wrap rounded m-5';
+      return 'bg-white h-5/6 w-1/6 justify-center content-center flex flex-col rounded-tr rounded-br';
     },
   },
 };

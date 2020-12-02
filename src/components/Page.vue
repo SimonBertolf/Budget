@@ -1,8 +1,11 @@
 <template>
   <Background>
-    <BackgroundMenue>
+<!--    <BackgroundMenueBig>-->
+<!--      <slot></slot>-->
+<!--    </BackgroundMenueBig>-->
+    <BackgroundMenueSmall>
       <slot></slot>
-    </BackgroundMenue>
+    </BackgroundMenueSmall>
     <BackgroundContent>
       <slot></slot>
     </BackgroundContent>
@@ -12,11 +15,15 @@
 <script>
 import Background from './Background.vue';
 import BackgroundContent from './BackgroundContent.vue';
-import BackgroundMenue from './BackgroundMenue.vue';
+// import BackgroundMenueBig from './BackgroundMenueBig.vue';
+import BackgroundMenueSmall from './BackgroundMenueSmall.vue';
 
 export default {
   name: 'Page',
-  components: { Background, BackgroundContent, BackgroundMenue },
+  components: {
+    // Background, BackgroundContent, BackgroundMenueBig,
+    Background, BackgroundContent, BackgroundMenueSmall,
+  },
 };
 </script>
 
