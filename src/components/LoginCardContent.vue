@@ -39,13 +39,13 @@ export default {
       this.pasword = pasword;
     },
     login() {
-      axios.get(`http://192.168.1.140/BudgetBackend/server.php?action=login&name=${this.name}&pasword=${this.pasword}`).then((response) => {
+      axios.get(`http://192.168.1.140/BudgetBackend/server.php?action=login&name=${this.name}&pasword=${this.pasword}`, { crossdomain: true }).then((response) => {
         const { data } = response;
         if (data) {
-          this.$store.commit('setUser', data);
-          this.$router.push({ path: '/' });
-        } else {
-          this.error = true;
+        //   this.$store.commit('setUser', data);
+        //   this.$router.push({ path: '/' });
+        // } else {
+        //   this.error = true;
         }
       });
     },
