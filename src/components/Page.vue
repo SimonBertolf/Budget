@@ -3,7 +3,7 @@
     <MenueContent :slide="value"/>
     <MenueButtonSlide @slide="slide" :value="value" :text="text"/>
     <BackgroundContent>
-      <BudgetContent>
+      <BudgetContent data="null">
       </BudgetContent>
     </BackgroundContent>
   </Background>
