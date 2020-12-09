@@ -1,5 +1,6 @@
 <template>
- <MenueButtonTab text-small="SE" text-big="Settings" id="IDSettings" :slide="slide" />
+ <MenueButtonTab text-small="SE" text-big="Settings" id="IDSettings" :slide="slide"
+                 :eventHandler="eventHandler" />
 </template>
 
 <script>
@@ -12,6 +13,12 @@ export default {
     slide: {
       type: Boolean,
       required: true,
+    },
+  },
+  methods: {
+    eventHandler() {
+      this.$store.commit('setUser', null);
+      this.$router.push({ path: '/' });
     },
   },
 };

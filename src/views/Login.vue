@@ -10,7 +10,7 @@ export default {
   components: { PageLogin },
   beforeRouteEnter(to, from, next) {
     if (from === 'Login' && this.$store.user) {
-      next('/home');
+      next('/page');
     } else {
       next();
     }

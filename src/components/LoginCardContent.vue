@@ -1,12 +1,13 @@
 <template>
   <LoginCard>
-    <HighlightLarge text="Budget Calculator 3000" color="text-black"/>
     <div class="justify-around">
+      <HighlightLarge text="Budget Calculator 3000" color="text-black"/>
       <form @submit.prevent="login">
         <LoginImputFieldName :name="name" :update-name="updateName"/>
         <LoginImputFieldPassword :pasword="pasword" :update-pasword="updatePasword"/>
         <br>
-        <div v-if="error" class="text-red-500">Pasword or Name is wrong</div>
+        <div v-if="error == 1" class="text-red-500">Pasword is wrong</div>
+        <div v-if="error == 2" class="text-red-500">Name is wrong</div>
         <LoginButton id="login"/>
       </form>
     </div>
@@ -39,13 +40,18 @@ export default {
       this.pasword = pasword;
     },
     login() {
-      axios.get(`http://192.168.1.140/BudgetBackend/server.php?action=login&name=${this.name}&pasword=${this.pasword}`, { crossdomain: true }).then((response) => {
+      axios.get(`http://192.168.1.140/BudgetBackend/server.php?action=login&name=${this.name}&pasword=${this.pasword}`).then((response) => {
         const { data } = response;
         if (data) {
-        //   this.$store.commit('setUser', data);
-        //   this.$router.push({ path: '/' });
-        // } else {
-        //   this.error = true;
+          if (data.user && data.pasword) {
+            this.error = 0;
+            this.$store.commit('setUser', data);
+            this.$router.push({ path: '/page' });
+          } else if (data.user && !data.pasword) {
+            this.error = 1;
+          } else {
+            this.error = 2;
+          }
         }
       });
     },

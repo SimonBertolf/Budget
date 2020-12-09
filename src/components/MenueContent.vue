@@ -4,6 +4,8 @@
     <MenueButtonTabDashboard :slide="slide"/>
     <MenueButtonTabBudget :slide="slide"/>
     <MenueButtonTabSettings :slide="slide"/>
+    <div class="h-full"></div>
+    <MenueButtonTabLogout :slide="slide"/>
   </BackgroundMenue>
 </template>
 
@@ -13,6 +15,7 @@ import MenueHeader from './MenueHeader.vue';
 import MenueButtonTabDashboard from './MenueButtonTabDashboard.vue';
 import MenueButtonTabBudget from './MenueButtonTabBudget.vue';
 import MenueButtonTabSettings from './MenueButtonTabSettings.vue';
+import MenueButtonTabLogout from './MenueButtonTabLogout.vue';
 
 export default {
   name: 'MenueContent',
@@ -22,6 +25,7 @@ export default {
     MenueButtonTabDashboard,
     MenueButtonTabBudget,
     MenueButtonTabSettings,
+    MenueButtonTabLogout,
   },
   props: {
     slide: {

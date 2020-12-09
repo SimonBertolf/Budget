@@ -1,13 +1,15 @@
 <template>
- <MenueButtonTab text-small="DB" text-big="Dashboard" id="IDDasboard" :slide="slide"
-                 :eventHandler="eventHandler"/>
+ <MenueButtonTab text-small="LO" text-big="Log-Out"
+                 id="IDLogout" :slide="slide"
+                 :eventHandler="eventHandler"
+ />
 </template>
 
 <script>
 import MenueButtonTab from './MenueButtonTab.vue';
 
 export default {
-  name: 'MenueButtonTabDashboard',
+  name: 'MenueButtonTabLogout',
   components: { MenueButtonTab },
   props: {
     slide: {
@@ -17,8 +19,8 @@ export default {
   },
   methods: {
     eventHandler() {
-      console.log(this.$store);
-      // this.$router.push({ path: '/' });
+      this.$store.commit('setUser', null);
+      this.$router.push({ path: '/' });
     },
   },
 };

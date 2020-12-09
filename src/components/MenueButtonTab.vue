@@ -1,5 +1,5 @@
 <template>
-  <button :id="id" type="submit" :slide="slide" :class="classes">
+  <button :id="id" type="submit" :slide="slide" :class="classes" v-on:click="eventHandler">
     <div v-if="slide">{{ textBig }}</div>
     <div v-else>{{ textSmall }}</div>
   </button>
@@ -24,6 +24,10 @@ export default {
     },
     id: {
       type: String,
+      required: true,
+    },
+    eventHandler: {
+      type: Function,
       required: true,
     },
   },
