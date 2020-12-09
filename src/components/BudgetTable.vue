@@ -9,7 +9,7 @@ export default {
   name: 'BudgetTable',
   computed: {
     classes() {
-      return 'border border-black w-full rounded';
+      return 'border border-black w-full rounded h-full';
     },
   },
 };
