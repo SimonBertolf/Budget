@@ -18,7 +18,7 @@ export default {
   methods: {
     eventHandler() {
       console.log(this.$store);
-      // this.$router.push({ path: '/' });
+      this.$router.push({ path: '/dashboard' });
     },
   },
 };

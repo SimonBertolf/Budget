@@ -46,7 +46,7 @@ export default {
           if (data.user && data.pasword) {
             this.error = 0;
             this.$store.commit('setUser', data);
-            this.$router.push({ path: '/page' });
+            this.$router.push({ path: '/home' });
           } else if (data.user && !data.pasword) {
             this.error = 1;
           } else {

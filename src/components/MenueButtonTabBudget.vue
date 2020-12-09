@@ -18,7 +18,7 @@ export default {
   methods: {
     eventHandler() {
       this.$store.commit('setUser', null);
-      this.$router.push({ path: '/' });
+      this.$router.push({ path: '/budget' });
     },
   },
 };
