@@ -3,7 +3,8 @@
     <MenueContent :slide="value"/>
     <MenueButtonSlide @slide="slide" :value="value" :text="text"/>
     <BackgroundContent>
-      <slot></slot>
+      <BudgetContent>
+      </BudgetContent>
     </BackgroundContent>
   </Background>
 </template>
@@ -13,11 +14,12 @@ import Background from './Background.vue';
 import BackgroundContent from './BackgroundContent.vue';
 import MenueContent from './MenueContent.vue';
 import MenueButtonSlide from './MenueButtonSlide.vue';
+import BudgetContent from './BudgetContent.vue';
 
 export default {
   name: 'Page',
   components: {
-    Background, BackgroundContent, MenueContent, MenueButtonSlide,
+    Background, BackgroundContent, MenueContent, MenueButtonSlide, BudgetContent,
   },
   data: () => ({
     value: true,

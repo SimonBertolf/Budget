@@ -1,6 +1,7 @@
 <template>
   <BackgroundMenue>
     <MenueHeader :slide="slide"/>
+    <MenueButtonTabHome :slide="slide"/>
     <MenueButtonTabDashboard :slide="slide"/>
     <MenueButtonTabBudget :slide="slide"/>
     <MenueButtonTabSettings :slide="slide"/>
@@ -16,6 +17,7 @@ import MenueButtonTabDashboard from './MenueButtonTabDashboard.vue';
 import MenueButtonTabBudget from './MenueButtonTabBudget.vue';
 import MenueButtonTabSettings from './MenueButtonTabSettings.vue';
 import MenueButtonTabLogout from './MenueButtonTabLogout.vue';
+import MenueButtonTabHome from './MenueButtonTabHome.vue';
 
 export default {
   name: 'MenueContent',
@@ -26,6 +28,7 @@ export default {
     MenueButtonTabBudget,
     MenueButtonTabSettings,
     MenueButtonTabLogout,
+    MenueButtonTabHome,
   },
   props: {
     slide: {
