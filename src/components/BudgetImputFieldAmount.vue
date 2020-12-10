@@ -3,7 +3,7 @@
     :update-value="updateAmount"
     :value="amount"
     id="amount"
-    type="number"
+    type="text"
     text="Amount"
     colore="bg-white"/>
 </template>

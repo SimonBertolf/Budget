@@ -1,6 +1,6 @@
 <template>
   <button :id="id" type="submit" :class="classes" v-on:click="eventHandler">
-  Edit
+    {{ text }}
   </button>
 </template>
 
@@ -16,10 +16,18 @@ export default {
       type: Function,
       required: true,
     },
+    color: {
+      type: String,
+      default: 'text-black w-full',
+    },
+    text: {
+      type: String,
+      required: true,
+    },
   },
   computed: {
     classes() {
-      return 'bg-white p-1 rounded w-full text-black';
+      return `bg-white p-1 rounded ${this.color}`;
     },
   },
 };

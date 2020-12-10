@@ -9,7 +9,10 @@
       <BudgetTableTd align="text-left pl-5">{{ budget_type }}</BudgetTableTd>
       <BudgetTableTd align="text-right pr-4">{{ Value }} CHF</BudgetTableTd>
       <BudgetTableTd>
+        <div class="flex">
         <BudgetButtonEdit :id="ID"/>
+        <BudgetButtonDelete :id="ID"/>
+       </div>
       </BudgetTableTd>
     </BudgetTableRow>
   </BudgetTable>
@@ -22,11 +25,12 @@ import BudgetTableRow from './BudgetTableRow.vue';
 import BudgetTableTh from './BudgetTableTh.vue';
 import BudgetTableTd from './BudgetTableTd.vue';
 import BudgetButtonEdit from './BudgetButtonEdit.vue';
+import BudgetButtonDelete from './BudgetButtonDelete.vue';
 
 export default {
   name: 'BudgetTableContent',
   components: {
-    BudgetTable, BudgetTableRow, BudgetTableTh, BudgetTableTd, BudgetButtonEdit,
+    BudgetTable, BudgetTableRow, BudgetTableTh, BudgetTableTd, BudgetButtonEdit, BudgetButtonDelete,
   },
   data: () => ({
     data: [],

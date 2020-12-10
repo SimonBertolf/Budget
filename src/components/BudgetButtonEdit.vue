@@ -1,5 +1,5 @@
 <template>
-  <BudgetButton :id="id" :eventHandler="eventHandler">Edit</BudgetButton>
+  <BudgetButton :id="id" :eventHandler="eventHandler" text="Edit"/>
 </template>
 
 <script>
@@ -17,9 +17,6 @@ export default {
   },
   data: () => ({
     data: [],
-    amount: '',
-    type: '',
-    cycle: '',
     error: false,
   }),
   methods: {
@@ -27,7 +24,9 @@ export default {
       this.$store.commit('setEditId', this.id);
       axios.get(`http://192.168.1.140/BudgetBackend/server.php?action=findeEditBudget&id=${this.id}`).then((response) => {
         this.data = response;
-        console.log(this.data);
+        this.$store.commit('setEditBudgetValuesType', this.data.data.type);
+        this.$store.commit('setEditBudgetValuesValue', this.data.data.value);
+        this.$store.commit('setEditBudgetValuesCycle', this.data.data.cycle);
       });
     },
   },

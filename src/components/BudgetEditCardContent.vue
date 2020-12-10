@@ -1,12 +1,18 @@
 <template>
     <form @submit.prevent="edit" class="flex w-full p-4 items-end   ">
-      <BudgetImputFieldType :type="type" :update-type="updateType"/>
+      <BudgetImputFieldType
+        :type="this.$store.state.editBudgetType" :update-type="updateType"/>
       <div class="p-3"></div>
-      <BudgetImputFieldAmount :amount="amount" :update-amount="updateAmount"/>
+      <BudgetImputFieldAmount
+        :amount="this.$store.state.editBudgetAmount" :update-amount="updateAmount"/>
       <div class="p-3"></div>
-      <BudgetImputFieldCycle :cycle="cycle" :update-cycle="updateCycle"/>
+      <BudgetImputFieldCycle
+        :cycle="this.$store.state.editBudgetCycle" :update-cycle="updateCycle"/>
       <div class="p-3"></div>
-      <BudgetEditButton/>
+      <div>
+        <BudgetButtonClose/>
+        <BudgetButtonSave/>
+      </div>
     </form>
 </template>
 
@@ -15,7 +21,8 @@
 import BudgetImputFieldAmount from './BudgetImputFieldAmount.vue';
 import BudgetImputFieldType from './BudgetImputFieldType.vue';
 import BudgetImputFieldCycle from './BudgetImputFieldCycle.vue';
-import BudgetEditButton from './BudgetEditButton.vue';
+import BudgetButtonSave from './BudgetButtonSave.vue';
+import BudgetButtonClose from './BudgetButtonClose.vue';
 
 export default {
   name: 'BudgetEditCard',
@@ -23,14 +30,11 @@ export default {
     BudgetImputFieldAmount,
     BudgetImputFieldType,
     BudgetImputFieldCycle,
-    BudgetEditButton,
+    BudgetButtonSave,
+    BudgetButtonClose,
   },
   data: () => ({
     data: [],
-    amount: '',
-    type: '',
-    cycle: '',
-    error: false,
   }),
   computed: {
     classes() {
@@ -39,18 +43,21 @@ export default {
   },
   methods: {
     updateAmount(amount) {
-      this.amount = amount;
+      console.log(amount);
     },
-    updateType(amount) {
-      this.amount = amount;
+    updateType(type) {
+      console.log(type);
     },
-    updateCycle(amount) {
-      this.amount = amount;
+    updateCycle(cycle) {
+      console.log(cycle);
     },
     edit() {
       // axios.get(`http://192.168.1.140/BudgetBackend/server.php?action=saveBudgetEdit&amount=${this.amount}&type=${this.type}&cycle=${this.cycle}`);
       this.$store.state.editId = 0;
     },
+  },
+  mounted() {
+    console.log(this.$store.state);
   },
 };
 </script>

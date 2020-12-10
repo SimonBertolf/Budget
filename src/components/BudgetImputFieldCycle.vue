@@ -12,7 +12,7 @@
 import LabledImputField from './ImputFieldLabled.vue';
 
 export default {
-  name: 'BudgetImputFieldType',
+  name: 'BudgetImputFieldCycle',
   components: { LabledImputField },
   props: {
     cycle: {
