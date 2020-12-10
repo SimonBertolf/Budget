@@ -5,30 +5,34 @@
       <BudgetTableTh>Value</BudgetTableTh>
       <BudgetTableTh></BudgetTableTh>
     </BudgetTableRow>
-    <BudgetTableRow v-for="{ budget_type_id, Value,} in data" :key="Value">
+    <BudgetTableRow v-for="{ ID, budget_type_id, Value,} in this.data.data" :key="ID">
       <BudgetTableTd>{{ budget_type_id }}</BudgetTableTd>
       <BudgetTableTd align="text-right">{{ Value }} CHF</BudgetTableTd>
-      <BudgetTableTd> Button </BudgetTableTd>
+      <BudgetTableTd><BudgetButtonEdit :id="ID"/></BudgetTableTd>
     </BudgetTableRow>
   </BudgetTable>
 </template>
 
 <script>
+import axios from 'axios';
 import BudgetTable from './BudgetTable.vue';
 import BudgetTableRow from './BudgetTableRow.vue';
 import BudgetTableTh from './BudgetTableTh.vue';
 import BudgetTableTd from './BudgetTableTd.vue';
+import BudgetButtonEdit from './BudgetButtonEdit.vue';
 
 export default {
   name: 'BudgetTableContent',
   components: {
-    BudgetTable, BudgetTableRow, BudgetTableTh, BudgetTableTd,
+    BudgetTable, BudgetTableRow, BudgetTableTh, BudgetTableTd, BudgetButtonEdit,
   },
-  props: {
-    data: {
-      type: Array,
-      required: true,
-    },
+  data: () => ({
+    data: [],
+  }),
+  mounted() {
+    axios.get('http://192.168.1.140/BudgetBackend/server.php?action=showbudget').then((response) => {
+      this.data = response;
+    });
   },
 };
 </script>
