@@ -2,7 +2,7 @@
   <BudgetTable>
     <BudgetTableRow>
       <BudgetTableTh>Type</BudgetTableTh>
-      <BudgetTableTh>Value</BudgetTableTh>
+      <BudgetTableTh>Amount</BudgetTableTh>
       <BudgetTableTh></BudgetTableTh>
     </BudgetTableRow>
     <BudgetTableRow v-for="{ ID, budget_type_id, Value,} in this.data.data" :key="ID">

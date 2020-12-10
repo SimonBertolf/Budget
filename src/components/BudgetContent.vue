@@ -1,9 +1,9 @@
 <template>
   <div :class="classes">
     <HighlightLarge text="Budget"/>
-    <div class="w-1/2 h-50 justify-center pt-4">
+    <BudgetEditCard v-if="this.$store.state.editId == 1"></BudgetEditCard>
+    <div class="w-2/3 h-50 justify-center pt-4">
       <BudgetTableContent>
-        <div v-if="this.$store.state.editId == 1" class="bg-red-500 z-50">Test</div>
       </BudgetTableContent>
     </div>
   </div>
@@ -12,11 +12,12 @@
 <script>
 import HighlightLarge from './HighlightLarge.vue';
 import BudgetTableContent from './BudgetTableContent.vue';
+import BudgetEditCard from './BudgetEditCard.vue';
 
 export default {
   name: 'BudgetContent',
   components: {
-    HighlightLarge, BudgetTableContent,
+    HighlightLarge, BudgetTableContent, BudgetEditCard,
   },
   computed: {
     classes() {
