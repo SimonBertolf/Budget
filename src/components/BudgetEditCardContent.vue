@@ -1,8 +1,11 @@
 <template>
-    <form @submit.prevent="edit" class="flex justify-evenly w-full p-4 justify-self-end ">
+    <form @submit.prevent="edit" class="flex w-full p-4 items-end   ">
       <BudgetImputFieldType :type="type" :update-type="updateType"/>
+      <div class="p-3"></div>
       <BudgetImputFieldAmount :amount="amount" :update-amount="updateAmount"/>
+      <div class="p-3"></div>
       <BudgetImputFieldCycle :cycle="cycle" :update-cycle="updateCycle"/>
+      <div class="p-3"></div>
       <BudgetEditButton/>
     </form>
 </template>
@@ -23,6 +26,7 @@ export default {
     BudgetEditButton,
   },
   data: () => ({
+    data: [],
     amount: '',
     type: '',
     cycle: '',
@@ -44,7 +48,8 @@ export default {
       this.amount = amount;
     },
     edit() {
-      // axios.get(`http://192.168.1.140/BudgetBackend/server.php?action=login&name=${this.name}&pasword=${this.pasword}`);
+      // axios.get(`http://192.168.1.140/BudgetBackend/server.php?action=saveBudgetEdit&amount=${this.amount}&type=${this.type}&cycle=${this.cycle}`);
+      this.$store.state.editId = 0;
     },
   },
 };

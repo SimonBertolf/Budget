@@ -1,7 +1,7 @@
 <template>
   <div :class="classes">
     <HighlightLarge text="Budget"/>
-    <BudgetEditCard v-if="this.$store.state.editId == 1"></BudgetEditCard>
+    <BudgetEditCard v-if="this.$store.state.editId > 0"></BudgetEditCard>
     <div class="w-2/3 h-50 justify-center pt-4">
       <BudgetTableContent>
       </BudgetTableContent>

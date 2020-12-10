@@ -3,6 +3,7 @@
 </template>
 
 <script>
+import axios from 'axios';
 import BudgetButton from './BudgetButton.vue';
 
 export default {
@@ -14,9 +15,20 @@ export default {
       required: true,
     },
   },
+  data: () => ({
+    data: [],
+    amount: '',
+    type: '',
+    cycle: '',
+    error: false,
+  }),
   methods: {
     eventHandler() {
       this.$store.commit('setEditId', this.id);
+      axios.get(`http://192.168.1.140/BudgetBackend/server.php?action=findeEditBudget&id=${this.id}`).then((response) => {
+        this.data = response;
+        console.log(this.data);
+      });
     },
   },
   computed: {

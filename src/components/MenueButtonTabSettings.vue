@@ -17,7 +17,7 @@ export default {
   },
   methods: {
     eventHandler() {
-      this.$store.commit('setContentId', 2);
+      this.$store.commit('setContentId', 0);
     },
   },
 };

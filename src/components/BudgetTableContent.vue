@@ -5,10 +5,12 @@
       <BudgetTableTh>Amount</BudgetTableTh>
       <BudgetTableTh></BudgetTableTh>
     </BudgetTableRow>
-    <BudgetTableRow v-for="{ ID, budget_type_id, Value,} in this.data.data" :key="ID">
-      <BudgetTableTd>{{ budget_type_id }}</BudgetTableTd>
-      <BudgetTableTd align="text-right">{{ Value }} CHF</BudgetTableTd>
-      <BudgetTableTd><BudgetButtonEdit :id="ID"/></BudgetTableTd>
+    <BudgetTableRow v-for="{ ID, budget_type, Value,} in this.data.data" :key="ID">
+      <BudgetTableTd align="text-left pl-5">{{ budget_type }}</BudgetTableTd>
+      <BudgetTableTd align="text-right pr-4">{{ Value }} CHF</BudgetTableTd>
+      <BudgetTableTd>
+        <BudgetButtonEdit :id="ID"/>
+      </BudgetTableTd>
     </BudgetTableRow>
   </BudgetTable>
 </template>
