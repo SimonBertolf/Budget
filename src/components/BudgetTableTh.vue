@@ -9,7 +9,7 @@ export default {
   name: 'BudgetTableTh',
   computed: {
     classes() {
-      return 'border border-black bg-gray-200 rounded';
+      return 'border border-gray-400 bg-gray-200 rounded';
     },
   },
 };

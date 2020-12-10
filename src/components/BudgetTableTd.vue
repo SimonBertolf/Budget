@@ -15,7 +15,7 @@ export default {
   },
   computed: {
     classes() {
-      return `border border-black rounded ${this.align}`;
+      return `border border-gray-400 rounded ${this.align}`;
     },
   },
 };

@@ -1,5 +1,5 @@
 <template>
-  <BudgetButton :id="id" color="bg-gradient-to-r from-red-800 to-red-700 w-10"
+  <BudgetButton :id="id" color="bg-gradient-to-r from-red-800 to-red-700 w-10 text-gray-300"
                 :eventHandler="eventHandler" text="del"/>
 </template>
 
