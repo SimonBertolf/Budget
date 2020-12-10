@@ -1,7 +1,5 @@
 <template>
-  <BudgetButton :id="id" :eventHandler="eventHandler">
-  Edit
-  </BudgetButton>
+  <BudgetButton :id="id" :eventHandler="eventHandler">Edit</BudgetButton>
 </template>
 
 <script>

@@ -19,7 +19,6 @@ export default {
   },
   methods: {
     eventHandler() {
-      this.$store.commit('setUser', null);
       this.$router.push({ path: '/login' });
     },
   },

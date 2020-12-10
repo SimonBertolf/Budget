@@ -3,8 +3,11 @@
     <MenueContent :slide="value"/>
     <MenueButtonSlide @slide="slide" :value="value" :text="text"/>
     <BackgroundContent>
-      <BudgetContent data="null">
+      <BudgetContent v-if="this.$store.state.contentId == 2" >
       </BudgetContent>
+      <div v-else>
+        das andere Zeugs
+      </div>
     </BackgroundContent>
   </Background>
 </template>

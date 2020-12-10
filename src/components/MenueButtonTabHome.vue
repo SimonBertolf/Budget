@@ -17,8 +17,7 @@ export default {
   },
   methods: {
     eventHandler() {
-      this.$store.commit('setUser', null);
-      this.$router.push({ path: '/home' });
+      this.$store.commit('setContentId', 0);
     },
   },
 };

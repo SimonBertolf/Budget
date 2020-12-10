@@ -5,6 +5,7 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
+    contentId: '1',
     user: null,
     editId: '0',
   },
@@ -14,6 +15,9 @@ export default new Vuex.Store({
     },
     setEditId(state, editId) {
       state.editId = editId;
+    },
+    setContentId(state, contentId) {
+      state.contentId = contentId;
     },
   },
   actions: {

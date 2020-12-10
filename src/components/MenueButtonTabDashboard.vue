@@ -17,8 +17,7 @@ export default {
   },
   methods: {
     eventHandler() {
-      console.log(this.$store);
-      this.$router.push({ path: '/dashboard' });
+      this.$store.commit('setContentId', 1);
     },
   },
 };
