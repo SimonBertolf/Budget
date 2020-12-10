@@ -7,7 +7,6 @@
 </template>
 
 <script>
-// import axios from 'axios';
 import BudgetEditCardContent from './BudgetEditCardContent.vue';
 
 export default {
