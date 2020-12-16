@@ -62,7 +62,7 @@ export default {
       this.cycle = cycle;
     },
     add() {
-      axios.get(`http://192.168.1.140/BudgetBackend/server.php?action=adNewBudget&amount=${this.amount}&type=${this.type}&cycle=${this.cycle}`);
+      axios.get(`http://192.168.1.140/BudgetBackend/server.php?action=addNewBudget&amount=${this.amount}&type=${this.type}&cycle=${this.cycle}`);
     },
   },
 };

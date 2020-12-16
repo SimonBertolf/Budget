@@ -1,5 +1,5 @@
 <template>
-  <ImputField @custom-imput="updateValue" :value="value" id="amount" type="text" color=""/>
+  <ImputField :update-value="updateValue" :value="value" id="amount" type="text" color=""/>
 </template>
 
 <script>

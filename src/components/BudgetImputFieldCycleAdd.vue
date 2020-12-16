@@ -1,5 +1,5 @@
 <template>
-  <ImputField @custom-imput="updateCycle" :value="value" id="cycle" type="texz" color=""/>
+  <ImputField :update-value="updateValue" :value="value" id="cycle" type="texz" color=""/>
 </template>
 
 <script>

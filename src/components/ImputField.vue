@@ -3,7 +3,8 @@
     :id="id"
     :type="type"
     :placeholder="desc"
-    :value="value" @input="updateValue"
+    :value="value"
+    @input="updateValue"
     :required="required"
     :class="classes"
   >
