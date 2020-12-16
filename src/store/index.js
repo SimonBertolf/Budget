@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
+import axios from 'axios';
 
 Vue.use(Vuex);
 
@@ -11,6 +12,7 @@ export default new Vuex.Store({
     editBudgetType: '-',
     editBudgetAmount: '-',
     editBudgetCycle: '-',
+    showBudgetData: [],
   },
   mutations: {
     setUser(state, user) {
@@ -30,6 +32,14 @@ export default new Vuex.Store({
     },
     setEditBudgetValuesCycle(state, editBudgetCycle) {
       state.editBudgetCycle = editBudgetCycle;
+    },
+    setShowBudgetData(state, showBudgetData) {
+      state.showBudgetData = showBudgetData;
+    },
+    refreshBudget(state) {
+      axios.get('http://192.168.1.140/BudgetBackend/server.php?action=showbudget').then((response) => {
+        state.showBudgetData = response;
+      });
     },
   },
   actions: {

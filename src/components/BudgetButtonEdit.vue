@@ -28,6 +28,7 @@ export default {
         this.$store.commit('setEditBudgetValuesValue', this.data.data.value);
         this.$store.commit('setEditBudgetValuesCycle', this.data.data.cycle);
       });
+      this.$store.commit('refreshBudget');
     },
   },
   computed: {
