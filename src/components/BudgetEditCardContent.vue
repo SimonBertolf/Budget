@@ -35,9 +35,9 @@ export default {
   },
   data: () => ({
     data: [],
-    amount: this.$store.state.editBudgetType,
-    type: this.$store.state.editBudgetType,
-    cycle: this.$store.state.editBudgetType,
+    amount: '',
+    type: '',
+    cycle: '',
   }),
   computed: {
     classes() {
@@ -55,8 +55,8 @@ export default {
       this.cycle = cycle;
     },
     edit() {
-      axios.get(`http://192.168.1.140/BudgetBackend/server.php?action=editBudget&amount=${this.amount}&type=${this.type}&cycle=${this.cycle}`);
-      console.log(this.amount, this.type, this.cycle);
+      axios.get(`http://192.168.1.140/BudgetBackend/server.php?action=editBudget&amount=${this.amount}&type=${this.type}&cycle=${this.cycle}&id=${this.$store.state.editId}`);
+      console.log(this.$store.state.editId, this.amount, this.cycle, this.type);
       this.$store.state.editId = 0;
     },
   },
