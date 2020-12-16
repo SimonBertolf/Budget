@@ -4,7 +4,9 @@
       <BudgetTableTh class="w-1/4">Type</BudgetTableTh>
       <BudgetTableTh class="w-1/4">Amount</BudgetTableTh>
       <BudgetTableTh class="w-1/4">Cycle</BudgetTableTh>
-      <BudgetTableTh class="w-1/4"></BudgetTableTh>
+      <BudgetTableTh class="w-1/4">
+        <button v-on:click="showBudget">ref</button>
+      </BudgetTableTh>
     </BudgetTableRow>
     <BudgetTableRow v-for="{ ID, budget_type, Value, budget_cycle} in this.data.data" :key="ID">
       <BudgetTableTd align="text-left pl-5">{{ budget_type }}</BudgetTableTd>
@@ -42,10 +44,15 @@ export default {
   data: () => ({
     data: [],
   }),
+  methods: {
+    showBudget() {
+      axios.get('http://192.168.1.140/BudgetBackend/server.php?action=showbudget').then((response) => {
+        this.data = response;
+      });
+    },
+  },
   mounted() {
-    axios.get('http://192.168.1.140/BudgetBackend/server.php?action=showbudget').then((response) => {
-      this.data = response;
-    });
+    this.showBudget();
   },
 };
 </script>
