@@ -1,5 +1,5 @@
 <template>
-  <ImputField :update-value="updateValue" :value="value" id="type" type="text" color=""/>
+  <ImputField @custom-imput="updateType" :value="type" id="type" type="text" color=""/>
 </template>
 
 <script>
@@ -9,11 +9,11 @@ export default {
   name: 'BudgetImputFieldTypeAdd',
   components: { ImputField },
   props: {
-    value: {
+    type: {
       type: String,
       required: true,
     },
-    updateValue: {
+    updateType: {
       type: Function,
       required: true,
     },

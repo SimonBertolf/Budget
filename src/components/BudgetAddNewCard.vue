@@ -3,13 +3,13 @@
   <BudgetTable>
     <BudgetTableRow>
       <BudgetTableTh class="w-1/4">
-        <BudgetImputFieldTypeAdd :value="type" :update-value="updateType"/>
+        <BudgetImputFieldTypeAdd :type="type" :update-type="updateType"/>
       </BudgetTableTh>
        <BudgetTableTh class="w-1/4">
-         <BudgetImputFieldAmountAdd :value="amount" :update-value="updateAmount"/>
+         <BudgetImputFieldAmountAdd :amount="amount" :update-amount="updateAmount"/>
        </BudgetTableTh>
        <BudgetTableTh class="w-1/4">
-         <BudgetImputFieldCycleAdd :value="cycle" :update-value="updateCycle"/>
+         <BudgetImputFieldCycleAdd :cycle="cycle" :update-cycle="updateCycle"/>
        </BudgetTableTh>
       <BudgetTableTh class="w-1/4">
         <BudgetButtonAddNew/>

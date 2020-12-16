@@ -1,5 +1,5 @@
 <template>
-  <ImputField :update-value="updateValue" :value="value" id="cycle" type="texz" color=""/>
+  <ImputField @custom-imput="updateCycle" :value="cycle" id="cycle" type="texz" color=""/>
 </template>
 
 <script>
@@ -9,11 +9,11 @@ export default {
   name: 'BudgetImputFieldCycleAdd',
   components: { ImputField },
   props: {
-    value: {
+    cycle: {
       type: String,
       required: true,
     },
-    updateValue: {
+    updateCycle: {
       type: Function,
       required: true,
     },
