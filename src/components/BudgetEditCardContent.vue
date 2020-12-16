@@ -57,7 +57,7 @@ export default {
     edit() {
       axios.get(`http://192.168.1.140/BudgetBackend/server.php?action=editBudget&amount=${this.amount}&type=${this.type}&cycle=${this.cycle}`);
       console.log(this.amount, this.type, this.cycle);
-      // this.$store.state.editId = 0;
+      this.$store.state.editId = 0;
     },
   },
 };
