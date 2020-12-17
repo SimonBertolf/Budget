@@ -24,7 +24,6 @@
 </template>
 
 <script>
-// import axios from 'axios';
 import BudgetTable from './BudgetTable.vue';
 import BudgetTableRow from './BudgetTableRow.vue';
 import BudgetTableTh from './BudgetTableTh.vue';
@@ -48,6 +47,7 @@ export default {
   methods: {
     showBudget() {
       this.$store.commit('refreshBudget');
+      this.$store.commit('refreshTotalBudget');
     },
   },
   mounted() {

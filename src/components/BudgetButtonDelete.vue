@@ -27,6 +27,7 @@ export default {
     eventHandler() {
       axios.get(`http://192.168.1.140/BudgetBackend/server.php?action=deleteBudgetvalue&id=${this.id}`);
       this.$store.commit('refreshBudget');
+      this.$store.commit('refreshTotalBudget');
     },
   },
 };

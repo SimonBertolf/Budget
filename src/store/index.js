@@ -13,6 +13,7 @@ export default new Vuex.Store({
     editBudgetAmount: '-',
     editBudgetCycle: '-',
     showBudgetData: [],
+    totalBudget: 0,
   },
   mutations: {
     setUser(state, user) {
@@ -40,6 +41,14 @@ export default new Vuex.Store({
       axios.get('http://192.168.1.140/BudgetBackend/server.php?action=showbudget').then((response) => {
         state.showBudgetData = response;
       });
+    },
+    refreshTotalBudget(state) {
+      axios.get('http://192.168.1.140/BudgetBackend/server.php?action=getTotalBudget').then((response) => {
+        state.totalBudget = response.data;
+      });
+    },
+    setTotalbudget(state, totalBudget) {
+      state.totalBudget = totalBudget;
     },
   },
   actions: {

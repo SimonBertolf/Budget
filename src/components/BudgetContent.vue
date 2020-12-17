@@ -6,6 +6,8 @@
       <BudgetTableContent>
       </BudgetTableContent>
       <BudgetAddNewCard/>
+      <div class="p-5"></div>
+      <BudgetTotal/>
     </div>
   </div>
 </template>
@@ -15,11 +17,12 @@ import HighlightLarge from './HighlightLarge.vue';
 import BudgetTableContent from './BudgetTableContent.vue';
 import BudgetEditCard from './BudgetEditCard.vue';
 import BudgetAddNewCard from './BudgetAddNewCard.vue';
+import BudgetTotal from './BudgetTotal.vue';
 
 export default {
   name: 'BudgetContent',
   components: {
-    HighlightLarge, BudgetTableContent, BudgetEditCard, BudgetAddNewCard,
+    HighlightLarge, BudgetTableContent, BudgetEditCard, BudgetAddNewCard, BudgetTotal,
   },
   computed: {
     classes() {
